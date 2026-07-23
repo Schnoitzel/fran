@@ -1,26 +1,82 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useTodaySession } from './hooks/useTodaySession'
 import { db } from './db/dbInstance'
 import { units } from './content/units'
+import type { UnitStatus } from './db/db'
+import { getDailyActivity, type DailyActivity } from './db/historyRepo'
 import { Today } from './screens/Today'
 import { VocabReview } from './screens/VocabReview'
 import { LessonInput } from './screens/LessonInput'
 import { ListeningQuiz } from './screens/ListeningQuiz'
 import { Shadowing } from './screens/Shadowing'
 import { Progress } from './screens/Progress'
+import { Practice } from './screens/Practice'
+import { UnitsOverview } from './screens/UnitsOverview'
+import { UnitDetail } from './screens/UnitDetail'
+import { Calendar } from './screens/Calendar'
 import { SessionNav } from './screens/SessionNav'
 import './App.css'
 
-type View = 'today' | 'session' | 'complete' | 'progress'
+type View =
+  | 'today'
+  | 'session'
+  | 'complete'
+  | 'progress'
+  | 'units'
+  | 'unitDetail'
+  | 'practiceVocab'
+  | 'practiceListening'
+  | 'practiceShadowing'
+  | 'lessonView'
+  | 'calendar'
+
+const noop = async () => {}
 
 export default function App() {
   const session = useTodaySession(db, units)
   const [view, setView] = useState<View>('today')
+  const [selectedUnitId, setSelectedUnitId] = useState<string | null>(null)
+  const [lessonOrigin, setLessonOrigin] = useState<'unitDetail' | 'calendar'>('unitDetail')
+  const [unitStatusById, setUnitStatusById] = useState<Record<string, UnitStatus>>({})
+  const [activity, setActivity] = useState<DailyActivity[]>([])
+
+  useEffect(() => {
+    if (view === 'units') {
+      db.unitProgress.toArray().then((records) => {
+        const byId: Record<string, UnitStatus> = {}
+        for (const r of records) byId[r.unitId] = r.status
+        setUnitStatusById(byId)
+      })
+    }
+    if (view === 'calendar') {
+      getDailyActivity(db).then(setActivity)
+    }
+  }, [view])
 
   if (session.loading) {
     return (
       <div className="screen">
         <p>Lade...</p>
+      </div>
+    )
+  }
+
+  const selectedUnit = selectedUnitId ? units.find((u) => u.id === selectedUnitId) ?? null : null
+
+  const unitScopedViews: View[] = [
+    'unitDetail',
+    'lessonView',
+    'practiceVocab',
+    'practiceListening',
+    'practiceShadowing',
+  ]
+  if (unitScopedViews.includes(view) && !selectedUnit) {
+    return (
+      <div className="screen">
+        <p>Unit nicht gefunden.</p>
+        <button className="primary" onClick={() => setView('units')}>
+          Zur Unit-Übersicht
+        </button>
       </div>
     )
   }
@@ -33,6 +89,79 @@ export default function App() {
         onImported={() => {
           session.reload()
           setView('today')
+        }}
+      />
+    )
+  }
+
+  if (view === 'units') {
+    return (
+      <UnitsOverview
+        units={units}
+        statusByUnitId={unitStatusById}
+        onSelect={(unitId) => {
+          setSelectedUnitId(unitId)
+          setView('unitDetail')
+        }}
+        onBack={() => setView('today')}
+      />
+    )
+  }
+
+  if (view === 'unitDetail' && selectedUnit) {
+    return (
+      <UnitDetail
+        unit={selectedUnit}
+        onBack={() => setView('units')}
+        onLesson={() => {
+          setLessonOrigin('unitDetail')
+          setView('lessonView')
+        }}
+        onPracticeVocab={() => setView('practiceVocab')}
+        onPracticeListening={() => setView('practiceListening')}
+        onPracticeShadowing={() => setView('practiceShadowing')}
+      />
+    )
+  }
+
+  if (view === 'lessonView' && selectedUnit) {
+    return (
+      <LessonInput
+        unit={selectedUnit}
+        onStart={noop}
+        readOnly
+        doneLabel="Zurück"
+        onDone={() => setView(lessonOrigin)}
+      />
+    )
+  }
+
+  if (view === 'practiceVocab' && selectedUnit) {
+    return <Practice vocab={selectedUnit.vocab} onDone={() => setView('unitDetail')} />
+  }
+
+  if (view === 'practiceListening' && selectedUnit) {
+    return (
+      <ListeningQuiz quizzes={selectedUnit.listeningQuizzes} onDone={() => setView('unitDetail')} />
+    )
+  }
+
+  if (view === 'practiceShadowing' && selectedUnit) {
+    return (
+      <Shadowing sentences={selectedUnit.shadowingSentences} onDone={() => setView('unitDetail')} />
+    )
+  }
+
+  if (view === 'calendar') {
+    return (
+      <Calendar
+        activity={activity}
+        units={units}
+        onBack={() => setView('today')}
+        onOpenLesson={(unitId) => {
+          setSelectedUnitId(unitId)
+          setLessonOrigin('calendar')
+          setView('lessonView')
         }}
       />
     )
@@ -66,6 +195,8 @@ export default function App() {
           }}
         />
         <nav className="bottom-nav">
+          <button onClick={() => setView('units')}>📚 Units</button>
+          <button onClick={() => setView('calendar')}>🗓️ Verlauf</button>
           <button onClick={() => setView('progress')}>📊 Fortschritt</button>
         </nav>
       </>

@@ -83,12 +83,14 @@ button.secondary {
   border-top: 1px solid #e2e8f0;
   display: flex;
   justify-content: center;
+  gap: 1.25rem;
 }
 
 .bottom-nav button {
   background: none;
   border: none;
-  font-size: 1rem;
+  font-size: 0.95rem;
+  white-space: nowrap;
 }
 
 .flashcard {
@@ -288,4 +290,97 @@ button.secondary {
 .nav-block.active {
   background: var(--blue);
   color: white;
+}
+
+.culture-notes {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.culture-note {
+  background: #fff7ed;
+  border-left: 4px solid #ea580c;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.culture-note strong {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.culture-note p {
+  margin: 0;
+  color: #475569;
+  font-size: 0.92rem;
+}
+
+.unit-list-level,
+.unit-list-status {
+  color: #64748b;
+  font-size: 0.85rem;
+}
+
+.calendar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.calendar-header button {
+  border: none;
+  background: #e2e8f0;
+  border-radius: 0.5rem;
+  width: 2.25rem;
+  height: 2.25rem;
+  font-size: 1.1rem;
+}
+
+.calendar-month-label {
+  font-weight: 700;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.4rem;
+}
+
+.calendar-day {
+  aspect-ratio: 1;
+  border: none;
+  border-radius: 0.5rem;
+  background: #f1f5f9;
+  color: #cbd5e1;
+}
+
+.calendar-day.has-activity {
+  background: var(--blue);
+  color: white;
+  font-weight: 700;
+}
+
+.calendar-detail {
+  background: white;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.calendar-detail-date {
+  font-weight: 700;
+  color: #64748b;
+}
+
+.calendar-detail-blocks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
 }

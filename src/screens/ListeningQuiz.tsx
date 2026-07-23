@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import type { Unit } from '../content/contentSchema'
 import { speak } from '../speech/tts'
 
@@ -11,10 +11,13 @@ export function ListeningQuiz({ quizzes, onDone }: ListeningQuizProps) {
   const [index, setIndex] = useState(0)
   const [selected, setSelected] = useState<number | null>(null)
 
-  if (quizzes.length === 0) {
-    onDone()
-    return null
-  }
+  useEffect(() => {
+    if (quizzes.length === 0) onDone()
+    // nur einmal beim Mount pruefen, analog zu Practice.tsx/Shadowing.tsx
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
+  if (quizzes.length === 0) return null
 
   const quiz = quizzes[index]
   const isLast = index === quizzes.length - 1
