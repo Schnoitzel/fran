@@ -8,6 +8,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
+      injectRegister: false, // manuelle Registrierung in main.tsx (siehe dort) fuer zuverlaessigeres Update-Verhalten auf iOS
       includeAssets: ['favicon.svg'],
       manifest: {
         name: 'Fran\u00e7ais',
