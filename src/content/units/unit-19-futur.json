@@ -1,0 +1,106 @@
+{
+  "id": "unit-19-futur",
+  "title": "Zukunftspläne",
+  "level": "B1",
+  "cefrTopic": "B1 - Zukunftspläne (futur proche & futur simple)",
+  "grammarNote": "Das futur proche (nahe Zukunft) bildet man mit 'aller' im Präsens + Infinitiv und beschreibt geplante oder unmittelbar bevorstehende Handlungen: je vais partir (ich werde gleich abreisen / ich habe vor abzureisen). Das futur simple beschreibt eher allgemeine, entferntere Zukunftspläne, Vorhersagen oder Versprechen und wird gebildet, indem an den Infinitiv (bei -re-Verben ohne das End-e) die Endungen -ai, -as, -a, -ons, -ez, -ont angehängt werden: je partirai (ich werde abreisen), tu finiras (du wirst beenden). Viele Verben sind unregelmäßig im Stamm: être → je serai, avoir → j'aurai, aller → j'irai, faire → je ferai. Beispiel: \"Ce week-end, je vais visiter Paris\" (futur proche, konkreter Plan) vs. \"Un jour, je visiterai tout le monde\" (futur simple, vagerer Zukunftstraum).",
+  "vocab": [
+    { "front": "l'avenir (m)", "back": "die Zukunft" },
+    { "front": "un projet", "back": "ein Vorhaben / ein Plan" },
+    { "front": "avoir l'intention de", "back": "vorhaben zu" },
+    { "front": "compter + infinitif", "back": "vorhaben / damit rechnen zu" },
+    { "front": "plus tard", "back": "später" },
+    { "front": "dans quelques années", "back": "in ein paar Jahren" },
+    { "front": "déménager", "back": "umziehen" },
+    { "front": "un jour", "back": "eines Tages" },
+    { "front": "sans doute", "back": "wahrscheinlich / zweifellos" },
+    { "front": "peut-être", "back": "vielleicht" },
+    { "front": "ça va être génial", "back": "das wird super werden", "register": "informal" },
+    { "front": "je verrai", "back": "ich werde sehen / mal schauen (futur simple von voir)" },
+    { "front": "on verra", "back": "man wird sehen / mal schauen", "register": "informal" },
+    { "front": "un rêve", "back": "ein Traum" },
+    { "front": "réaliser un rêve", "back": "einen Traum verwirklichen" },
+    { "front": "économiser", "back": "sparen" },
+    { "front": "se marier", "back": "heiraten" },
+    { "front": "fonder une famille", "back": "eine Familie gründen" },
+    { "front": "grave", "back": "voll / total (Verstärkung)", "register": "slang" },
+    { "front": "carrément", "back": "total / absolut", "register": "informal" }
+  ],
+  "dialogue": [
+    { "speaker": "Camille", "fr": "Tu as des projets pour l'avenir ?", "de": "Hast du Pläne für die Zukunft?" },
+    { "speaker": "Lucas", "fr": "Oui, je vais finir mes études l'année prochaine.", "de": "Ja, ich werde nächstes Jahr mein Studium beenden." },
+    { "speaker": "Camille", "fr": "Et après, qu'est-ce que tu feras ?", "de": "Und danach, was wirst du machen?" },
+    { "speaker": "Lucas", "fr": "Je chercherai un travail, et plus tard, je déménagerai peut-être à Lyon.", "de": "Ich werde mir eine Arbeit suchen, und später werde ich vielleicht nach Lyon ziehen." },
+    { "speaker": "Camille", "fr": "Carrément ! Moi, je vais partir au Portugal cet été.", "de": "Total! Ich werde diesen Sommer nach Portugal reisen." },
+    { "speaker": "Lucas", "fr": "Ça va être génial ! Et après le voyage, tu comptes faire quoi ?", "de": "Das wird super! Und nach der Reise, was hast du vor zu machen?" },
+    { "speaker": "Camille", "fr": "Je ne sais pas encore, on verra. Peut-être que j'économiserai pour acheter un appartement.", "de": "Ich weiß es noch nicht, mal schauen. Vielleicht spare ich, um eine Wohnung zu kaufen." },
+    { "speaker": "Lucas", "fr": "Un jour, tu réaliseras tous tes rêves, j'en suis sûr.", "de": "Eines Tages wirst du all deine Träume verwirklichen, da bin ich mir sicher." },
+    { "speaker": "Camille", "fr": "Et toi, tu te marieras un jour ?", "de": "Und du, wirst du eines Tages heiraten?" },
+    { "speaker": "Lucas", "fr": "Sans doute, et je fonderai une famille aussi. Mais d'abord, je vais profiter de ma jeunesse !", "de": "Wahrscheinlich, und ich werde auch eine Familie gründen. Aber zuerst werde ich meine Jugend genießen!" },
+    { "speaker": "Camille", "fr": "Grave, on a bien le temps pour tout ça.", "de": "Voll, wir haben noch genug Zeit für all das." }
+  ],
+  "listeningQuizzes": [
+    {
+      "audioText": "Je vais finir mes études l'année prochaine.",
+      "question": "Welche Zeitform wird hier benutzt?",
+      "options": ["Futur proche (aller + Infinitiv)", "Passé composé", "Imparfait"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Plus tard, je déménagerai peut-être à Lyon.",
+      "question": "Was drückt dieser Satz aus?",
+      "options": ["Einen vageren Zukunftsplan (futur simple)", "Eine Vergangenheitshandlung", "Eine Gewohnheit in der Vergangenheit"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Je vais partir au Portugal cet été.",
+      "question": "Wann findet die Reise statt?",
+      "options": ["Diesen Sommer", "Letztes Jahr", "In zehn Jahren"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Un jour, tu réaliseras tous tes rêves.",
+      "question": "Was für eine Aussage ist das?",
+      "options": ["Ein zuversichtliches Versprechen für die Zukunft", "Eine Erinnerung an die Vergangenheit", "Eine Entschuldigung"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "On verra, peut-être que j'économiserai pour un appartement.",
+      "question": "Was bedeutet \"on verra\" hier?",
+      "options": ["Man wird sehen / mal schauen", "Man hat schon entschieden", "Man wird nie sparen"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Je vais profiter de ma jeunesse d'abord.",
+      "question": "Was hat die Person vor?",
+      "options": ["Zuerst ihre Jugend genießen", "Sofort heiraten", "Sofort eine Familie gründen"],
+      "correctIndex": 0
+    }
+  ],
+  "shadowingSentences": [
+    "Tu as des projets pour l'avenir ?",
+    "Je vais finir mes études l'année prochaine.",
+    "Je chercherai un travail.",
+    "Plus tard, je déménagerai peut-être à Lyon.",
+    "Ça va être génial !",
+    "On verra, peut-être que j'économiserai.",
+    "Un jour, tu réaliseras tous tes rêves.",
+    "Je fonderai une famille un jour.",
+    "Je vais profiter de ma jeunesse d'abord.",
+    "On a bien le temps pour tout ça."
+  ],
+  "culture": [
+    {
+      "title": "\"On verra\" – typisch französische Zurückhaltung",
+      "text": "Der Ausdruck \"on verra\" (man wird sehen) wird sehr häufig benutzt, um sich bei Zukunftsplänen nicht festzulegen. Das ist keine Unhöflichkeit, sondern eine kulturell übliche Art, offen und flexibel zu bleiben, statt vorschnell feste Versprechen zu machen."
+    },
+    {
+      "title": "Studium und Berufseinstieg in Frankreich",
+      "text": "Neben den klassischen Universitäten (université) gibt es in Frankreich die grandes écoles — hoch angesehene, oft sehr selektive Eliteschulen (z. B. für Ingenieurwesen oder Wirtschaft), auf die man sich über Aufnahmeprüfungen nach speziellen Vorbereitungsklassen (prépa) bewirbt."
+    },
+    {
+      "title": "Zukunft ausdrücken: Horoskop & Versprechen",
+      "text": "Das futur simple begegnet dir oft in Horoskopen (\"Vous rencontrerez quelqu'un d'important\") und in feierlichen Versprechen (z. B. beim Eheversprechen: \"Je t'aimerai pour toujours\"), während das futur proche im Alltag für konkrete, nahe Pläne dominiert."
+    }
+  ]
+}

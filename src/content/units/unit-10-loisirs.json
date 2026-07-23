@@ -1,0 +1,103 @@
+{
+  "id": "unit-10-loisirs",
+  "title": "Hobbys & Freizeit",
+  "level": "A2",
+  "cefrTopic": "A2 - Über Hobbys und Freizeitaktivitäten sprechen",
+  "grammarNote": "Um zu sagen, dass man etwas gerne tut, benutzt man Verben wie \"aimer\", \"adorer\" oder \"détester\" + Infinitiv: \"J'aime lire\", \"Je déteste courir\". Für regelmäßige Aktivitäten nutzt man oft \"faire de\" + Sportart: \"faire du sport\", \"faire de la natation\" (Achtung: du/de la/des je nach Genus des Substantivs).",
+  "vocab": [
+    { "front": "Un loisir", "back": "Ein Hobby / eine Freizeitbeschäftigung" },
+    { "front": "Le temps libre", "back": "Die Freizeit" },
+    { "front": "Faire du sport", "back": "Sport treiben" },
+    { "front": "Faire de la natation", "back": "Schwimmen (als Sport)" },
+    { "front": "Faire du vélo", "back": "Rad fahren" },
+    { "front": "Jouer aux jeux vidéo", "back": "Videospiele spielen" },
+    { "front": "Lire un livre", "back": "Ein Buch lesen" },
+    { "front": "Regarder un film", "back": "Einen Film schauen" },
+    { "front": "Écouter de la musique", "back": "Musik hören" },
+    { "front": "Sortir avec des amis", "back": "Mit Freunden ausgehen" },
+    { "front": "Peindre", "back": "Malen" },
+    { "front": "Cuisiner", "back": "Kochen" },
+    { "front": "Jardiner", "back": "Im Garten arbeiten" },
+    { "front": "Faire la fête", "back": "Feiern / Party machen" },
+    { "front": "Traîner", "back": "Rumhängen (informell)", "register": "informal" },
+    { "front": "Glander", "back": "Faulenzen / nichts tun (Slang)", "register": "slang" },
+    { "front": "Kiffer un truc", "back": "Etwas total mögen (Slang, hier nicht wörtlich)", "register": "slang" },
+    { "front": "C'est cool !", "back": "Das ist cool! (informell)", "register": "informal" },
+    { "front": "Ça me branche pas", "back": "Das reizt mich nicht (informell)", "register": "informal" },
+    { "front": "Une passion", "back": "Eine Leidenschaft" },
+    { "front": "Le week-end", "back": "Das Wochenende" },
+    { "front": "Bricoler", "back": "Heimwerken / basteln" }
+  ],
+  "dialogue": [
+    { "speaker": "Sami", "fr": "Qu'est-ce que tu fais pendant ton temps libre ?", "de": "Was machst du in deiner Freizeit?" },
+    { "speaker": "Inès", "fr": "J'aime bien lire et faire du vélo. Et toi ?", "de": "Ich lese gerne und fahre gerne Rad. Und du?" },
+    { "speaker": "Sami", "fr": "Moi, je kiffe jouer aux jeux vidéo le soir.", "de": "Ich zocke abends total gerne Videospiele." },
+    { "speaker": "Inès", "fr": "Ah ouais ? Moi, ça me branche pas trop, je préfère sortir avec des amis.", "de": "Ach ja? Mich reizt das nicht so, ich gehe lieber mit Freunden aus." },
+    { "speaker": "Sami", "fr": "C'est cool aussi. Tu fais du sport à côté ?", "de": "Das ist auch cool. Machst du daneben Sport?" },
+    { "speaker": "Inès", "fr": "Oui, je fais de la natation deux fois par semaine.", "de": "Ja, ich schwimme zweimal pro Woche." },
+    { "speaker": "Sami", "fr": "Impressionnant ! Moi, je préfère glander le week-end.", "de": "Beeindruckend! Ich faulenze lieber am Wochenende." },
+    { "speaker": "Inès", "fr": "Haha, chacun ses loisirs ! Tu cuisines parfois ?", "de": "Haha, jedem sein Hobby! Kochst du manchmal?" },
+    { "speaker": "Sami", "fr": "Un peu, mais c'est plutôt une corvée pour moi.", "de": "Ein bisschen, aber das ist eher eine Pflichtaufgabe für mich." },
+    { "speaker": "Inès", "fr": "Moi j'adore ça, c'est ma vraie passion.", "de": "Ich liebe das, das ist meine echte Leidenschaft." },
+    { "speaker": "Sami", "fr": "On devrait sortir ensemble un de ces jours.", "de": "Wir sollten mal zusammen ausgehen." },
+    { "speaker": "Inès", "fr": "Carrément, ça serait cool !", "de": "Auf jeden Fall, das wäre cool!" }
+  ],
+  "listeningQuizzes": [
+    {
+      "audioText": "J'aime bien lire et faire du vélo.",
+      "question": "Welche zwei Hobbys werden hier genannt?",
+      "options": ["Lesen und Radfahren", "Kochen und Schwimmen", "Malen und Gärtnern"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Je kiffe jouer aux jeux vidéo le soir.",
+      "question": "Was bedeutet \"kiffer\" in diesem informellen Kontext?",
+      "options": ["Etwas sehr gerne mögen", "Etwas hassen", "Etwas vergessen"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Ça me branche pas, je préfère sortir avec des amis.",
+      "question": "Was bedeutet \"ça me branche pas\"?",
+      "options": ["Das interessiert mich nicht", "Das gefällt mir sehr", "Das ist verboten"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Je fais de la natation deux fois par semaine.",
+      "question": "Wie oft geht die Person schwimmen?",
+      "options": ["Zweimal pro Woche", "Einmal im Monat", "Jeden Tag"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Le week-end, je préfère glander.",
+      "question": "Was bedeutet \"glander\" umgangssprachlich?",
+      "options": ["Faulenzen / nichts tun", "Sport treiben", "Arbeiten"],
+      "correctIndex": 0
+    }
+  ],
+  "shadowingSentences": [
+    "Qu'est-ce que tu fais pendant ton temps libre ?",
+    "J'aime bien lire et faire du vélo.",
+    "Je kiffe jouer aux jeux vidéo.",
+    "Ça me branche pas trop.",
+    "Je fais de la natation deux fois par semaine.",
+    "Le week-end, je préfère glander.",
+    "C'est ma vraie passion.",
+    "On devrait sortir ensemble un de ces jours.",
+    "Chacun ses loisirs !",
+    "Carrément, ça serait cool !"
+  ],
+  "culture": [
+    {
+      "title": "Der Sonntagsspaziergang", 
+      "text": "In Frankreich ist \"la balade du dimanche\" (der Sonntagsspaziergang) mit der Familie eine verbreitete Tradition, oft gefolgt von einem gemeinsamen langen Mittagessen — Freizeit wird traditionell stark mit Familie und gutem Essen verbunden."
+    },
+    {
+      "title": "Jugendslang: kiffer, branché, cool",
+      "text": "Wörter wie \"kiffer\" (etwas total mögen), \"être branché\" (angesagt/interessiert sein) oder einfach \"cool\" sind aus dem Alltagsjugendslang kaum wegzudenken und werden generationsübergreifend zunehmend genutzt, auch von Erwachsenen im informellen Gespräch."
+    },
+    {
+      "title": "Vereinsleben (\"les associations\")",
+      "text": "Viele Franzosen engagieren sich in ihrer Freizeit in einer \"association\" — einem Verein, sei es für Sport, Musik oder soziale Zwecke. Das Vereinsleben ist zentral für soziale Kontakte außerhalb der Familie und des Berufs."
+    }
+  ]
+}

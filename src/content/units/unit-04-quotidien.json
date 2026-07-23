@@ -1,0 +1,102 @@
+{
+  "id": "unit-04-quotidien",
+  "title": "Alltag & Tagesablauf",
+  "level": "A1",
+  "cefrTopic": "A1 - Alltag & Tagesablauf",
+  "grammarNote": "Viele Alltagsverben zum Tagesablauf sind reflexiv: \"se lever\" (aufstehen), \"se laver\" (sich waschen), \"se coucher\" (schlafen gehen). Konjugation z. B. \"se lever\": je me lève, tu te lèves, il/elle se lève. Das Reflexivpronomen steht immer direkt vor dem Verb.",
+  "vocab": [
+    { "front": "se réveiller", "back": "aufwachen" },
+    { "front": "se lever", "back": "aufstehen" },
+    { "front": "se laver", "back": "sich waschen" },
+    { "front": "se doucher", "back": "duschen" },
+    { "front": "s'habiller", "back": "sich anziehen" },
+    { "front": "prendre le petit-déjeuner", "back": "frühstücken" },
+    { "front": "aller au travail", "back": "zur Arbeit gehen" },
+    { "front": "travailler", "back": "arbeiten" },
+    { "front": "déjeuner", "back": "zu Mittag essen" },
+    { "front": "rentrer à la maison", "back": "nach Hause zurückkehren" },
+    { "front": "faire les courses", "back": "einkaufen gehen" },
+    { "front": "faire le ménage", "back": "putzen / Hausarbeit machen" },
+    { "front": "se reposer", "back": "sich ausruhen" },
+    { "front": "dîner", "back": "zu Abend essen" },
+    { "front": "se coucher", "back": "schlafen gehen" },
+    { "front": "être crevé(e)", "back": "total erschöpft sein (informell)", "register": "informal" },
+    { "front": "avoir la flemme", "back": "keinen Bock haben / zu faul sein", "register": "slang" },
+    { "front": "glander", "back": "faulenzen / nichts tun", "register": "slang" },
+    { "front": "le boulot", "back": "der Job / die Arbeit (umgangssprachlich)", "register": "informal" },
+    { "front": "chill / cool", "back": "entspannt / cool", "register": "slang" },
+    { "front": "d'habitude", "back": "normalerweise" },
+    { "front": "tous les jours", "back": "jeden Tag" },
+    { "front": "le matin, l'après-midi, le soir", "back": "morgens, nachmittags, abends" }
+  ],
+  "dialogue": [
+    { "speaker": "Sarah", "fr": "Salut, ça va ? T'as l'air crevée.", "de": "Hi, alles gut? Du siehst total erschöpft aus." },
+    { "speaker": "Nora", "fr": "Ouais, je me lève à six heures tous les jours pour aller au boulot.", "de": "Ja, ich stehe jeden Tag um sechs auf, um zur Arbeit zu gehen." },
+    { "speaker": "Sarah", "fr": "Six heures ?! Moi, j'ai la flemme rien que d'y penser.", "de": "Sechs Uhr?! Ich hab schon keinen Bock, wenn ich nur daran denke." },
+    { "speaker": "Nora", "fr": "D'habitude, je me douche, je m'habille, et je prends le petit-déjeuner en vitesse.", "de": "Normalerweise dusche ich, zieh mich an und frühstücke schnell." },
+    { "speaker": "Sarah", "fr": "Et après le travail, tu fais quoi ?", "de": "Und was machst du nach der Arbeit?" },
+    { "speaker": "Nora", "fr": "En général, je fais les courses, puis je rentre à la maison.", "de": "Normalerweise gehe ich einkaufen, dann fahre ich nach Hause." },
+    { "speaker": "Sarah", "fr": "Tu fais aussi le ménage tous les soirs ?", "de": "Machst du auch jeden Abend Hausarbeit?" },
+    { "speaker": "Nora", "fr": "Non, le week-end je préfère glander devant la télé.", "de": "Nein, am Wochenende faulenze ich lieber vor dem Fernseher." },
+    { "speaker": "Sarah", "fr": "Ça a l'air chill, ça. Et tu te couches à quelle heure ?", "de": "Klingt entspannt. Und wann gehst du schlafen?" },
+    { "speaker": "Nora", "fr": "Vers vingt-deux heures, je suis trop crevée sinon.", "de": "Gegen zweiundzwanzig Uhr, sonst bin ich total fertig." }
+  ],
+  "listeningQuizzes": [
+    {
+      "audioText": "Je me lève à six heures tous les jours.",
+      "question": "Um wie viel Uhr steht die Person auf?",
+      "options": ["Um sechs Uhr", "Um acht Uhr", "Um zehn Uhr"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "J'ai la flemme rien que d'y penser.",
+      "question": "Was drückt dieser Ausdruck aus?",
+      "options": ["Keine Lust / Faulheit", "Große Begeisterung", "Angst"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Le week-end, je préfère glander devant la télé.",
+      "question": "Was macht die Person am liebsten am Wochenende?",
+      "options": ["Faulenzen vor dem Fernseher", "Einkaufen gehen", "Früh aufstehen"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Après le travail, je fais les courses.",
+      "question": "Was macht die Person nach der Arbeit?",
+      "options": ["Einkaufen", "Schlafen", "Putzen"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Je me couche vers vingt-deux heures.",
+      "question": "Wann geht die Person schlafen?",
+      "options": ["Gegen 22 Uhr", "Gegen 20 Uhr", "Gegen Mitternacht"],
+      "correctIndex": 0
+    }
+  ],
+  "shadowingSentences": [
+    "Je me lève à six heures.",
+    "Je me douche, puis je m'habille.",
+    "Je prends le petit-déjeuner en vitesse.",
+    "Je vais au boulot tous les jours.",
+    "Après le travail, je fais les courses.",
+    "Le soir, je fais le ménage.",
+    "Le week-end, j'aime glander devant la télé.",
+    "Je suis vraiment crevé aujourd'hui.",
+    "J'ai la flemme de sortir ce soir.",
+    "Je me couche vers vingt-deux heures."
+  ],
+  "culture": [
+    {
+      "title": "Der Mittagsrhythmus",
+      "text": "Viele Franzosen legen Wert auf eine richtige Mittagspause (\"la pause déjeuner\"), oft zwischen 12 und 14 Uhr, während der Geschäfte in kleineren Städten manchmal noch schließen. Ein schnelles Sandwich am Schreibtisch gilt vielen als wenig genussvoll."
+    },
+    {
+      "title": "\"Le boulot\" und \"la flemme\"",
+      "text": "\"Le boulot\" (Job) und \"avoir la flemme\" (keinen Bock haben) gehören zu den meistgenutzten umgangssprachlichen Ausdrücken im Alltag – gerade unter jungen Leuten oder unter Kollegen hört man sie ständig, in einem Bewerbungsgespräch aber lieber vermeiden."
+    },
+    {
+      "title": "Apéro als Übergangsritual",
+      "text": "Nach der Arbeit, bevor es ans Abendessen geht, gönnen sich viele Franzosen einen kurzen \"apéro\" (Aperitif) mit Freunden oder der Familie — ein kleines geselliges Ritual zum Tagesübergang."
+    }
+  ]
+}

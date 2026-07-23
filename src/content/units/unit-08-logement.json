@@ -1,0 +1,103 @@
+{
+  "id": "unit-08-logement",
+  "title": "Wohnen & Zuhause",
+  "level": "A2",
+  "cefrTopic": "A2 - Wohnen & Zuhause",
+  "grammarNote": "Zur Beschreibung von Wohnungen nutzt man oft \"il y a\" (es gibt): \"Il y a deux chambres et une cuisine.\" Possessivpronomen richten sich nach dem Genus des Nomens, nicht dem Besitzer: \"mon appartement\" (mein, m.), \"ma chambre\" (mein, f.), \"mes meubles\" (meine, pl.).",
+  "vocab": [
+    { "front": "un appartement", "back": "eine Wohnung" },
+    { "front": "une maison", "back": "ein Haus" },
+    { "front": "une chambre", "back": "ein Schlafzimmer" },
+    { "front": "le salon", "back": "das Wohnzimmer" },
+    { "front": "la cuisine", "back": "die Küche" },
+    { "front": "la salle de bain", "back": "das Badezimmer" },
+    { "front": "le loyer", "back": "die Miete" },
+    { "front": "louer", "back": "mieten" },
+    { "front": "déménager", "back": "umziehen" },
+    { "front": "emménager", "back": "einziehen" },
+    { "front": "un colocataire", "back": "ein Mitbewohner (WG)" },
+    { "front": "meublé(e)", "back": "möbliert" },
+    { "front": "le quartier", "back": "das Viertel / die Nachbarschaft" },
+    { "front": "les charges", "back": "die Nebenkosten" },
+    { "front": "un studio", "back": "eine Einzimmerwohnung" },
+    { "front": "spacieux / spacieuse", "back": "geräumig" },
+    { "front": "un proprio", "back": "der Vermieter (Kurzform, informell)", "register": "informal" },
+    { "front": "une coloc", "back": "eine WG (Kurzform von colocation)", "register": "informal" },
+    { "front": "un chez-soi", "back": "ein Zuhause / eigene vier Wände" },
+    { "front": "un taudis", "back": "eine Bruchbude (abwertend, salopp)", "register": "slang" },
+    { "front": "sympa", "back": "nett / gemütlich (informell)", "register": "informal" },
+    { "front": "cocon", "back": "gemütliches Nest (Wohnung als Rückzugsort)", "register": "informal" },
+    { "front": "bordélique", "back": "chaotisch/unordentlich (salopp)", "register": "slang" }
+  ],
+  "dialogue": [
+    { "speaker": "Zoé", "fr": "Alors, ton nouvel appart, il est comment ?", "de": "Also, wie ist deine neue Wohnung?" },
+    { "speaker": "Nathan", "fr": "Il est petit mais super sympa, un vrai cocon.", "de": "Sie ist klein, aber richtig gemütlich, ein echtes Nest." },
+    { "speaker": "Zoé", "fr": "C'est un studio ou t'as une vraie chambre séparée ?", "de": "Ist es eine Einzimmerwohnung oder hast du ein echtes eigenes Schlafzimmer?" },
+    { "speaker": "Nathan", "fr": "J'ai une chambre, un salon et une petite cuisine.", "de": "Ich hab ein Schlafzimmer, ein Wohnzimmer und eine kleine Küche." },
+    { "speaker": "Zoé", "fr": "Et le loyer, ça va ?", "de": "Und die Miete, geht das?" },
+    { "speaker": "Nathan", "fr": "Ouais, charges comprises, c'est raisonnable pour le quartier.", "de": "Ja, Nebenkosten inklusive, das ist für die Gegend angemessen." },
+    { "speaker": "Zoé", "fr": "T'as un colocataire ou tu vis seul ?", "de": "Hast du einen Mitbewohner oder wohnst du allein?" },
+    { "speaker": "Nathan", "fr": "Je vis seul, j'avais marre de la coloc à la fin.", "de": "Ich wohne allein, ich hatte die WG am Ende satt." },
+    { "speaker": "Zoé", "fr": "Je comprends, mon dernier appart c'était un vrai taudis.", "de": "Ich versteh das, meine letzte Wohnung war eine echte Bruchbude." },
+    { "speaker": "Nathan", "fr": "Tu déménages bientôt, alors ?", "de": "Ziehst du also bald um?" },
+    { "speaker": "Zoé", "fr": "Oui, j'emménage dans un mois, dans un appart plus spacieux.", "de": "Ja, ich ziehe in einem Monat in eine geräumigere Wohnung ein." }
+  ],
+  "listeningQuizzes": [
+    {
+      "audioText": "Mon nouvel appart est petit mais super sympa.",
+      "question": "Wie beschreibt die Person ihre Wohnung?",
+      "options": ["Klein, aber gemütlich", "Groß und teuer", "Kalt und unordentlich"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Le loyer, charges comprises, est raisonnable pour le quartier.",
+      "question": "Was wird über die Miete gesagt?",
+      "options": ["Sie ist angemessen inklusive Nebenkosten", "Sie ist viel zu teuer", "Sie ist unbekannt"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "J'avais marre de la coloc à la fin.",
+      "question": "Wie fühlte sich die Person am Ende in der WG?",
+      "options": ["Genervt / überdrüssig", "Sehr glücklich", "Neugierig"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Mon dernier appart, c'était un vrai taudis.",
+      "question": "Wie war die letzte Wohnung laut Aussage?",
+      "options": ["Sehr schlecht / eine Bruchbude", "Sehr modern", "Sehr teuer"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "J'emménage dans un appart plus spacieux dans un mois.",
+      "question": "Was passiert in einem Monat?",
+      "options": ["Ein Umzug in eine geräumigere Wohnung", "Ein Umzug in eine kleinere Wohnung", "Ein Verkauf der Wohnung"],
+      "correctIndex": 0
+    }
+  ],
+  "shadowingSentences": [
+    "Ton nouvel appart, il est comment ?",
+    "J'ai une chambre, un salon et une cuisine.",
+    "Le loyer est raisonnable pour le quartier.",
+    "T'as un colocataire ou tu vis seul ?",
+    "J'avais marre de la coloc.",
+    "Mon dernier appart, c'était un vrai taudis.",
+    "J'emménage dans un mois.",
+    "C'est un vrai cocon, cet appartement.",
+    "Le proprio est plutôt sympa.",
+    "Il faut que je fasse le ménage, c'est bordélique."
+  ],
+  "culture": [
+    {
+      "title": "\"La coloc\" ist sehr verbreitet",
+      "text": "Besonders unter Studierenden und jungen Berufstätigen ist \"la colocation\" (WG-Leben) sehr üblich, vor allem in teuren Städten wie Paris. Man teilt sich Miete und Nebenkosten mit Mitbewohnern (\"colocataires\")."
+    },
+    {
+      "title": "Kaution und Bürge",
+      "text": "Bei der Wohnungssuche verlangen Vermieter (\"le proprio\") in Frankreich häufig eine Kaution (\"dépôt de garantie\") sowie einen Bürgen (\"garant\"), der im Zweifel für die Miete einsteht — für Studierende oft die Eltern."
+    },
+    {
+      "title": "\"Chez-moi\" als Rückzugsort",
+      "text": "Der Ausdruck \"un chez-soi\" (ein Zuhause, eigene vier Wände) betont die emotionale Bedeutung des eigenen Wohnraums als persönlichen Rückzugsort — unabhängig von Größe oder Ausstattung."
+    }
+  ]
+}

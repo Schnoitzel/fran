@@ -1,0 +1,107 @@
+{
+  "id": "unit-15-etudes",
+  "title": "Schule & Studium",
+  "level": "A2",
+  "cefrTopic": "A2 - Schule & Studium",
+  "grammarNote": "Um auszudrücken, seit wann etwas dauert, benutzt man 'depuis' + Präsens (nicht wie im Deutschen mit einer Vergangenheitsform!): \"J'étudie le français depuis trois ans.\" (Ich lerne seit drei Jahren Französisch — und lerne es immer noch.) Das Verb bleibt im Präsens, weil die Handlung bis heute andauert.",
+  "vocab": [
+    { "front": "le collège", "back": "die Mittelschule (6e–3e, ca. 11–15 Jahre)" },
+    { "front": "le lycée", "back": "das Gymnasium / die Oberstufe" },
+    { "front": "l'université (f)", "back": "die Universität" },
+    { "front": "la fac", "back": "die Uni (Kurzform von université)", "register": "informal" },
+    { "front": "un cours", "back": "eine Unterrichtsstunde / ein Kurs" },
+    { "front": "les devoirs (m pl)", "back": "die Hausaufgaben" },
+    { "front": "un examen", "back": "eine Prüfung" },
+    { "front": "réviser", "back": "lernen / wiederholen (für eine Prüfung)" },
+    { "front": "bosser", "back": "schuften / büffeln", "register": "slang" },
+    { "front": "sécher les cours", "back": "die Schule schwänzen", "register": "informal" },
+    { "front": "la rentrée", "back": "der Schuljahresbeginn" },
+    { "front": "un emploi du temps", "back": "ein Stundenplan" },
+    { "front": "une note", "back": "eine Note" },
+    { "front": "redoubler", "back": "eine Klasse wiederholen" },
+    { "front": "le bac (baccalauréat)", "back": "das Abitur", "register": "informal" },
+    { "front": "une matière", "back": "ein Schulfach" },
+    { "front": "la récré (récréation)", "back": "die Pause", "register": "informal" },
+    { "front": "un(e) prof", "back": "ein(e) Lehrer(in)", "register": "informal" },
+    { "front": "être fort(e) en maths", "back": "gut in Mathe sein" },
+    { "front": "avoir cours", "back": "Unterricht haben" }
+  ],
+  "dialogue": [
+    { "speaker": "Chloé", "fr": "Salut Hugo, tu as combien de cours aujourd'hui ?", "de": "Hi Hugo, wie viele Stunden hast du heute?" },
+    { "speaker": "Hugo", "fr": "J'ai quatre cours, et après j'ai des devoirs de maths.", "de": "Ich habe vier Stunden, und danach habe ich Matheaufgaben." },
+    { "speaker": "Chloé", "fr": "Moi, je suis nulle en maths, je révise avec ma sœur.", "de": "Ich bin schlecht in Mathe, ich lerne mit meiner Schwester." },
+    { "speaker": "Hugo", "fr": "Tu as un examen bientôt ?", "de": "Hast du bald eine Prüfung?" },
+    { "speaker": "Chloé", "fr": "Oui, la semaine prochaine. Je dois bosser tous les soirs.", "de": "Ja, nächste Woche. Ich muss jeden Abend büffeln." },
+    { "speaker": "Hugo", "fr": "Courage ! Moi, je pense sécher le cours de sport demain.", "de": "Kopf hoch! Ich überlege, morgen den Sportunterricht zu schwänzen." },
+    { "speaker": "Chloé", "fr": "Tu es fou, le prof va te punir !", "de": "Du bist verrückt, der Lehrer wird dich bestrafen!" },
+    { "speaker": "Hugo", "fr": "Bof, c'est juste un contrôle sans importance.", "de": "Naja, das ist nur ein unwichtiger Test." },
+    { "speaker": "Chloé", "fr": "Après le bac, tu veux aller à la fac ?", "de": "Willst du nach dem Abi an die Uni gehen?" },
+    { "speaker": "Hugo", "fr": "Oui, je veux étudier la médecine.", "de": "Ja, ich möchte Medizin studieren." },
+    { "speaker": "Chloé", "fr": "C'est un métier difficile mais passionnant.", "de": "Das ist ein schwieriger, aber spannender Beruf." },
+    { "speaker": "Hugo", "fr": "On se retrouve à la récré pour réviser ensemble ?", "de": "Treffen wir uns in der Pause, um zusammen zu lernen?" }
+  ],
+  "listeningQuizzes": [
+    {
+      "audioText": "J'ai quatre cours aujourd'hui, et après j'ai des devoirs de maths.",
+      "question": "Was hat die Person nach dem Unterricht vor?",
+      "options": ["Hausaufgaben in Mathe machen", "Zur Uni gehen", "Schlafen gehen"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Je dois bosser tous les soirs pour l'examen.",
+      "question": "Was bedeutet \"bosser\" in diesem Kontext?",
+      "options": ["Hart lernen / arbeiten", "Spazieren gehen", "Fernsehen"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Je pense sécher le cours de sport demain.",
+      "question": "Was plant die Person?",
+      "options": ["Den Unterricht zu schwänzen", "Früher zu kommen", "Sport zu machen"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Après le bac, je veux aller à la fac.",
+      "question": "Wohin möchte die Person nach dem Abitur gehen?",
+      "options": ["An die Universität", "In den Kindergarten", "Ins Ausland arbeiten"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Je suis nulle en maths.",
+      "question": "Was sagt die Sprecherin über sich?",
+      "options": ["Sie ist schlecht in Mathe", "Sie ist die Beste in Mathe", "Sie mag Mathe sehr"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "On se retrouve à la récré pour réviser ensemble.",
+      "question": "Was schlägt die Person vor?",
+      "options": ["Sich in der Pause zum gemeinsamen Lernen treffen", "Zusammen essen gehen", "Die Schule verlassen"],
+      "correctIndex": 0
+    }
+  ],
+  "shadowingSentences": [
+    "J'ai quatre cours aujourd'hui.",
+    "Je suis nulle en maths.",
+    "Tu as un examen bientôt ?",
+    "Je dois bosser tous les soirs.",
+    "Le prof va te punir.",
+    "C'est juste un contrôle sans importance.",
+    "Je veux étudier la médecine.",
+    "On se retrouve à la récré.",
+    "La rentrée, c'est la semaine prochaine.",
+    "J'ai eu une bonne note en français."
+  ],
+  "culture": [
+    {
+      "title": "Das französische Schulsystem",
+      "text": "Nach der Grundschule (école primaire) besuchen französische Jugendliche das collège (von der 6e bis zur 3e, ca. 11–15 Jahre) und danach das lycée (2de bis terminale). Am Ende des lycée steht das baccalauréat (le bac), eine landesweite Abschlussprüfung, die den Zugang zur Universität ermöglicht."
+    },
+    {
+      "title": "Die Kantine und die Pause",
+      "text": "Viele Schüler essen mittags in der cantine (Schulkantine), oft in mehreren Gängen (Vorspeise, Hauptgericht, Käse, Dessert) — ein kleines kulinarisches Ritual. Die kurzen Pausen zwischen den Stunden heißen la récré."
+    },
+    {
+      "title": "Das Notensystem",
+      "text": "In Frankreich werden Noten meist auf einer Skala von 0 bis 20 vergeben, wobei 20 die Bestnote ist. Eine Note über 15 gilt schon als sehr gut, während die 10 die Grenze zum Bestehen markiert."
+    }
+  ]
+}

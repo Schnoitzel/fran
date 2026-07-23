@@ -1,0 +1,104 @@
+{
+  "id": "unit-09-meteo",
+  "title": "Wetter & Small Talk",
+  "level": "A1",
+  "cefrTopic": "A1 - Über das Wetter sprechen & Small Talk",
+  "grammarNote": "Für Wetterausdrücke benutzt man oft \"il fait\" + Adjektiv (il fait beau, il fait froid) oder \"il y a\" + Substantiv (il y a du soleil, il y a du vent). Merke: \"il\" ist hier ein unpersönliches Subjekt, es steht für nichts Bestimmtes, ähnlich wie im Deutschen \"es regnet\".",
+  "vocab": [
+    { "front": "Il fait beau", "back": "Das Wetter ist schön" },
+    { "front": "Il fait mauvais", "back": "Das Wetter ist schlecht" },
+    { "front": "Il fait chaud", "back": "Es ist heiß" },
+    { "front": "Il fait froid", "back": "Es ist kalt" },
+    { "front": "Il pleut", "back": "Es regnet" },
+    { "front": "Il neige", "back": "Es schneit" },
+    { "front": "Il y a du soleil", "back": "Es ist sonnig" },
+    { "front": "Il y a du vent", "back": "Es ist windig" },
+    { "front": "Il y a des nuages", "back": "Es ist bewölkt" },
+    { "front": "Le ciel est gris", "back": "Der Himmel ist grau" },
+    { "front": "Un orage", "back": "Ein Gewitter" },
+    { "front": "La météo", "back": "Die Wettervorhersage" },
+    { "front": "Quel temps de merde !", "back": "Was für ein Scheißwetter! (derb)", "register": "slang" },
+    { "front": "Il caille", "back": "Es ist eiskalt (Slang)", "register": "slang" },
+    { "front": "Il fait un froid de canard", "back": "Es ist saukalt (Redewendung)", "register": "informal" },
+    { "front": "Quel temps fait-il ?", "back": "Wie ist das Wetter?" },
+    { "front": "Un parapluie", "back": "Ein Regenschirm" },
+    { "front": "Une saison", "back": "Eine Jahreszeit" },
+    { "front": "Le printemps", "back": "Der Frühling" },
+    { "front": "L'été", "back": "Der Sommer" },
+    { "front": "L'automne", "back": "Der Herbst" },
+    { "front": "L'hiver", "back": "Der Winter" },
+    { "front": "Ça caille grave dehors", "back": "Es ist voll kalt draußen (Jugendslang)", "register": "slang" }
+  ],
+  "dialogue": [
+    { "speaker": "Nadia", "fr": "Salut ! Quel temps fait-il chez toi aujourd'hui ?", "de": "Hi! Wie ist bei dir das Wetter heute?" },
+    { "speaker": "Théo", "fr": "Il fait super beau, il y a du soleil et pas de nuages.", "de": "Es ist super schön, es ist sonnig und keine Wolken." },
+    { "speaker": "Nadia", "fr": "Chanceux ! Ici, il pleut depuis ce matin.", "de": "Glücklicher! Hier regnet es seit heute Morgen." },
+    { "speaker": "Théo", "fr": "Ah bof, quel temps de merde. Tu as pris ton parapluie ?", "de": "Ah, was für ein Scheißwetter. Hast du deinen Regenschirm mitgenommen?" },
+    { "speaker": "Nadia", "fr": "Oui, heureusement. Et en plus, il fait froid.", "de": "Ja, zum Glück. Und außerdem ist es kalt." },
+    { "speaker": "Théo", "fr": "Il caille chez toi alors ?", "de": "Ist es bei dir also eiskalt?" },
+    { "speaker": "Nadia", "fr": "Grave, un vrai froid de canard. J'adore l'été, moi.", "de": "Total, echt saukalt. Ich liebe den Sommer." },
+    { "speaker": "Théo", "fr": "Moi aussi. Mais j'aime bien l'automne aussi, avec le vent et les feuilles.", "de": "Ich auch. Aber ich mag auch den Herbst, mit dem Wind und den Blättern." },
+    { "speaker": "Nadia", "fr": "Et l'hiver, il neige beaucoup chez toi ?", "de": "Und im Winter, schneit es viel bei dir?" },
+    { "speaker": "Théo", "fr": "Un peu, mais surtout il y a du vent et un ciel gris.", "de": "Ein bisschen, aber vor allem gibt es Wind und einen grauen Himmel." },
+    { "speaker": "Nadia", "fr": "Bon, j'espère qu'il va faire beau demain pour toi.", "de": "Gut, ich hoffe, dass es morgen bei dir schön wird." },
+    { "speaker": "Théo", "fr": "Merci ! Et toi, prends bien ton parapluie !", "de": "Danke! Und du, nimm gut deinen Regenschirm mit!" }
+  ],
+  "listeningQuizzes": [
+    {
+      "audioText": "Il fait beau, il y a du soleil.",
+      "question": "Wie ist das Wetter in diesem Satz?",
+      "options": ["Schön und sonnig", "Regnerisch", "Kalt und windig"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Il pleut depuis ce matin.",
+      "question": "Seit wann regnet es laut dem Satz?",
+      "options": ["Seit heute Morgen", "Seit gestern Abend", "Seit einer Woche"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Il caille, un vrai froid de canard !",
+      "question": "Was bedeutet dieser Ausdruck?",
+      "options": ["Es ist sehr kalt", "Es ist sehr warm", "Es ist windig"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Quel temps de merde aujourd'hui !",
+      "question": "Was drückt dieser Ausruf aus?",
+      "options": ["Ärger über schlechtes Wetter", "Freude über schönes Wetter", "Verwunderung über Schnee"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "J'aime bien l'automne, avec le vent et les feuilles.",
+      "question": "Welche Jahreszeit wird hier erwähnt?", 
+      "options": ["Der Herbst", "Der Frühling", "Der Sommer"],
+      "correctIndex": 0
+    }
+  ],
+  "shadowingSentences": [
+    "Quel temps fait-il aujourd'hui ?",
+    "Il fait beau, il y a du soleil.",
+    "Il pleut depuis ce matin.",
+    "Quel temps de merde !",
+    "Il caille dehors.",
+    "Il fait un froid de canard.",
+    "J'adore l'été, il fait chaud.",
+    "En automne, il y a du vent.",
+    "En hiver, il neige souvent.",
+    "N'oublie pas ton parapluie !"
+  ],
+  "culture": [
+    {
+      "title": "Wetter als Gesprächsöffner",
+      "text": "Wie in Deutschland ist das Wetter (\"la météo\") auch in Frankreich ein klassisches, unverfängliches Small-Talk-Thema — perfekt, um mit Nachbarn, Kollegen oder an der Bushaltestelle ein Gespräch zu beginnen, ohne persönlich zu werden."
+    },
+    {
+      "title": "\"Il caille\" und andere Wetter-Slangwörter",
+      "text": "In der gesprochenen Umgangssprache verwenden Franzosen gerne bildhafte Ausdrücke fürs Wetter: \"il caille\" (es ist eiskalt) oder \"un froid de canard\" (wörtlich \"Entenkälte\", also saukalt) hört man sehr oft im Alltag, besonders unter jüngeren Leuten."
+    },
+    {
+      "title": "Regenschirm-Kultur", 
+      "text": "In vielen Regionen Frankreichs, besonders im Norden und in der Bretagne, ist Regen so alltäglich, dass ein Regenschirm (\"parapluie\") ständiger Begleiter ist. In Paris scherzt man oft, dass man das Wetter nie vorhersagen kann — daher lieber immer einen dabei haben."
+    }
+  ]
+}

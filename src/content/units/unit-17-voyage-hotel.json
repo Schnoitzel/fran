@@ -1,0 +1,106 @@
+{
+  "id": "unit-17-voyage-hotel",
+  "title": "Reisen & Urlaub Teil 2: Hotel & Ausflüge",
+  "level": "A2",
+  "cefrTopic": "A2 - Reisen & Urlaub: Hotel & Ausflüge",
+  "grammarNote": "Der Imperativ (Befehlsform) wird bei \"tu\" meist wie das Präsens gebildet, aber bei -er-Verben ohne das Schluss-s: \"Tu regardes\" → \"Regarde !\" (Schau!). Bei reflexiven Verben wandert das Pronomen ans Ende und wird zu \"toi\": \"Tu te perds\" → \"Ne te perds pas !\" (Verirr dich nicht!)",
+  "vocab": [
+    { "front": "réserver une chambre", "back": "ein Zimmer buchen" },
+    { "front": "la réception", "back": "die Rezeption" },
+    { "front": "une chambre double", "back": "ein Doppelzimmer" },
+    { "front": "une chambre simple", "back": "ein Einzelzimmer" },
+    { "front": "la clé (de la chambre)", "back": "der Zimmerschlüssel" },
+    { "front": "le petit-déjeuner est inclus", "back": "das Frühstück ist inbegriffen" },
+    { "front": "faire une excursion", "back": "einen Ausflug machen" },
+    { "front": "visiter un monument", "back": "ein Denkmal besichtigen" },
+    { "front": "l'office de tourisme (m)", "back": "die Touristeninformation" },
+    { "front": "un plan de la ville", "back": "ein Stadtplan" },
+    { "front": "se perdre", "back": "sich verirren" },
+    { "front": "flâner", "back": "schlendern / bummeln" },
+    { "front": "c'est trop cher", "back": "das ist zu teuer" },
+    { "front": "marchander", "back": "handeln (über den Preis)" },
+    { "front": "une auberge de jeunesse", "back": "eine Jugendherberge" },
+    { "front": "le wifi ne marche pas", "back": "das WLAN funktioniert nicht" },
+    { "front": "kiffer", "back": "total mögen", "register": "slang" },
+    { "front": "un pourboire", "back": "ein Trinkgeld" },
+    { "front": "la vue est magnifique", "back": "die Aussicht ist wunderschön" },
+    { "front": "réclamer", "back": "sich beschweren / reklamieren" }
+  ],
+  "dialogue": [
+    { "speaker": "Léa", "fr": "On a une chambre double avec vue sur la mer !", "de": "Wir haben ein Doppelzimmer mit Meerblick!" },
+    { "speaker": "Nina", "fr": "Génial ! Le petit-déjeuner est inclus, non ?", "de": "Toll! Das Frühstück ist doch inbegriffen, oder?" },
+    { "speaker": "Léa", "fr": "Oui, de sept à dix heures. On peut aussi demander la clé à la réception.", "de": "Ja, von sieben bis zehn Uhr. Wir können den Schlüssel auch an der Rezeption holen." },
+    { "speaker": "Nina", "fr": "Le wifi ne marche pas dans ma chambre, tu peux réclamer ?", "de": "Das WLAN funktioniert in meinem Zimmer nicht, kannst du dich beschweren?" },
+    { "speaker": "Léa", "fr": "Pas de souci, je vais demander à la réception.", "de": "Kein Problem, ich frage an der Rezeption nach." },
+    { "speaker": "Nina", "fr": "On fait une excursion demain ? J'ai envie de visiter le vieux château.", "de": "Machen wir morgen einen Ausflug? Ich habe Lust, die alte Burg zu besichtigen." },
+    { "speaker": "Léa", "fr": "Bonne idée, on prend un plan de la ville à l'office de tourisme.", "de": "Gute Idee, wir holen uns einen Stadtplan bei der Touristeninformation." },
+    { "speaker": "Nina", "fr": "Je kiffe cette ville, elle est magnifique.", "de": "Ich liebe diese Stadt total, sie ist wunderschön." },
+    { "speaker": "Léa", "fr": "Attention à ne pas te perdre dans les petites rues !", "de": "Pass auf, dass du dich nicht in den kleinen Gassen verirrst!" },
+    { "speaker": "Nina", "fr": "T'inquiète, j'ai le plan. On peut flâner un peu au marché aussi ?", "de": "Keine Sorge, ich habe den Plan. Können wir auch etwas über den Markt bummeln?" },
+    { "speaker": "Léa", "fr": "Oui, mais ne marchande pas trop, c'est déjà pas cher ici.", "de": "Ja, aber handle nicht zu viel, hier ist es schon günstig." }
+  ],
+  "listeningQuizzes": [
+    {
+      "audioText": "On a une chambre double avec vue sur la mer.",
+      "question": "Was für ein Zimmer haben sie?",
+      "options": ["Ein Doppelzimmer mit Meerblick", "Ein Einzelzimmer ohne Fenster", "Eine Jugendherberge"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Le wifi ne marche pas dans ma chambre.",
+      "question": "Was ist das Problem?",
+      "options": ["Das WLAN funktioniert nicht", "Der Schlüssel ist verloren", "Das Frühstück fehlt"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "On fait une excursion demain ? J'ai envie de visiter le vieux château.",
+      "question": "Was möchte die Person morgen machen?",
+      "options": ["Eine alte Burg besichtigen", "Zu Hause bleiben", "Einkaufen gehen"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "On prend un plan de la ville à l'office de tourisme.",
+      "question": "Wo bekommen sie den Stadtplan?",
+      "options": ["Bei der Touristeninformation", "Im Hotelzimmer", "Am Flughafen"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Ne marchande pas trop, c'est déjà pas cher ici.",
+      "question": "Was rät die Person?",
+      "options": ["Nicht zu stark zu handeln", "Sofort zu kaufen", "Nach Hause zu gehen"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Attention à ne pas te perdre dans les petites rues.",
+      "question": "Wovor wird gewarnt?",
+      "options": ["Sich zu verirren", "Zu spät zu kommen", "Das Gepäck zu verlieren"],
+      "correctIndex": 0
+    }
+  ],
+  "shadowingSentences": [
+    "On a une chambre double avec vue sur la mer.",
+    "Le petit-déjeuner est inclus.",
+    "Le wifi ne marche pas dans ma chambre.",
+    "On fait une excursion demain ?",
+    "J'ai envie de visiter le vieux château.",
+    "On prend un plan de la ville à l'office de tourisme.",
+    "Je kiffe cette ville, elle est magnifique.",
+    "Ne te perds pas dans les petites rues !",
+    "On peut flâner un peu au marché ?",
+    "Ne marchande pas trop, c'est déjà pas cher."
+  ],
+  "culture": [
+    {
+      "title": "Trinkgeld in Frankreich",
+      "text": "In französischen Restaurants und Hotels ist der Service meist schon im Preis enthalten (\"service compris\"). Ein zusätzliches Trinkgeld (le pourboire) ist nicht verpflichtend, wird bei gutem Service aber gerne gesehen — oft rundet man einfach den Betrag auf."
+    },
+    {
+      "title": "Auberges de jeunesse & Gîtes",
+      "text": "Neben klassischen Hotels sind auberges de jeunesse (Jugendherbergen) und gîtes (ländliche Ferienunterkünfte, oft ein ganzes Haus) beliebte, günstigere Alternativen für Reisende in Frankreich."
+    },
+    {
+      "title": "Handeln auf dem Markt",
+      "text": "Marchander (über den Preis verhandeln) ist in normalen Geschäften unüblich, aber auf Flohmärkten (vide-greniers) oder bei manchen Marktständen durchaus akzeptiert — solange man es höflich und mit einem Lächeln tut."
+    }
+  ]
+}

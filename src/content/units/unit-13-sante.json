@@ -1,0 +1,103 @@
+{
+  "id": "unit-13-sante",
+  "title": "Gesundheit & Körper",
+  "level": "A2",
+  "cefrTopic": "A2 - Über Gesundheit, Körperteile und Schmerzen sprechen",
+  "grammarNote": "Um Schmerzen an einem Körperteil auszudrücken, nutzt man \"avoir mal à\" + bestimmter Artikel (verschmolzen): \"J'ai mal à la tête\" (Kopfschmerzen), \"J'ai mal au ventre\" (à + le → au), \"J'ai mal aux dents\" (à + les → aux). Merke: Körperteile stehen fast immer mit bestimmtem statt Possessivartikel.",
+  "vocab": [
+    { "front": "La santé", "back": "Die Gesundheit" },
+    { "front": "Être malade", "back": "Krank sein" },
+    { "front": "Avoir mal à la tête", "back": "Kopfschmerzen haben" },
+    { "front": "Avoir mal au ventre", "back": "Bauchschmerzen haben" },
+    { "front": "Avoir mal à la gorge", "back": "Halsschmerzen haben" },
+    { "front": "Avoir de la fièvre", "back": "Fieber haben" },
+    { "front": "Tousser", "back": "Husten" },
+    { "front": "Éternuer", "back": "Niesen" },
+    { "front": "Un rhume", "back": "Eine Erkältung" },
+    { "front": "Le dos", "back": "Der Rücken" },
+    { "front": "Le bras", "back": "Der Arm" },
+    { "front": "La jambe", "back": "Das Bein" },
+    { "front": "Le cœur", "back": "Das Herz" },
+    { "front": "Prendre un médicament", "back": "Ein Medikament nehmen" },
+    { "front": "Aller chez le médecin", "back": "Zum Arzt gehen" },
+    { "front": "Une ordonnance", "back": "Ein Rezept (vom Arzt)" },
+    { "front": "Être crevé(e)", "back": "Total erschöpft sein (informell)", "register": "informal" },
+    { "front": "Se sentir barbouillé(e)", "back": "Sich unwohl/schlecht fühlen (informell)", "register": "informal" },
+    { "front": "Avoir la gerbe", "back": "Sich übergeben müssen (derb)", "register": "slang" },
+    { "front": "Ça va pas fort", "back": "Es geht mir nicht so gut (informell)", "register": "informal" },
+    { "front": "Se reposer", "back": "Sich ausruhen" },
+    { "front": "Guérir", "back": "Gesund werden / heilen" }
+  ],
+  "dialogue": [
+    { "speaker": "Chloé", "fr": "Salut, ça va ? T'as une petite mine aujourd'hui.", "de": "Hi, geht's dir gut? Du siehst heute etwas blass aus." },
+    { "speaker": "Hugo", "fr": "Ça va pas fort, j'ai mal à la tête depuis ce matin.", "de": "Es geht mir nicht so gut, ich habe seit heute Morgen Kopfschmerzen." },
+    { "speaker": "Chloé", "fr": "Tu as de la fièvre aussi ?", "de": "Hast du auch Fieber?" },
+    { "speaker": "Hugo", "fr": "Un peu, et j'ai mal à la gorge en plus. Je crois que j'ai un rhume.", "de": "Ein bisschen, und ich habe außerdem Halsschmerzen. Ich glaube, ich habe eine Erkältung." },
+    { "speaker": "Chloé", "fr": "Tu as pris un médicament ?", "de": "Hast du ein Medikament genommen?" },
+    { "speaker": "Hugo", "fr": "Pas encore, je pense aller chez le médecin cet après-midi.", "de": "Noch nicht, ich denke, ich gehe heute Nachmittag zum Arzt." },
+    { "speaker": "Chloé", "fr": "Bonne idée. Tu tousses beaucoup aussi ?", "de": "Gute Idee. Hustest du auch viel?" },
+    { "speaker": "Hugo", "fr": "Un peu, et j'ai même eu la gerbe ce matin, c'était horrible.", "de": "Ein bisschen, und ich musste heute Morgen sogar kotzen, das war schrecklich." },
+    { "speaker": "Chloé", "fr": "Oh la la, repose-toi bien alors.", "de": "Oh je, ruh dich dann gut aus." },
+    { "speaker": "Hugo", "fr": "Oui, je suis crevé de toute façon. J'espère guérir vite.", "de": "Ja, ich bin sowieso total erschöpft. Ich hoffe, ich werde schnell wieder gesund." },
+    { "speaker": "Chloé", "fr": "Le médecin te donnera sûrement une ordonnance.", "de": "Der Arzt wird dir sicher ein Rezept geben." },
+    { "speaker": "Hugo", "fr": "J'espère bien, merci de t'inquiéter pour moi.", "de": "Das hoffe ich, danke, dass du dir Sorgen um mich machst." }
+  ],
+  "listeningQuizzes": [
+    {
+      "audioText": "J'ai mal à la tête depuis ce matin.",
+      "question": "Was für Schmerzen hat die Person?",
+      "options": ["Kopfschmerzen", "Bauchschmerzen", "Rückenschmerzen"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "J'ai mal à la gorge, je crois que j'ai un rhume.",
+      "question": "Was glaubt die Person zu haben?",
+      "options": ["Eine Erkältung", "Fieber", "Einen Beinbruch"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Je pense aller chez le médecin cet après-midi.",
+      "question": "Was plant die Person zu tun?",
+      "options": ["Zum Arzt gehen", "Ins Bett gehen", "Sport machen"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "J'ai eu la gerbe ce matin, c'était horrible.",
+      "question": "Was bedeutet \"avoir la gerbe\" umgangssprachlich?",
+      "options": ["Sich übergeben müssen", "Sehr müde sein", "Sehr glücklich sein"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Le médecin te donnera sûrement une ordonnance.",
+      "question": "Was wird der Arzt wahrscheinlich geben?",
+      "options": ["Ein Rezept", "Einen Termin für nächstes Jahr", "Eine Rechnung"],
+      "correctIndex": 0
+    }
+  ],
+  "shadowingSentences": [
+    "Ça va pas fort aujourd'hui.",
+    "J'ai mal à la tête depuis ce matin.",
+    "J'ai de la fièvre et mal à la gorge.",
+    "Je crois que j'ai un rhume.",
+    "Je pense aller chez le médecin.",
+    "J'ai eu la gerbe ce matin.",
+    "Repose-toi bien.",
+    "Je suis crevé de toute façon.",
+    "J'espère guérir vite.",
+    "Le médecin m'a donné une ordonnance."
+  ],
+  "culture": [
+    {
+      "title": "Der Weg zum Hausarzt (\"médecin traitant\")",
+      "text": "In Frankreich hat fast jeder einen festen \"médecin traitant\" (Hausarzt), der als erste Anlaufstelle im Gesundheitssystem fungiert und bei Bedarf an Fachärzte überweist. Ohne diese Wahl gibt es finanzielle Nachteile bei der Erstattung durch die Krankenkasse."
+    },
+    {
+      "title": "Die Apotheke mit dem grünen Kreuz",
+      "text": "Apotheken (\"pharmacies\") sind in Frankreich leicht am blinkenden grünen Kreuz-Symbol zu erkennen. Apotheker beraten oft ausführlich bei kleineren Beschwerden, bevor man überhaupt einen Arzt aufsucht."
+    },
+    {
+      "title": "Umgangssprache rund um Krankheit",
+      "text": "Ausdrücke wie \"ça va pas fort\" (es geht nicht so gut) oder \"être barbouillé\" (sich unwohl fühlen) sind typisch informelle Formulierungen, die man von Ärzten selbst eher nicht hört, aber unter Freunden und Familie ständig verwendet werden."
+    }
+  ]
+}

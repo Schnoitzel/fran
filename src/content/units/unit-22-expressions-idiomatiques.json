@@ -1,0 +1,114 @@
+{
+  "id": "unit-22-expressions-idiomatiques",
+  "title": "Redewendungen & Sprichwörter",
+  "level": "B1",
+  "cefrTopic": "B1 - Idiomatische Ausdrücke im Alltag verstehen und benutzen",
+  "grammarNote": "Idiomatische Ausdrücke darf man nie wortwörtlich übersetzen — die Bedeutung ergibt sich aus dem Ausdruck als Ganzes, nicht aus den Einzelwörtern. Am besten lernst du sie als feste Blöcke auswendig, so wie \"poser un lapin\" (jemanden versetzen) — die wörtliche Übersetzung \"einen Hasen hinlegen\" ergibt für sich genommen keinen Sinn.",
+  "vocab": [
+    { "front": "avoir le cafard", "back": "deprimiert/down sein (wörtl.: die Kakerlake haben)", "register": "informal" },
+    { "front": "poser un lapin (à qn)", "back": "jmdn. versetzen (wörtl.: jmdm. einen Hasen hinlegen)", "register": "informal" },
+    { "front": "avoir un chat dans la gorge", "back": "einen Frosch im Hals haben (wörtl.: eine Katze im Hals haben)", "register": "informal" },
+    { "front": "coûter les yeux de la tête", "back": "ein Vermögen kosten (wörtl.: die Augen aus dem Kopf kosten)", "register": "informal" },
+    { "front": "il pleut des cordes", "back": "es regnet in Strömen (wörtl.: es regnet Seile)", "register": "informal" },
+    { "front": "mettre son grain de sel", "back": "seinen Senf dazugeben (wörtl.: sein Salzkorn hinzufügen)", "register": "informal" },
+    { "front": "avoir la pêche", "back": "gut drauf/voller Energie sein (wörtl.: den Pfirsich haben)", "register": "slang" },
+    { "front": "casser les pieds à qn", "back": "jmdm. auf die Nerven gehen (wörtl.: jmdm. die Füße kaputt machen)", "register": "informal" },
+    { "front": "tomber dans les pommes", "back": "ohnmächtig werden (wörtl.: in die Äpfel fallen)", "register": "informal" },
+    { "front": "avoir un poil dans la main", "back": "stinkfaul sein (wörtl.: ein Haar in der Hand haben)", "register": "slang" },
+    { "front": "faire la grasse matinée", "back": "ausschlafen (wörtl.: den fetten Morgen machen)", "register": "informal" },
+    { "front": "ne pas être dans son assiette", "back": "sich unwohl/angeschlagen fühlen (wörtl.: nicht auf seinem Teller sein)", "register": "informal" },
+    { "front": "raconter des salades", "back": "Lügengeschichten erzählen (wörtl.: Salate erzählen)", "register": "informal" },
+    { "front": "être une bonne poire", "back": "ein gutmütiger Naivling sein (wörtl.: eine gute Birne sein)", "register": "slang" },
+    { "front": "avoir le seum", "back": "stinksauer/frustriert sein (moderner Slang, aus dem Arabischen \"sem\" = Gift)", "register": "slang" },
+    { "front": "ça marche !", "back": "abgemacht! geht klar! (wörtl.: das läuft/funktioniert)", "register": "informal" },
+    { "front": "mettre les pieds dans le plat", "back": "ins Fettnäpfchen treten (wörtl.: die Füße in die Schüssel stecken)", "register": "informal" },
+    { "front": "chercher midi à quatorze heures", "back": "die Dinge unnötig verkomplizieren (wörtl.: um 14 Uhr nach Mittag suchen)", "register": "informal" },
+    { "front": "appeler un chat un chat", "back": "das Kind beim Namen nennen (wörtl.: eine Katze eine Katze nennen)", "register": "standard" },
+    { "front": "avoir d'autres chats à fouetter", "back": "Wichtigeres zu tun haben (wörtl.: andere Katzen zu peitschen haben)", "register": "informal" }
+  ],
+  "dialogue": [
+    { "speaker": "Camille", "fr": "Salut ! Ça va ? T'as pas l'air dans ton assiette.", "de": "Hi! Alles gut? Du siehst nicht aus, als ob es dir gut geht." },
+    { "speaker": "Hugo", "fr": "Non, j'ai le cafard depuis ce matin.", "de": "Nein, ich bin seit heute Morgen ziemlich deprimiert." },
+    { "speaker": "Camille", "fr": "Qu'est-ce qui se passe ?", "de": "Was ist denn los?" },
+    { "speaker": "Hugo", "fr": "Mon collègue m'a posé un lapin hier soir, on devait dîner ensemble.", "de": "Mein Kollege hat mich gestern Abend versetzt, wir wollten zusammen essen." },
+    { "speaker": "Camille", "fr": "Ah, ça craint. Il t'a donné une explication ou il t'a raconté des salades ?", "de": "Ah, das ist blöd. Hat er dir eine Erklärung gegeben oder dir was vorgelogen?" },
+    { "speaker": "Hugo", "fr": "Des salades, comme toujours. Et en plus, il pleut des cordes dehors.", "de": "Nur Lügengeschichten, wie immer. Und außerdem regnet es draußen in Strömen." },
+    { "speaker": "Camille", "fr": "Bon, arrête de chercher midi à quatorze heures, viens plutôt boire un café avec moi.", "de": "Na gut, hör auf, alles unnötig zu verkomplizieren, komm lieber einen Kaffee mit mir trinken." },
+    { "speaker": "Hugo", "fr": "D'accord, ça me fera du bien. J'ai un peu la pêche maintenant, en fait.", "de": "Ok, das wird mir guttun. Ich habe jetzt tatsächlich wieder etwas mehr Energie." },
+    { "speaker": "Camille", "fr": "Tu vois ! Et arrête de mettre ton grain de sel dans les histoires des autres, ça t'évitera des soucis.", "de": "Siehst du! Und hör auf, deinen Senf zu Geschichten anderer dazuzugeben, das erspart dir Ärger." },
+    { "speaker": "Hugo", "fr": "T'as raison. Bon, j'ai d'autres chats à fouetter de toute façon.", "de": "Du hast recht. Na gut, ich habe sowieso Wichtigeres zu tun." },
+    { "speaker": "Camille", "fr": "Ça marche, on se voit demain alors !", "de": "Abgemacht, dann sehen wir uns morgen!" }
+  ],
+  "listeningQuizzes": [
+    {
+      "audioText": "T'as pas l'air dans ton assiette.",
+      "question": "Was bedeutet dieser Ausdruck?",
+      "options": ["Du siehst nicht gut aus/fühlst dich nicht wohl", "Du hast keinen Teller", "Du hast Hunger"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Il m'a posé un lapin.",
+      "question": "Was ist passiert?",
+      "options": ["Er hat mich versetzt", "Er hat mir ein Kaninchen geschenkt", "Er hat mich angerufen"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Elle raconte des salades.",
+      "question": "Was bedeutet das?",
+      "options": ["Sie erzählt Lügengeschichten", "Sie kocht Gemüse", "Sie ist sehr höflich"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "J'ai le cafard aujourd'hui.",
+      "question": "Wie fühlt sich die Person?",
+      "options": ["Deprimiert/traurig", "Sehr glücklich", "Hungrig"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Il pleut des cordes.",
+      "question": "Was bedeutet dieser Ausdruck über das Wetter?",
+      "options": ["Es regnet stark/in Strömen", "Es ist sonnig", "Es schneit"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "J'ai d'autres chats à fouetter.",
+      "question": "Was will die Person damit sagen?",
+      "options": ["Sie hat Wichtigeres zu tun", "Sie mag Katzen", "Sie hat Tiere zu Hause"],
+      "correctIndex": 0
+    }
+  ],
+  "shadowingSentences": [
+    "T'as pas l'air dans ton assiette.",
+    "J'ai le cafard depuis ce matin.",
+    "Il m'a posé un lapin hier soir.",
+    "Elle raconte toujours des salades.",
+    "Il pleut des cordes dehors.",
+    "Arrête de chercher midi à quatorze heures.",
+    "J'ai la pêche aujourd'hui !",
+    "Ne mets pas ton grain de sel partout.",
+    "J'ai d'autres chats à fouetter.",
+    "Ça marche, à demain !"
+  ],
+  "culture": [
+    {
+      "title": "Warum so viele Tiere in französischen Redewendungen?",
+      "text": "Ausdrücke wie \"poser un lapin\", \"avoir un chat dans la gorge\", \"appeler un chat un chat\" oder \"être une bonne poire\" zeigen: Tiere und Alltagsgegenstände aus dem bäuerlichen Leben tauchen extrem häufig in französischen Redewendungen auf. Das liegt an den historischen, ländlichen Wurzeln vieler dieser Ausdrücke, die teils schon seit dem Mittelalter überliefert sind."
+    },
+    {
+      "title": "\"Poser un lapin\" — die Herkunft",
+      "text": "Der Ausdruck stammt aus dem 19. Jahrhundert. Damals bedeutete \"poser un lapin\" ursprünglich, jemandem etwas zu geben, ohne dafür zu bezahlen (z. B. bei einer Prostituierten, die nicht bezahlt wurde). Im Laufe der Zeit verschob sich die Bedeutung zu dem, was wir heute kennen: jemanden bei einer Verabredung versetzen, also nicht erscheinen."
+    },
+    {
+      "title": "\"Avoir le seum\" — ein moderner Import",
+      "text": "Der Ausdruck \"avoir le seum\" (stinksauer/frustriert sein) kommt aus dem Arabischen \"sem\" (سم, Gift) und wurde über den Slang der Pariser Banlieues und die Rap-Kultur in den letzten 15–20 Jahren zum festen Bestandteil der Jugendsprache. Er zeigt, dass sich das idiomatische Französisch ständig weiterentwickelt und neue Ausdrücke aus Einwanderersprachen aufnimmt."
+    },
+    {
+      "title": "Wortwörtlich übersetzen funktioniert nie",
+      "text": "Ein zentraler Lerntipp: Idiomatische Ausdrücke ergeben wortwörtlich übersetzt fast nie einen Sinn — \"coûter les yeux de la tête\" heißt nicht, dass etwas die Augen kostet, sondern schlicht \"ein Vermögen kosten\". Am effektivsten lernt man solche Ausdrücke als feste Blöcke, am besten direkt im Beispielsatz."
+    },
+    {
+      "title": "Sprichwörter vs. idiomatische Ausdrücke",
+      "text": "Man unterscheidet \"les expressions idiomatiques\" (alltägliche Redewendungen wie \"avoir la pêche\") von \"les proverbes\" (Sprichwörter mit einer allgemeinen Lebensweisheit), z. B. \"Petit à petit, l'oiseau fait son nid\" (wörtl.: Nach und nach baut der Vogel sein Nest — sinngemäß: Gut Ding will Weile haben)."
+    }
+  ]
+}

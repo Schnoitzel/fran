@@ -1,0 +1,114 @@
+{
+  "id": "unit-23-humour",
+  "title": "Französischer Humor & Ironie",
+  "level": "B1",
+  "cefrTopic": "B1 - Humor, Ironie und Sarkasmus im Gespräch erkennen",
+  "grammarNote": "\"Second degré\" (die ironische, nicht wörtlich gemeinte Ebene einer Aussage) ist ein zentrales Konzept im französischen Humor. Wer eine ironische Aussage wörtlich nimmt, wird gesagt \"prendre au premier degré\" — im ersten Grad nehmen. Diese Unterscheidung wird im Alltag ständig benutzt, um zu klären, ob etwas ernst gemeint war oder nicht.",
+  "vocab": [
+    { "front": "l'humour (m)", "back": "der Humor", "register": "standard" },
+    { "front": "une blague", "back": "ein Witz", "register": "standard" },
+    { "front": "rigoler", "back": "lachen, sich amüsieren", "register": "informal" },
+    { "front": "se marrer", "back": "sich totlachen, sich amüsieren", "register": "slang" },
+    { "front": "se foutre de la gueule de qn", "back": "sich über jmdn. lustig machen (derb)", "register": "slang" },
+    { "front": "l'ironie (f)", "back": "die Ironie", "register": "standard" },
+    { "front": "le second degré", "back": "die ironische/doppelbödige Ebene einer Aussage", "register": "standard" },
+    { "front": "au premier degré", "back": "wörtlich/ernst genommen (ohne die Ironie zu erkennen)", "register": "standard" },
+    { "front": "un jeu de mots", "back": "ein Wortspiel", "register": "standard" },
+    { "front": "une vanne", "back": "ein scherzhafter Spruch, ein Sticheln", "register": "slang" },
+    { "front": "balancer une vanne", "back": "einen Spruch/Witz raushauen", "register": "slang" },
+    { "front": "se moquer de qn", "back": "sich über jmdn. lustig machen", "register": "standard" },
+    { "front": "l'autodérision (f)", "back": "die Selbstironie", "register": "standard" },
+    { "front": "faire de l'humour noir", "back": "schwarzen Humor machen", "register": "standard" },
+    { "front": "sarcastique", "back": "sarkastisch", "register": "standard" },
+    { "front": "un(e) humoriste", "back": "ein(e) Komiker(in)", "register": "standard" },
+    { "front": "drôle", "back": "lustig, komisch", "register": "standard" },
+    { "front": "hilarant(e)", "back": "urkomisch", "register": "standard" },
+    { "front": "mort de rire (MDR)", "back": "totlachen (auch als Abkürzung wie \"LOL\")", "register": "slang" },
+    { "front": "avoir de l'humour", "back": "Humor haben", "register": "standard" }
+  ],
+  "dialogue": [
+    { "speaker": "Inès", "fr": "T'as vu la vanne que Paul a balancée hier ?", "de": "Hast du den Spruch gesehen, den Paul gestern rausgehauen hat?" },
+    { "speaker": "Théo", "fr": "Non, raconte !", "de": "Nein, erzähl!" },
+    { "speaker": "Inès", "fr": "Il a dit que son patron était tellement gentil qu'il l'avait viré avec le sourire.", "de": "Er hat gesagt, sein Chef sei so nett, dass er ihn mit einem Lächeln gefeuert hat." },
+    { "speaker": "Théo", "fr": "Haha, c'est de l'ironie, ça ! Il se moque clairement de son patron.", "de": "Haha, das ist Ironie! Er macht sich eindeutig über seinen Chef lustig." },
+    { "speaker": "Inès", "fr": "Ouais, mais y'a des gens qui ont pris ça au premier degré et qui l'ont cru !", "de": "Ja, aber manche Leute haben das wörtlich genommen und es geglaubt!" },
+    { "speaker": "Théo", "fr": "MDR, sérieux ? Faut vraiment comprendre le second degré parfois.", "de": "Haha, wirklich? Man muss echt manchmal die ironische Ebene verstehen." },
+    { "speaker": "Inès", "fr": "Je me suis trop marrée. Paul a un humour noir incroyable.", "de": "Ich habe mich total kaputtgelacht. Paul hat einen unglaublichen schwarzen Humor." },
+    { "speaker": "Théo", "fr": "Et en plus, il fait toujours de l'autodérision, il se moque de lui-même avant de se moquer des autres.", "de": "Und außerdem macht er immer Selbstironie, er macht sich über sich selbst lustig, bevor er sich über andere lustig macht." },
+    { "speaker": "Inès", "fr": "C'est ça qui est drôle chez lui, il n'est jamais méchant, juste sarcastique.", "de": "Das ist es, was an ihm lustig ist, er ist nie gemein, nur sarkastisch." },
+    { "speaker": "Théo", "fr": "Bon, arrête de te foutre de ma gueule alors, et raconte-moi une autre blague !", "de": "Gut, dann hör auf, dich über mich lustig zu machen, und erzähl mir einen anderen Witz!" },
+    { "speaker": "Inès", "fr": "Haha, ok ! Pourquoi les Français aiment tant les jeux de mots ? Parce que c'est du pain béni pour l'humour !", "de": "Haha, ok! Warum lieben die Franzosen Wortspiele so sehr? Weil das ein gefundenes Fressen für den Humor ist!" }
+  ],
+  "listeningQuizzes": [
+    {
+      "audioText": "C'est de l'ironie, il se moque de son patron.",
+      "question": "Was bedeutet \"ironie\" in diesem Kontext?",
+      "options": ["Er meint das Gegenteil von dem, was er sagt", "Er ist wirklich böse", "Er lobt seinen Chef ernsthaft"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Je me suis trop marrée hier soir.",
+      "question": "Was bedeutet \"se marrer\"?",
+      "options": ["Sich sehr amüsieren/lachen", "Sich streiten", "Sich langweilen"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Il faut comprendre le second degré.",
+      "question": "Was bedeutet \"le second degré\"?",
+      "options": ["Die ironische, nicht wörtlich gemeinte Ebene einer Aussage", "Die zweite Schulklasse", "Die zweite Verbrennungsstufe"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Arrête de te foutre de ma gueule !",
+      "question": "Was bedeutet dieser (derbe) Ausdruck?",
+      "options": ["Hör auf, dich über mich lustig zu machen", "Hör auf zu schreien", "Hör auf zu essen"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Il fait toujours de l'autodérision.",
+      "question": "Was bedeutet \"l'autodérision\"?",
+      "options": ["Sich selbst auf die Schippe nehmen/Selbstironie", "Sich über andere lustig machen", "Sich beleidigt fühlen"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "C'est hilarant !",
+      "question": "Was drückt diese Reaktion aus?",
+      "options": ["Etwas ist urkomisch", "Etwas ist traurig", "Etwas ist langweilig"],
+      "correctIndex": 0
+    }
+  ],
+  "shadowingSentences": [
+    "T'as vu la vanne que Paul a balancée ?",
+    "Il se moque clairement de son patron.",
+    "C'est de l'ironie, pas du premier degré.",
+    "Je me suis trop marrée hier soir.",
+    "Il a un humour noir incroyable.",
+    "Il fait toujours de l'autodérision.",
+    "Arrête de te foutre de ma gueule.",
+    "C'est hilarant, cette blague !",
+    "Elle adore les jeux de mots.",
+    "Il est sarcastique, mais pas méchant."
+  ],
+  "culture": [
+    {
+      "title": "Der \"second degré\" als kulturelle Grundregel",
+      "text": "Der französische Humor lebt stark von Ironie und doppelten Böden. Eine Aussage \"au second degré\" zu machen bedeutet, das Gegenteil von dem zu sagen, was man wirklich meint, oder bewusst zu übertreiben. Wer das nicht erkennt und alles wörtlich nimmt (\"prendre au premier degré\"), gilt schnell als naiv oder humorlos — ein wichtiges soziolinguistisches Konzept, das man im Alltag und in Gesprächen ständig braucht."
+    },
+    {
+      "title": "Schwarzer Humor (l'humour noir)",
+      "text": "Frankreich hat eine lange Tradition des schwarzen Humors, der auch heikle oder tabuisierte Themen (Tod, Politik, Religion) satirisch aufgreift. Das bekannteste Beispiel ist das Satiremagazin \"Charlie Hebdo\", aber auch Komiker wie Coluche standen für einen respektlosen, provokanten Stil. Im Vergleich zu manchen anglo-amerikanischen Höflichkeitsnormen wirkt französischer Humor oft direkter und schärfer."
+    },
+    {
+      "title": "Selbstironie als Stilmittel",
+      "text": "\"L'autodérision\" — sich über sich selbst lustig zu machen, bevor andere es tun — gilt in Frankreich als Zeichen von Intelligenz und Bescheidenheit. Komiker:innen wie Gad Elmaleh oder Florence Foresti bauen einen Großteil ihres Humors auf Selbstironie auf, statt sich nur über andere lustig zu machen."
+    },
+    {
+      "title": "Der Wortspiel-Reflex",
+      "text": "Franzosen lieben \"les jeux de mots\" (Wortspiele) und \"les calembours\" (Kalauer). Zeitungs- und Magazintitel spielen ständig mit Doppeldeutigkeiten — ein berühmtes Beispiel ist der Name der Satirezeitung \"Le Canard Enchaîné\" (wörtl. \"die angekettete Ente\", ein Wortspiel mit \"canard\" als umgangssprachlichem Wort für Zeitung)."
+    },
+    {
+      "title": "Wenn Humor schiefgeht: der \"bad buzz\"",
+      "text": "Auch in Frankreich kann ein ironischer Kommentar online aus dem Kontext gerissen werden und einen \"bad buzz\" (einen Shitstorm) auslösen. Deshalb markieren viele Franzosen ironische Aussagen im Internet bewusst mit Zusätzen wie \"#sarcasme\" oder dem Emoji 🙃, um Missverständnisse zu vermeiden."
+    }
+  ]
+}

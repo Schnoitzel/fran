@@ -1,0 +1,127 @@
+{
+  "id": "unit-27-debattre",
+  "title": "Diskutieren & Meinung vertreten",
+  "level": "B1",
+  "cefrTopic": "B1 - Eine Meinung äußern, begründen und diskutieren",
+  "grammarNote": "Nach Ausdrücken der Meinung wie \"je pense que\" oder \"je trouve que\" steht meist der Indikativ, weil man etwas als Tatsache darstellt: \"Je pense qu'il a raison\". Bei Zweifel oder Ablehnung (\"je ne pense pas que\", \"je ne crois pas que\") folgt dagegen oft der Subjonctif: \"Je ne pense pas qu'il ait raison\". Auch praktisch: \"selon moi\" und \"à mon avis\" stehen am Satzanfang oder -ende, ohne \"que\" danach.",
+  "vocab": [
+    { "front": "à mon avis", "back": "meiner Meinung nach" },
+    { "front": "je pense que...", "back": "ich denke, dass..." },
+    { "front": "je trouve que...", "back": "ich finde, dass..." },
+    { "front": "selon moi", "back": "meiner Ansicht nach" },
+    { "front": "je suis d'accord avec toi", "back": "ich bin mit dir einverstanden" },
+    { "front": "je ne suis pas d'accord", "back": "ich bin nicht einverstanden" },
+    { "front": "au contraire", "back": "im Gegenteil" },
+    { "front": "d'un côté... de l'autre côté...", "back": "einerseits... andererseits..." },
+    { "front": "c'est vrai que...", "back": "es stimmt, dass..." },
+    { "front": "ça dépend", "back": "das kommt drauf an" },
+    { "front": "tu n'as pas tort", "back": "du hast nicht unrecht" },
+    { "front": "n'importe quoi !", "back": "Quatsch! / völliger Unsinn! (umgangssprachlich)", "register": "informal" },
+    { "front": "c'est n'importe quoi", "back": "das ist völliger Blödsinn (umgangssprachlich)", "register": "informal" },
+    { "front": "grave !", "back": "voll! / total! (Zustimmung, sehr umgangssprachlich)", "register": "slang" },
+    { "front": "carrément", "back": "absolut / total (umgangssprachlich)", "register": "informal" },
+    { "front": "franchement", "back": "ehrlich gesagt" },
+    { "front": "en fait", "back": "eigentlich / tatsächlich" },
+    { "front": "un débat", "back": "eine Debatte" },
+    { "front": "un argument", "back": "ein Argument" },
+    { "front": "avoir raison / avoir tort", "back": "recht haben / unrecht haben" },
+    { "front": "changer d'avis", "back": "seine Meinung ändern" }
+  ],
+  "dialogue": [
+    { "speaker": "Sami", "fr": "Alors, à mon avis, on devrait interdire les voitures en centre-ville.", "de": "Also, meiner Meinung nach sollte man Autos in der Innenstadt verbieten." },
+    { "speaker": "Elodie", "fr": "Je ne suis pas totalement d'accord. C'est vrai que ça réduirait la pollution, mais ce serait compliqué pour les commerçants.", "de": "Ich bin nicht ganz einverstanden. Es stimmt, dass es die Verschmutzung reduzieren würde, aber das wäre kompliziert für die Geschäftsleute." },
+    { "speaker": "Sami", "fr": "D'un côté, oui, mais de l'autre côté, on pourrait développer les transports en commun.", "de": "Einerseits ja, aber andererseits könnte man die öffentlichen Verkehrsmittel ausbauen." },
+    { "speaker": "Elodie", "fr": "Ça dépend des villes, franchement. À Paris, ça marcherait, mais dans les petites villes, c'est n'importe quoi.", "de": "Das kommt auf die Stadt an, ehrlich gesagt. In Paris würde es klappen, aber in kleinen Städten wäre das völliger Blödsinn." },
+    { "speaker": "Sami", "fr": "Tu n'as pas tort. Mais je trouve qu'il faut quand même agir pour l'environnement.", "de": "Du hast nicht unrecht. Aber ich finde, man muss trotzdem für die Umwelt handeln." },
+    { "speaker": "Elodie", "fr": "Je suis d'accord avec toi là-dessus, carrément.", "de": "Da bin ich total mit dir einverstanden." },
+    { "speaker": "Sami", "fr": "Et pour le télétravail, tu en penses quoi ?", "de": "Und was denkst du über Homeoffice?" },
+    { "speaker": "Elodie", "fr": "Selon moi, c'est génial pour l'équilibre vie pro-vie perso.", "de": "Meiner Ansicht nach ist das super für die Work-Life-Balance." },
+    { "speaker": "Sami", "fr": "Au contraire, moi je préfère aller au bureau, sinon je me sens isolé.", "de": "Im Gegenteil, ich gehe lieber ins Büro, sonst fühle ich mich isoliert." },
+    { "speaker": "Elodie", "fr": "Grave, chacun son truc en fait. Il n'y a pas de vérité absolue.", "de": "Voll, jedem sein Ding eigentlich. Es gibt keine absolute Wahrheit." },
+    { "speaker": "Sami", "fr": "Exactement, on ne va pas changer d'avis ce soir, mais c'était un bon débat.", "de": "Genau, wir werden heute Abend nicht unsere Meinung ändern, aber das war eine gute Debatte." }
+  ],
+  "listeningQuizzes": [
+    {
+      "audioText": "À mon avis, on devrait interdire les voitures en centre-ville.",
+      "question": "Was macht die Person mit diesem Satz?",
+      "options": ["Sie äußert eine persönliche Meinung", "Sie stellt eine Frage", "Sie entschuldigt sich"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Je ne suis pas totalement d'accord.",
+      "question": "Was bedeutet dieser Satz?",
+      "options": [
+        "Teilweise Ablehnung/Widerspruch",
+        "Volle Zustimmung",
+        "Eine Entschuldigung"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "D'un côté, oui, mais de l'autre côté, on pourrait développer les transports en commun.",
+      "question": "Welche Satzstruktur wird hier verwendet?",
+      "options": [
+        "Einerseits/andererseits (zwei Seiten abwägen)",
+        "Eine reine Ablehnung",
+        "Eine Entschuldigung"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "C'est n'importe quoi, franchement.",
+      "question": "Was drückt dieser umgangssprachliche Ausdruck aus?",
+      "options": [
+        "Starke Ablehnung/Kritik (das ist Unsinn)",
+        "Große Zustimmung",
+        "Unsicherheit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Je suis d'accord avec toi là-dessus, carrément.",
+      "question": "Was bedeutet \"carrément\" hier?",
+      "options": [
+        "Total / absolut (verstärkt die Zustimmung)",
+        "Vielleicht",
+        "Niemals"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "On ne va pas changer d'avis ce soir, mais c'était un bon débat.",
+      "question": "Was ist das Ergebnis der Diskussion?",
+      "options": [
+        "Beide bleiben bei ihrer Meinung, fanden die Debatte aber gut",
+        "Einer hat den anderen überzeugt",
+        "Beide sind wütend geworden"
+      ],
+      "correctIndex": 0
+    }
+  ],
+  "shadowingSentences": [
+    "À mon avis, on devrait interdire les voitures en centre-ville.",
+    "Je ne suis pas totalement d'accord.",
+    "C'est vrai que ça réduirait la pollution.",
+    "D'un côté, oui, mais de l'autre côté...",
+    "Ça dépend des villes, franchement.",
+    "Tu n'as pas tort.",
+    "Je suis d'accord avec toi là-dessus, carrément.",
+    "Selon moi, c'est génial pour l'équilibre vie pro-vie perso.",
+    "Au contraire, moi je préfère aller au bureau.",
+    "On ne va pas changer d'avis ce soir, mais c'était un bon débat."
+  ],
+  "culture": [
+    {
+      "title": "Debattierkultur in Frankreich",
+      "text": "Diskutieren und widersprechen gehört in Frankreich zur Alltagskultur — schon in der Schule wird \"la dissertation\" (Erörterung) trainiert, bei der man These, Antithese und Synthese abwägt. Ein energisches Debattieren beim Essen wird selten als unhöflich empfunden, sondern eher als Zeichen von Interesse am Gespräch."
+    },
+    {
+      "title": "\"Non, mais...\" als Gesprächseinstieg",
+      "text": "Franzosen beginnen einen Widerspruch oft mit \"Non, mais...\" (Nein, aber...), auch wenn sie eigentlich zustimmen wollen. Das ist keine echte Ablehnung, sondern eine rhetorische Angewohnheit, um die eigene Perspektive einzuleiten."
+    },
+    {
+      "title": "Fernsehdebatten als Nationalsport",
+      "text": "Politische Fernsehdebatten, besonders vor Präsidentschaftswahlen, werden in Frankreich sehr aufmerksam verfolgt und tags darauf ausführlich am Arbeitsplatz oder unter Freunden besprochen — Meinungsaustausch über Politik ist gesellschaftlich weit verbreitet."
+    }
+  ]
+}

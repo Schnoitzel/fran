@@ -1,0 +1,103 @@
+{
+  "id": "unit-05-restaurant",
+  "title": "Essen & Trinken, Café & Restaurant",
+  "level": "A1",
+  "cefrTopic": "A1 - Essen, Café & Restaurant",
+  "grammarNote": "Um etwas zu bestellen, benutzt man oft \"je voudrais\" (ich hätte gerne) — höflicher als \"je veux\" (ich will): \"Je voudrais un café, s'il te plaît.\" Für Mengenangaben nutzt man \"un peu de\", \"beaucoup de\" ohne Artikel: \"un peu de sucre\", \"beaucoup d'eau\".",
+  "vocab": [
+    { "front": "un café", "back": "ein Kaffee (Espresso)" },
+    { "front": "un café au lait", "back": "ein Milchkaffee" },
+    { "front": "un thé", "back": "ein Tee" },
+    { "front": "de l'eau", "back": "Wasser" },
+    { "front": "un jus d'orange", "back": "ein Orangensaft" },
+    { "front": "le pain", "back": "das Brot" },
+    { "front": "le fromage", "back": "der Käse" },
+    { "front": "la viande", "back": "das Fleisch" },
+    { "front": "les légumes", "back": "das Gemüse" },
+    { "front": "un dessert", "back": "ein Nachtisch" },
+    { "front": "l'addition", "back": "die Rechnung" },
+    { "front": "Je voudrais...", "back": "Ich hätte gerne..." },
+    { "front": "l'entrée, le plat, le dessert", "back": "die Vorspeise, das Hauptgericht, der Nachtisch" },
+    { "front": "Qu'est-ce que tu prends ?", "back": "Was nimmst du?" },
+    { "front": "C'est délicieux !", "back": "Das ist köstlich!" },
+    { "front": "Bon appétit !", "back": "Guten Appetit!" },
+    { "front": "j'ai la dalle", "back": "ich hab riesigen Hunger", "register": "slang" },
+    { "front": "c'est trop bon", "back": "das ist voll lecker (informell)", "register": "informal" },
+    { "front": "un pote", "back": "ein Kumpel", "register": "informal" },
+    { "front": "avoir la pêche", "back": "gut drauf sein / fit sein", "register": "slang" },
+    { "front": "avoir soif", "back": "durstig sein" },
+    { "front": "avoir faim", "back": "hungrig sein" },
+    { "front": "l'addition, s'il te plaît", "back": "die Rechnung, bitte" }
+  ],
+  "dialogue": [
+    { "speaker": "Serveur", "fr": "Bonjour, qu'est-ce que vous prenez ?", "de": "Guten Tag, was möchten Sie nehmen?" },
+    { "speaker": "Léo", "fr": "Salut ! J'ai la dalle, je prends un steak-frites.", "de": "Hi! Ich hab riesigen Hunger, ich nehme ein Steak mit Pommes." },
+    { "speaker": "Mia", "fr": "Moi, je voudrais juste une salade et de l'eau, s'il vous plaît.", "de": "Ich hätte gerne nur einen Salat und Wasser, bitte." },
+    { "speaker": "Serveur", "fr": "Et comme boisson pour vous, monsieur ?", "de": "Und als Getränk für Sie, mein Herr?" },
+    { "speaker": "Léo", "fr": "Un jus d'orange, merci.", "de": "Einen Orangensaft, danke." },
+    { "speaker": "Mia", "fr": "Le steak est arrivé, c'est trop bon !", "de": "Das Steak ist da, das ist voll lecker!" },
+    { "speaker": "Léo", "fr": "Ouais, c'est délicieux. Tu veux goûter ?", "de": "Ja, das ist köstlich. Willst du probieren?" },
+    { "speaker": "Mia", "fr": "Volontiers ! On prend un dessert après ?", "de": "Gerne! Nehmen wir danach einen Nachtisch?" },
+    { "speaker": "Léo", "fr": "Carrément, j'ai encore un peu de place.", "de": "Auf jeden Fall, ich hab noch ein bisschen Platz." },
+    { "speaker": "Mia", "fr": "L'addition, s'il vous plaît !", "de": "Die Rechnung, bitte!" },
+    { "speaker": "Serveur", "fr": "Voilà, bonne soirée à vous !", "de": "Bitte sehr, einen schönen Abend noch!" }
+  ],
+  "listeningQuizzes": [
+    {
+      "audioText": "J'ai la dalle, je prends un steak-frites.",
+      "question": "Was drückt \"j'ai la dalle\" aus?",
+      "options": ["Großen Hunger", "Großen Durst", "Müdigkeit"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Je voudrais une salade et de l'eau, s'il vous plaît.",
+      "question": "Was bestellt die Person?",
+      "options": ["Einen Salat und Wasser", "Ein Steak und Saft", "Nur Brot"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "C'est trop bon, ce steak !",
+      "question": "Wie findet die Person das Steak?",
+      "options": ["Sehr lecker", "Nicht gut", "Zu teuer"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "L'addition, s'il vous plaît !",
+      "question": "Worum bittet die Person?",
+      "options": ["Um die Rechnung", "Um mehr Brot", "Um einen Tisch"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "On prend un dessert après ?",
+      "question": "Was schlägt die Person vor?",
+      "options": ["Einen Nachtisch danach zu nehmen", "Sofort zu bezahlen", "Nach Hause zu gehen"],
+      "correctIndex": 0
+    }
+  ],
+  "shadowingSentences": [
+    "Qu'est-ce que tu prends ?",
+    "Je voudrais un café, s'il te plaît.",
+    "J'ai la dalle, on mange ?",
+    "C'est trop bon, ce plat !",
+    "Bon appétit !",
+    "Tu veux goûter mon dessert ?",
+    "On prend l'addition ?",
+    "L'addition, s'il vous plaît.",
+    "J'ai soif, je prends de l'eau.",
+    "C'était délicieux, merci."
+  ],
+  "culture": [
+    {
+      "title": "Der klassische Rhythmus: Entrée, Plat, Dessert",
+      "text": "Ein typisches französisches Menü besteht aus drei Gängen: \"entrée\" (Vorspeise), \"plat\" (Hauptgericht) und \"dessert\" (Nachtisch). Auch zu Hause wird oft in dieser Reihenfolge gegessen, wenn auch informeller."
+    },
+    {
+      "title": "Wasser ist nicht automatisch gratis",
+      "text": "In Frankreich bekommt man auf Nachfrage meist kostenloses Leitungswasser (\"une carafe d'eau\"), das muss man aber oft explizit bestellen — sonst bringt der Kellner automatisch teureres Flaschenwasser."
+    },
+    {
+      "title": "Trinkgeld ist nicht Pflicht",
+      "text": "Der Service (\"service compris\") ist in Frankreich meist schon im Preis enthalten. Ein kleines Trinkgeld (ein paar Euro aufrunden) ist bei gutem Service üblich, aber keine zwingende Verpflichtung wie in manchen anderen Ländern."
+    }
+  ]
+}

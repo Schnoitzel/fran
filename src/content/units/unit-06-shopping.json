@@ -1,0 +1,103 @@
+{
+  "id": "unit-06-shopping",
+  "title": "Einkaufen & Preise",
+  "level": "A1",
+  "cefrTopic": "A1 - Einkaufen & Preise",
+  "grammarNote": "Um nach dem Preis zu fragen, sagt man \"Combien ça coûte ?\" oder kurz \"C'est combien ?\". Preise werden mit \"euros\" ausgesprochen: \"Ça fait quinze euros.\" Das Verb \"coûter\" wird wie ein regelmäßiges -er-Verb konjugiert: ça coûte, ils/elles coûtent.",
+  "vocab": [
+    { "front": "un magasin", "back": "ein Geschäft" },
+    { "front": "le marché", "back": "der Markt" },
+    { "front": "la caisse", "back": "die Kasse" },
+    { "front": "C'est combien ?", "back": "Wie viel kostet das?" },
+    { "front": "Ça coûte combien ?", "back": "Wie viel kostet das?" },
+    { "front": "Ça fait...", "back": "Das macht... (Preis)" },
+    { "front": "cher / pas cher", "back": "teuer / nicht teuer" },
+    { "front": "en solde", "back": "im Ausverkauf" },
+    { "front": "une réduction", "back": "ein Rabatt" },
+    { "front": "payer en espèces", "back": "bar bezahlen" },
+    { "front": "payer par carte", "back": "mit Karte bezahlen" },
+    { "front": "un sac", "back": "eine Tasche / Tüte" },
+    { "front": "la taille", "back": "die Größe (Kleidung)" },
+    { "front": "essayer", "back": "anprobieren / ausprobieren" },
+    { "front": "Je peux vous aider ?", "back": "Kann ich Ihnen helfen?" },
+    { "front": "Je regarde, merci", "back": "Ich schau nur, danke" },
+    { "front": "ça coûte un bras", "back": "das kostet ein Vermögen (wörtl. einen Arm)", "register": "slang" },
+    { "front": "c'est donné", "back": "das ist spottbillig (informell)", "register": "informal" },
+    { "front": "fauché(e)", "back": "pleite (informell)", "register": "informal" },
+    { "front": "du fric", "back": "Kohle / Geld", "register": "slang" },
+    { "front": "arnaquer", "back": "abzocken / betrügen (informell)", "register": "informal" },
+    { "front": "un bon plan", "back": "ein guter Tipp / Schnäppchen", "register": "informal" },
+    { "front": "rendre la monnaie", "back": "Wechselgeld herausgeben" }
+  ],
+  "dialogue": [
+    { "speaker": "Vendeuse", "fr": "Bonjour, je peux vous aider ?", "de": "Guten Tag, kann ich Ihnen helfen?" },
+    { "speaker": "Yanis", "fr": "Oui, c'est combien, ce pull ?", "de": "Ja, wie viel kostet dieser Pullover?" },
+    { "speaker": "Vendeuse", "fr": "Il est en solde, ça fait vingt euros.", "de": "Er ist im Ausverkauf, das macht zwanzig Euro." },
+    { "speaker": "Yanis", "fr": "Vingt euros, c'est donné ! Je peux l'essayer ?", "de": "Zwanzig Euro, das ist spottbillig! Kann ich ihn anprobieren?" },
+    { "speaker": "Vendeuse", "fr": "Bien sûr, quelle taille faites-vous ?", "de": "Natürlich, welche Größe haben Sie?" },
+    { "speaker": "Yanis", "fr": "Je fais du M, je crois.", "de": "Ich habe M, glaube ich." },
+    { "speaker": "Vendeuse", "fr": "Voilà, la cabine est là-bas.", "de": "Bitte sehr, die Kabine ist dort drüben." },
+    { "speaker": "Yanis", "fr": "Parfait, il me va super bien. Je le prends !", "de": "Perfekt, er passt mir super gut. Ich nehme ihn!" },
+    { "speaker": "Vendeuse", "fr": "Vous payez en espèces ou par carte ?", "de": "Zahlen Sie bar oder mit Karte?" },
+    { "speaker": "Yanis", "fr": "Par carte, s'il vous plaît. Je suis un peu fauché ce mois-ci !", "de": "Mit Karte, bitte. Ich bin diesen Monat etwas pleite!" },
+    { "speaker": "Vendeuse", "fr": "Pas de souci, voici votre sac, bonne journée !", "de": "Kein Problem, hier ist Ihre Tüte, schönen Tag noch!" }
+  ],
+  "listeningQuizzes": [
+    {
+      "audioText": "C'est combien, ce pull ?",
+      "question": "Wonach fragt die Person?",
+      "options": ["Nach dem Preis eines Pullovers", "Nach der Öffnungszeit", "Nach dem Weg"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Il est en solde, ça fait vingt euros.",
+      "question": "Wie viel kostet der Pullover?",
+      "options": ["20 Euro", "12 Euro", "30 Euro"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Vingt euros, c'est donné !",
+      "question": "Was meint die Person mit \"c'est donné\"?",
+      "options": ["Das ist sehr billig", "Das ist zu teuer", "Das ist geschenkt worden"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Vous payez en espèces ou par carte ?",
+      "question": "Wonach wird gefragt?",
+      "options": ["Nach der Zahlungsart", "Nach der Größe", "Nach der Farbe"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Je suis un peu fauché ce mois-ci.",
+      "question": "Was bedeutet \"fauché\" hier?",
+      "options": ["Pleite / wenig Geld", "Sehr reich", "Sehr müde"],
+      "correctIndex": 0
+    }
+  ],
+  "shadowingSentences": [
+    "C'est combien, ce pull ?",
+    "Ça fait vingt euros.",
+    "Je peux l'essayer ?",
+    "Quelle taille faites-vous ?",
+    "Je le prends !",
+    "Vous payez en espèces ou par carte ?",
+    "C'est donné, ce prix !",
+    "Je suis un peu fauché ce mois-ci.",
+    "Ça coûte un bras, ce sac !",
+    "Bonne journée, merci !"
+  ],
+  "culture": [
+    {
+      "title": "Öffnungszeiten und Mittagspause",
+      "text": "Kleinere Geschäfte in Frankreich, besonders außerhalb großer Städte, schließen oft über Mittag (12–14 Uhr) und sind sonntags geschlossen. Es lohnt sich, vorher die Öffnungszeiten zu prüfen."
+    },
+    {
+      "title": "Märkte statt Supermärkte",
+      "text": "Wochenmärkte (\"le marché\") sind in Frankreich sehr beliebt für frisches Obst, Gemüse, Käse und Brot. Hier ist ein freundliches \"Bonjour\" beim Ankommen und ein \"Merci, au revoir\" beim Gehen fast Pflicht — anders als im anonymen Supermarkt."
+    },
+    {
+      "title": "\"Ça coûte un bras\" & Co.",
+      "text": "Umgangssprachliche Ausdrücke rund ums Geld sind im Alltag sehr verbreitet: \"ça coûte un bras\" (das kostet ein Vermögen), \"être fauché\" (pleite sein) oder \"du fric\" (Kohle) hört man ständig unter Freunden, in offiziellen Situationen sollte man aber neutralere Wörter wie \"argent\" nutzen."
+    }
+  ]
+}

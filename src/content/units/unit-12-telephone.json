@@ -1,0 +1,102 @@
+{
+  "id": "unit-12-telephone",
+  "title": "Telefonieren & Verabredungen",
+  "level": "A2",
+  "cefrTopic": "A2 - Telefonieren, Verabredungen treffen und ändern",
+  "grammarNote": "Für Verabredungen in der nahen Zukunft nutzt man das futur proche: \"aller\" (im Präsens konjugiert) + Infinitiv, z. B. \"On va se voir demain\" (Wir werden uns morgen sehen), \"Je vais t'appeler ce soir\" (Ich werde dich heute Abend anrufen). Das ist im gesprochenen Französisch viel gebräuchlicher als das echte futur simple.",
+  "vocab": [
+    { "front": "Passer un coup de fil", "back": "Anrufen (informell)", "register": "informal" },
+    { "front": "Appeler quelqu'un", "back": "Jemanden anrufen" },
+    { "front": "Décrocher", "back": "Abnehmen (Telefon)" },
+    { "front": "Raccrocher", "back": "Auflegen (Telefon)" },
+    { "front": "Laisser un message", "back": "Eine Nachricht hinterlassen" },
+    { "front": "Envoyer un texto / SMS", "back": "Eine SMS schreiben" },
+    { "front": "Rappeler", "back": "Zurückrufen" },
+    { "front": "Un rendez-vous", "back": "Ein Termin / eine Verabredung" },
+    { "front": "Fixer un rendez-vous", "back": "Einen Termin ausmachen" },
+    { "front": "Annuler un rendez-vous", "back": "Einen Termin absagen" },
+    { "front": "Reporter", "back": "Verschieben (einen Termin)" },
+    { "front": "Poser un lapin", "back": "Jemanden versetzen (Redewendung)", "register": "informal" },
+    { "front": "T'es dispo ?", "back": "Hast du Zeit? (informell)", "register": "informal" },
+    { "front": "Je suis pris(e)", "back": "Ich bin verhindert / beschäftigt" },
+    { "front": "Ça marche !", "back": "Passt! / Ist gebongt! (informell)", "register": "informal" },
+    { "front": "On se capte", "back": "Wir hören/sehen uns (Slang)", "register": "slang" },
+    { "front": "Grave occupé(e)", "back": "Total beschäftigt (Slang)", "register": "slang" },
+    { "front": "Le portable", "back": "Das Handy" },
+    { "front": "Être en ligne", "back": "In der Leitung sein (telefonieren)" },
+    { "front": "Ne quittez pas", "back": "Bleiben Sie dran (am Telefon)" },
+    { "front": "Un répondeur", "back": "Ein Anrufbeantworter" }
+  ],
+  "dialogue": [
+    { "speaker": "Léo", "fr": "Allô ? C'est Léo, tu m'entends ?", "de": "Hallo? Hier ist Léo, hörst du mich?" },
+    { "speaker": "Manon", "fr": "Salut Léo, oui je t'entends bien !", "de": "Hi Léo, ja ich höre dich gut!" },
+    { "speaker": "Léo", "fr": "Je te passe un coup de fil pour notre rendez-vous de vendredi.", "de": "Ich rufe dich wegen unserem Termin am Freitag an." },
+    { "speaker": "Manon", "fr": "Ah oui, t'es toujours dispo ?", "de": "Ah ja, hast du immer noch Zeit?" },
+    { "speaker": "Léo", "fr": "En fait non, je suis grave occupé ce jour-là. On peut reporter ?", "de": "Eigentlich nein, ich bin an dem Tag total beschäftigt. Können wir verschieben?" },
+    { "speaker": "Manon", "fr": "Pas de souci. Samedi, ça te va ?", "de": "Kein Problem. Passt dir Samstag?" },
+    { "speaker": "Léo", "fr": "Ça marche ! On dit 15h ?", "de": "Passt! Sagen wir 15 Uhr?" },
+    { "speaker": "Manon", "fr": "Parfait. Surtout, ne me pose pas un lapin cette fois !", "de": "Perfekt. Vor allem versetz mich diesmal nicht!" },
+    { "speaker": "Léo", "fr": "Haha, promis ! Je t'envoie un texto samedi matin pour confirmer.", "de": "Haha, versprochen! Ich schicke dir Samstagmorgen eine SMS zur Bestätigung." },
+    { "speaker": "Manon", "fr": "Cool. Bon, je dois raccrocher, j'ai un autre appel.", "de": "Cool. Gut, ich muss auflegen, ich habe einen anderen Anruf." },
+    { "speaker": "Léo", "fr": "D'accord, on se capte plus tard alors.", "de": "Okay, wir hören uns dann später." },
+    { "speaker": "Manon", "fr": "À samedi !", "de": "Bis Samstag!" }
+  ],
+  "listeningQuizzes": [
+    {
+      "audioText": "Je te passe un coup de fil pour notre rendez-vous de vendredi.",
+      "question": "Warum ruft die Person an?",
+      "options": ["Wegen eines Termins am Freitag", "Um sich zu entschuldigen", "Um einen Job anzubieten"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Je suis grave occupé ce jour-là.",
+      "question": "Was bedeutet \"grave occupé\" hier?",
+      "options": ["Sehr / total beschäftigt", "Überhaupt nicht beschäftigt", "Ein bisschen müde"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Surtout, ne me pose pas un lapin cette fois !",
+      "question": "Was bedeutet \"poser un lapin\" jemandem?",
+      "options": ["Jemanden versetzen / nicht zum Termin erscheinen", "Jemanden anrufen", "Jemandem ein Geschenk machen"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Je t'envoie un texto samedi matin pour confirmer.",
+      "question": "Was wird die Person tun?",
+      "options": ["Eine SMS zur Bestätigung schicken", "Persönlich vorbeikommen", "Einen Brief schreiben"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Je dois raccrocher, j'ai un autre appel.",
+      "question": "Was bedeutet \"raccrocher\"?",
+      "options": ["Das Telefonat beenden / auflegen", "Abnehmen", "Eine Nachricht hinterlassen"],
+      "correctIndex": 0
+    }
+  ],
+  "shadowingSentences": [
+    "Allô, tu m'entends ?",
+    "Je te passe un coup de fil.",
+    "T'es dispo vendredi ?",
+    "Je suis grave occupé ce jour-là.",
+    "On peut reporter le rendez-vous ?",
+    "Ça marche, on dit 15h ?",
+    "Ne me pose pas un lapin !",
+    "Je t'envoie un texto pour confirmer.",
+    "Je dois raccrocher maintenant.",
+    "On se capte plus tard !"
+  ],
+  "culture": [
+    {
+      "title": "\"Allô\" nur am Telefon",
+      "text": "\"Allô\" wird im Französischen ausschließlich beim Telefonieren verwendet, niemals als normale Begrüßung im persönlichen Gespräch. Wer \"Allô\" persönlich zu jemandem sagt, wirkt seltsam oder ironisch."
+    },
+    {
+      "title": "\"Poser un lapin\" — eine typische Redewendung",
+      "text": "Diese wörtlich unsinnige Redewendung (\"einen Hasen hinlegen\") bedeutet, jemanden bei einer Verabredung sitzenzulassen. Sie ist extrem gebräuchlich im Alltag und wird oft scherzhaft unter Freunden benutzt."
+    },
+    {
+      "title": "SMS-Kultur und Kurzformen",
+      "text": "In SMS und Chats benutzen Franzosen viele Abkürzungen: \"stp\" (s'il te plaît), \"mdr\" (mort de rire, vergleichbar mit \"lol\"), \"jsp\" (je ne sais pas). Diese Kurzformen sind fester Bestandteil der informellen schriftlichen Kommunikation."
+    }
+  ]
+}

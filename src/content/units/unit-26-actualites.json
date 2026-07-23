@@ -1,0 +1,118 @@
+{
+  "id": "unit-26-actualites",
+  "title": "Einfache Nachrichten & Aktuelles verstehen",
+  "level": "B1",
+  "cefrTopic": "B1 - Aktuelle Ereignisse verstehen und darüber sprechen",
+  "grammarNote": "Für Nachrichten wird oft das Passé composé (Vergangenheit) mit dem Passiv kombiniert: \"Un pont a été construit\" (Eine Brücke wurde gebaut). Außerdem begegnet dir häufig \"selon\" (laut/gemäß), um Quellen anzugeben: \"Selon les experts...\" (Laut den Experten...). Das unpersönliche \"il\" (\"il paraît que\", \"il semblerait que\") wird benutzt, um Informationen vorsichtig wiederzugeben, ohne sie als sicher darzustellen.",
+  "vocab": [
+    { "front": "les actualités / les infos", "back": "die Nachrichten" },
+    { "front": "un article", "back": "ein Artikel" },
+    { "front": "une manifestation", "back": "eine Demonstration" },
+    { "front": "la grève", "back": "der Streik" },
+    { "front": "le gouvernement", "back": "die Regierung" },
+    { "front": "une élection", "back": "eine Wahl" },
+    { "front": "l'environnement", "back": "die Umwelt" },
+    { "front": "le changement climatique", "back": "der Klimawandel" },
+    { "front": "une catastrophe naturelle", "back": "eine Naturkatastrophe" },
+    { "front": "selon les experts", "back": "laut den Experten" },
+    { "front": "il paraît que...", "back": "es heißt, dass... / anscheinend..." },
+    { "front": "d'après ce qu'on dit", "back": "nach dem, was man sagt" },
+    { "front": "les médias", "back": "die Medien" },
+    { "front": "une source fiable", "back": "eine zuverlässige Quelle" },
+    { "front": "les fake news / les infox", "back": "die Falschmeldungen" },
+    { "front": "un scandale", "back": "ein Skandal" },
+    { "front": "c'est du grand n'importe quoi", "back": "das ist völliger Unsinn (umgangssprachlich)", "register": "informal" },
+    { "front": "ça fait le buzz", "back": "das sorgt für Aufsehen (im Netz)", "register": "informal" },
+    { "front": "un truc de ouf", "back": "ein verrücktes Ding (sehr umgangssprachlich)", "register": "slang" },
+    { "front": "être au courant", "back": "Bescheid wissen / informiert sein" },
+    { "front": "faire la une", "back": "die Titelseite / Schlagzeile ausmachen" },
+    { "front": "être choqué(e)", "back": "schockiert sein" }
+  ],
+  "dialogue": [
+    { "speaker": "Nadia", "fr": "Tu as vu les infos ce matin ? Il y a une grève des trains demain.", "de": "Hast du heute Morgen die Nachrichten gesehen? Morgen gibt es einen Streik der Züge." },
+    { "speaker": "Karim", "fr": "Ah oui, j'étais au courant. Ça va être galère pour aller au travail.", "de": "Ach ja, das wusste ich schon. Das wird stressig, um zur Arbeit zu kommen." },
+    { "speaker": "Nadia", "fr": "Selon les experts, ça pourrait durer toute la semaine.", "de": "Laut den Experten könnte das die ganze Woche dauern." },
+    { "speaker": "Karim", "fr": "C'est n'importe quoi, franchement. Ça touche tout le monde.", "de": "Das ist echt Unsinn. Das betrifft alle." },
+    { "speaker": "Nadia", "fr": "Il paraît que le gouvernement va faire une annonce ce soir.", "de": "Es heißt, die Regierung macht heute Abend eine Ankündigung." },
+    { "speaker": "Karim", "fr": "J'espère qu'ils vont trouver une solution rapidement.", "de": "Ich hoffe, sie finden schnell eine Lösung." },
+    { "speaker": "Nadia", "fr": "En tout cas, cette histoire fait le buzz sur les réseaux sociaux.", "de": "Auf jeden Fall sorgt diese Geschichte in den sozialen Netzwerken für Aufsehen." },
+    { "speaker": "Karim", "fr": "Oui, mais fais attention, il y a aussi beaucoup de fake news qui circulent.", "de": "Ja, aber pass auf, es kursieren auch viele Falschmeldungen." },
+    { "speaker": "Nadia", "fr": "Tu as raison. Il faut toujours vérifier avec une source fiable.", "de": "Du hast recht. Man muss immer bei einer zuverlässigen Quelle nachprüfen." },
+    { "speaker": "Karim", "fr": "Exactement. Je me suis fait avoir une fois, c'était un vrai scandale après.", "de": "Genau. Ich bin einmal drauf reingefallen, das gab hinterher einen richtigen Skandal." },
+    { "speaker": "Nadia", "fr": "Bref, on verra bien ce que dit le journal télévisé ce soir.", "de": "Kurz gesagt, wir werden sehen, was die Fernsehnachrichten heute Abend sagen." }
+  ],
+  "listeningQuizzes": [
+    {
+      "audioText": "Il y a une grève des trains demain.",
+      "question": "Was passiert morgen laut dem Satz?",
+      "options": ["Ein Streik der Züge", "Eine Wahl", "Ein Fußballspiel"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Selon les experts, ça pourrait durer toute la semaine.",
+      "question": "Was drückt \"selon les experts\" aus?",
+      "options": [
+        "Eine Quellenangabe (laut Aussage von Experten)",
+        "Eine persönliche Meinung ohne Beleg",
+        "Eine Entschuldigung"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Il paraît que le gouvernement va faire une annonce ce soir.",
+      "question": "Was bedeutet \"il paraît que\" in diesem Kontext?",
+      "options": [
+        "Man hört/es heißt, dass...",
+        "Es ist absolut sicher, dass...",
+        "Es ist unmöglich, dass..."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Il faut toujours vérifier avec une source fiable.",
+      "question": "Was rät die Person hier?",
+      "options": [
+        "Informationen bei einer zuverlässigen Quelle zu überprüfen",
+        "Nachrichten nie zu lesen",
+        "Immer den ersten Artikel zu glauben"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Cette histoire fait le buzz sur les réseaux sociaux.",
+      "question": "Was bedeutet \"faire le buzz\"?",
+      "options": [
+        "Für Aufsehen sorgen / viral gehen",
+        "Ganz unbemerkt bleiben",
+        "Verboten werden"
+      ],
+      "correctIndex": 0
+    }
+  ],
+  "shadowingSentences": [
+    "Tu as vu les infos ce matin ?",
+    "Il y a une grève des trains demain.",
+    "Selon les experts, ça pourrait durer toute la semaine.",
+    "C'est n'importe quoi, franchement.",
+    "Il paraît que le gouvernement va faire une annonce ce soir.",
+    "Cette histoire fait le buzz sur les réseaux sociaux.",
+    "Il faut toujours vérifier avec une source fiable.",
+    "Je me suis fait avoir une fois.",
+    "On verra bien ce que dit le journal télévisé ce soir.",
+    "Il y a beaucoup de fake news qui circulent."
+  ],
+  "culture": [
+    {
+      "title": "Der 20-Uhr-Nachrichten-Ritual",
+      "text": "In Frankreich schauen viele Haushalte traditionell den \"journal de 20 heures\" (die Abendnachrichten um 20 Uhr) auf TF1 oder France 2. Es ist ein fester Bestandteil des Alltags, auch wenn Streaming und soziale Medien zunehmend Konkurrenz machen."
+    },
+    {
+      "title": "Streiks als Teil der Kultur",
+      "text": "\"La grève\" (der Streik) ist in Frankreich ein anerkanntes und häufig genutztes Mittel, um politische oder soziale Forderungen durchzusetzen. Streiks bei der Bahn (SNCF) sorgen regelmäßig für Schlagzeilen und werden gesellschaftlich meist nicht als Ausnahme, sondern als normaler Teil des demokratischen Diskurses gesehen."
+    },
+    {
+      "title": "Umgang mit Fake News",
+      "text": "Angesichts der Verbreitung von \"infox\" (Fake News) legen viele französische Medien wie Le Monde großen Wert auf Fact-Checking-Rubriken (\"Les Décodeurs\"). Es gilt als guter Ton, Informationen kritisch zu hinterfragen, bevor man sie teilt."
+    }
+  ]
+}

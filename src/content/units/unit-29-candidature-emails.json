@@ -1,0 +1,112 @@
+{
+  "id": "unit-29-candidature-emails",
+  "title": "Bewerbung & E-Mails schreiben",
+  "level": "B1",
+  "cefrTopic": "B1 - Eine formelle Bewerbung und E-Mails verfassen",
+  "grammarNote": "In dieser Unit wird ausschließlich die Höflichkeitsform \"vous\" verwendet, wie es sich für formelle E-Mails und Bewerbungen gehört — auch wenn man nur eine einzelne Person anspricht (\"Pourriez-vous...\" statt \"Tu pourrais...\"). Formelle E-Mails folgen einer festen Struktur: Anrede (\"Madame, Monsieur,\"), Einleitung des Anliegens, Hauptteil, und eine feste Schlussformel wie \"Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.\" Diese Formeln wirken auf Deutsch übertrieben, sind im Französischen aber der neutrale Standard für formelle Korrespondenz. Der Konditional (\"je souhaiterais\", \"pourriez-vous\") macht Anfragen höflicher als der direkte Indikativ.",
+  "vocab": [
+    { "front": "une candidature", "back": "eine Bewerbung" },
+    { "front": "poser sa candidature", "back": "sich bewerben" },
+    { "front": "une lettre de motivation", "back": "ein Motivationsschreiben" },
+    { "front": "un CV (curriculum vitae)", "back": "ein Lebenslauf" },
+    { "front": "une offre d'emploi", "back": "eine Stellenausschreibung" },
+    { "front": "Madame, Monsieur,", "back": "Sehr geehrte Damen und Herren, (formelle Anrede)" },
+    { "front": "Je me permets de vous écrire au sujet de...", "back": "Ich erlaube mir, Ihnen bezüglich... zu schreiben" },
+    { "front": "Je souhaiterais...", "back": "Ich würde gerne... (höflicher Konditional)" },
+    { "front": "Pourriez-vous...", "back": "Könnten Sie... (höfliche Frage)" },
+    { "front": "Suite à notre échange...", "back": "Im Anschluss an unseren Austausch..." },
+    { "front": "Veuillez trouver ci-joint...", "back": "Anbei finden Sie... (formell)" },
+    { "front": "dans l'attente de votre réponse", "back": "in Erwartung Ihrer Antwort" },
+    { "front": "Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.", "back": "Mit freundlichen Grüßen (sehr formelle Schlussformel)" },
+    { "front": "Cordialement,", "back": "Mit freundlichen Grüßen (weniger formell, üblich in E-Mails)" },
+    { "front": "un entretien d'embauche", "back": "ein Bewerbungsgespräch" },
+    { "front": "les compétences", "back": "die Kompetenzen/Fähigkeiten" },
+    { "front": "l'expérience professionnelle", "back": "die Berufserfahrung" },
+    { "front": "être disponible", "back": "verfügbar sein" },
+    { "front": "un entretien téléphonique", "back": "ein Telefongespräch/-interview" },
+    { "front": "convenir", "back": "passen / geeignet sein" }
+  ],
+  "dialogue": [
+    { "speaker": "E-mail (candidat)", "fr": "Madame, Monsieur,\n\nJe me permets de vous écrire au sujet de votre offre d'emploi publiée le 3 mars pour le poste d'assistant commercial. Je souhaiterais poser ma candidature, car mon expérience professionnelle correspond, je crois, aux compétences recherchées.\n\nVeuillez trouver ci-joint mon CV ainsi que ma lettre de motivation. Je reste disponible pour un entretien à votre convenance.\n\nDans l'attente de votre réponse, je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.", "de": "Sehr geehrte Damen und Herren,\n\nich erlaube mir, Ihnen bezüglich Ihrer am 3. März veröffentlichten Stellenausschreibung für die Position als Vertriebsassistent zu schreiben. Ich würde mich gerne bewerben, da meine Berufserfahrung meiner Meinung nach den gesuchten Kompetenzen entspricht.\n\nAnbei finden Sie meinen Lebenslauf sowie mein Motivationsschreiben. Ich stehe für ein Vorstellungsgespräch nach Ihrer Verfügbarkeit zur Verfügung.\n\nIn Erwartung Ihrer Antwort verbleibe ich mit freundlichen Grüßen." },
+    { "speaker": "E-mail (recruteuse)", "fr": "Madame, Monsieur,\n\nNous vous remercions pour votre candidature. Après lecture attentive de votre dossier, nous souhaiterions vous convier à un entretien téléphonique le 12 mars à 14h. Pourriez-vous confirmer votre disponibilité par retour de mail ?\n\nCordialement,", "de": "Sehr geehrte Damen und Herren,\n\nwir danken Ihnen für Ihre Bewerbung. Nach aufmerksamer Prüfung Ihrer Unterlagen möchten wir Sie zu einem Telefongespräch am 12. März um 14 Uhr einladen. Könnten Sie Ihre Verfügbarkeit per Rückmail bestätigen?\n\nMit freundlichen Grüßen," },
+    { "speaker": "E-mail (candidat)", "fr": "Madame, Monsieur,\n\nJe vous remercie pour votre retour rapide. Je confirme ma disponibilité pour l'entretien téléphonique du 12 mars à 14h. Je reste à votre disposition pour toute information complémentaire.\n\nCordialement,", "de": "Sehr geehrte Damen und Herren,\n\nich danke Ihnen für Ihre schnelle Rückmeldung. Ich bestätige meine Verfügbarkeit für das Telefongespräch am 12. März um 14 Uhr. Ich stehe für weitere Informationen gerne zur Verfügung.\n\nMit freundlichen Grüßen," }
+  ],
+  "listeningQuizzes": [
+    {
+      "audioText": "Je me permets de vous écrire au sujet de votre offre d'emploi.",
+      "question": "Was ist der Zweck dieser E-Mail-Einleitung?",
+      "options": [
+        "Höflich den Grund des Schreibens einleiten (bezüglich einer Stellenausschreibung)",
+        "Sich für einen Fehler entschuldigen",
+        "Eine Beschwerde einreichen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Veuillez trouver ci-joint mon CV ainsi que ma lettre de motivation.",
+      "question": "Was wird hier angekündigt?",
+      "options": [
+        "Ein Anhang mit Lebenslauf und Motivationsschreiben",
+        "Ein Telefonanruf",
+        "Ein Treffen im Büro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.",
+      "question": "Um welche Art von Formulierung handelt es sich?",
+      "options": [
+        "Eine sehr formelle Grußformel am Ende eines Briefes/einer E-Mail",
+        "Eine informelle Verabschiedung unter Freunden",
+        "Eine Entschuldigung"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Nous souhaiterions vous convier à un entretien téléphonique le 12 mars à 14h.",
+      "question": "Was wird der Person hier angeboten?",
+      "options": [
+        "Ein Termin für ein Telefoninterview",
+        "Eine Absage",
+        "Ein Gehaltsangebot"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Pourriez-vous confirmer votre disponibilité par retour de mail ?",
+      "question": "Worum wird hier gebeten?",
+      "options": [
+        "Um eine Bestätigung der Verfügbarkeit per E-Mail",
+        "Um einen sofortigen Rückruf",
+        "Um die Zusendung eines neuen Lebenslaufs"
+      ],
+      "correctIndex": 0
+    }
+  ],
+  "shadowingSentences": [
+    "Je me permets de vous écrire au sujet de votre offre d'emploi.",
+    "Je souhaiterais poser ma candidature.",
+    "Veuillez trouver ci-joint mon CV ainsi que ma lettre de motivation.",
+    "Je reste disponible pour un entretien à votre convenance.",
+    "Dans l'attente de votre réponse, cordialement.",
+    "Nous souhaiterions vous convier à un entretien téléphonique.",
+    "Pourriez-vous confirmer votre disponibilité par retour de mail ?",
+    "Je confirme ma disponibilité pour l'entretien.",
+    "Je reste à votre disposition pour toute information complémentaire.",
+    "Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées."
+  ],
+  "culture": [
+    {
+      "title": "Die feste Struktur formeller E-Mails",
+      "text": "Französische Bewerbungs-E-Mails folgen einer sehr festen Etikette: Anrede mit \"Madame, Monsieur,\" (auch wenn der Name bekannt ist, bleibt es oft formell), klarer Aufbau, und eine standardisierte Schlussformel. Abweichungen von dieser Form können als unprofessionell wahrgenommen werden."
+    },
+    {
+      "title": "\"Cordialement\" vs. die lange Schlussformel",
+      "text": "In modernen, kürzeren beruflichen E-Mails wird oft nur \"Cordialement,\" verwendet, während die sehr lange Formel \"Je vous prie d'agréer...\" eher für offizielle Briefe oder Erstkontakt-Bewerbungen reserviert ist. Die Wahl der Formel signalisiert den Grad der Formalität der Beziehung."
+    },
+    {
+      "title": "Der Lebenslauf \"à la française\"",
+      "text": "Ein französischer CV enthält traditionell oft ein Bewerbungsfoto (\"photo\") und ist meist auf eine Seite begrenzt. Diese Norm verändert sich zwar zunehmend, ist aber in vielen Branchen noch verbreitet — anders als z. B. in den USA, wo Fotos auf Lebensläufen unüblich sind."
+    }
+  ]
+}

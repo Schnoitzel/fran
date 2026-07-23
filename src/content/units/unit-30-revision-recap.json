@@ -1,0 +1,132 @@
+{
+  "id": "unit-30-revision-recap",
+  "title": "Révision : Redewendungen & Slang im Rückblick",
+  "level": "B1",
+  "cefrTopic": "B1 - Wiederholung von Slang, Verlan, Redewendungen und Ironie aus den vorherigen Units",
+  "grammarNote": "Diese Unit ist eine reine Wiederholungs-Unit ohne neue Grammatik. Sie fasst zentrale Wörter und Wendungen aus den Units 21-25 zusammen (Verlan/Argot, idiomatische Ausdrücke, Humor/Ironie, Feiertage, Tischsitten). Achte beim Wiederholen besonders auf das Register: Verlan-Wörter wie \"meuf\", \"relou\" oder \"chelou\" und Ausdrücke wie \"avoir le seum\" gehören klar zum informellen Register unter Freunden — in einer formellen E-Mail oder einem Bewerbungsgespräch (siehe Unit 29) benutzt man stattdessen neutrale Formulierungen wie \"je pense que\" oder \"je vous prie de bien vouloir...\".",
+  "vocab": [
+    { "front": "une meuf", "back": "eine Frau, meine Freundin (Verlan von \"femme\")", "register": "slang" },
+    { "front": "un keum", "back": "ein Typ, Kerl (Verlan von \"mec\")", "register": "slang" },
+    { "front": "relou", "back": "nervig, anstrengend (Verlan von \"lourd\")", "register": "slang" },
+    { "front": "chelou", "back": "komisch, seltsam, verdächtig (Verlan von \"louche\")", "register": "slang" },
+    { "front": "une teuf", "back": "eine Party (Verlan von \"fête\")", "register": "slang" },
+    { "front": "vénère", "back": "sauer, wütend (Verlan von \"énervé\")", "register": "slang" },
+    { "front": "laisse béton", "back": "lass es gut sein, vergiss es (Verlan von \"laisse tomber\")", "register": "slang" },
+    { "front": "kiffer", "back": "total mögen, Bock haben auf etwas", "register": "slang" },
+    { "front": "c'est la galère", "back": "das ist Stress, das ist mühsam", "register": "informal" },
+    { "front": "bosser", "back": "schuften, arbeiten", "register": "informal" },
+    { "front": "ça craint", "back": "das ist mies, das ist peinlich", "register": "informal" },
+    { "front": "grave", "back": "total, sehr (Verstärkungswort)", "register": "slang" },
+    { "front": "avoir le cafard", "back": "deprimiert/down sein", "register": "informal" },
+    { "front": "poser un lapin (à qn)", "back": "jmdn. versetzen", "register": "informal" },
+    { "front": "il pleut des cordes", "back": "es regnet in Strömen", "register": "informal" },
+    { "front": "mettre son grain de sel", "back": "seinen Senf dazugeben", "register": "informal" },
+    { "front": "avoir la pêche", "back": "gut drauf/voller Energie sein", "register": "slang" },
+    { "front": "raconter des salades", "back": "Lügengeschichten erzählen", "register": "informal" },
+    { "front": "avoir le seum", "back": "stinksauer/frustriert sein", "register": "slang" },
+    { "front": "ça marche !", "back": "abgemacht! geht klar!", "register": "informal" },
+    { "front": "avoir d'autres chats à fouetter", "back": "Wichtigeres zu tun haben", "register": "informal" },
+    { "front": "se marrer", "back": "sich totlachen, sich amüsieren", "register": "slang" },
+    { "front": "une vanne", "back": "ein scherzhafter Spruch, ein Sticheln", "register": "slang" },
+    { "front": "balancer une vanne", "back": "einen Spruch/Witz raushauen", "register": "slang" },
+    { "front": "le second degré", "back": "die ironische/doppelbödige Ebene einer Aussage", "register": "standard" },
+    { "front": "mort de rire (MDR)", "back": "totlachen (wie \"LOL\")", "register": "slang" },
+    { "front": "se foutre de la gueule de qn", "back": "sich über jmdn. lustig machen (derb)", "register": "slang" },
+    { "front": "à mon avis", "back": "meiner Meinung nach", "register": "standard" },
+    { "front": "je vous prie d'agréer...", "back": "mit freundlichen Grüßen (sehr formell)", "register": "standard" }
+  ],
+  "dialogue": [
+    { "speaker": "Léa", "fr": "Salut ! Ça va ou quoi ? T'as pas l'air dans ton assiette.", "de": "Hi! Alles klar oder was? Du siehst nicht aus, als ob es dir gut geht." },
+    { "speaker": "Marc", "fr": "Un peu vénère en fait, j'ai le cafard depuis ce matin.", "de": "Eigentlich ein bisschen sauer, ich bin seit heute Morgen ziemlich deprimiert." },
+    { "speaker": "Léa", "fr": "Sérieux ? Qu'est-ce qui se passe ?", "de": "Ernsthaft? Was ist los?" },
+    { "speaker": "Marc", "fr": "Mon collègue m'a posé un lapin hier soir, et en plus il pleuvait des cordes.", "de": "Mein Kollege hat mich gestern Abend versetzt, und außerdem hat es in Strömen geregnet." },
+    { "speaker": "Léa", "fr": "C'est relou, ça. Il t'a donné une explication ou il t'a raconté des salades ?", "de": "Das ist nervig. Hat er dir eine Erklärung gegeben oder dir was vorgelogen?" },
+    { "speaker": "Marc", "fr": "Des salades, comme d'habitude. J'ai carrément le seum.", "de": "Nur Lügengeschichten, wie immer. Ich bin total genervt." },
+    { "speaker": "Léa", "fr": "Bon, laisse béton, viens plutôt à la teuf de Nina ce soir, ça va te faire du bien.", "de": "Na gut, vergiss es, komm lieber heute Abend zu Ninas Party, das wird dir guttun." },
+    { "speaker": "Marc", "fr": "Ouais, je kiffe bien cette meuf, elle organise toujours des trucs sympas.", "de": "Ja, ich mag die total, sie organisiert immer coole Sachen." },
+    { "speaker": "Léa", "fr": "T'inquiète, ce soir on rigole, on se marre, et demain t'auras la pêche.", "de": "Keine Sorge, heute Abend lachen wir, amüsieren uns, und morgen bist du wieder voller Energie." },
+    { "speaker": "Marc", "fr": "Attends, tu te fous de ma gueule ou c'est du second degré, là ?", "de": "Moment, machst du dich über mich lustig oder ist das ironisch gemeint?" },
+    { "speaker": "Léa", "fr": "MDR, non, je suis sérieuse ! Bon, j'ai d'autres chats à fouetter là, mais ça marche pour ce soir ?", "de": "Haha, nein, ich meine das ernst! Gut, ich habe jetzt noch was Wichtigeres zu tun, aber passt das für heute Abend?" },
+    { "speaker": "Marc", "fr": "Ça marche, à ce soir !", "de": "Abgemacht, bis heute Abend!" }
+  ],
+  "listeningQuizzes": [
+    {
+      "audioText": "T'as pas l'air dans ton assiette.",
+      "question": "Was bedeutet dieser Ausdruck?",
+      "options": ["Du siehst nicht aus, als ob es dir gut geht", "Du hast keinen Teller", "Du hast Hunger"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Il m'a posé un lapin hier soir.",
+      "question": "Was ist passiert?",
+      "options": ["Er hat die Person versetzt", "Er hat ein Kaninchen geschenkt", "Er hat angerufen"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "J'ai carrément le seum.",
+      "question": "Was bedeutet \"avoir le seum\"?",
+      "options": ["Stinksauer/frustriert sein", "Sehr glücklich sein", "Müde sein"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Je kiffe bien cette meuf.",
+      "question": "Was bedeuten \"kiffer\" und \"meuf\" hier zusammen?",
+      "options": [
+        "Jemanden/etwas total mögen + eine Frau/Freundin (Verlan)",
+        "Jemanden hassen + einen Mann",
+        "Etwas vergessen + eine Party"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Tu te fous de ma gueule ou c'est du second degré ?",
+      "question": "Was wird hier erfragt?",
+      "options": [
+        "Ob eine Aussage ironisch/nicht wörtlich gemeint ist",
+        "Ob jemand lügt",
+        "Ob jemand traurig ist"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "J'ai d'autres chats à fouetter, mais ça marche pour ce soir.",
+      "question": "Was bedeutet \"avoir d'autres chats à fouetter\"?",
+      "options": [
+        "Wichtigeres zu tun haben",
+        "Katzen besitzen",
+        "Zeit zum Nichtstun haben"
+      ],
+      "correctIndex": 0
+    }
+  ],
+  "shadowingSentences": [
+    "T'as pas l'air dans ton assiette.",
+    "J'ai le cafard depuis ce matin.",
+    "Il m'a posé un lapin hier soir.",
+    "C'est relou, ça.",
+    "J'ai carrément le seum.",
+    "Laisse béton, viens plutôt à la teuf.",
+    "Je kiffe bien cette meuf.",
+    "T'auras la pêche demain.",
+    "Tu te fous de ma gueule ou c'est du second degré ?",
+    "J'ai d'autres chats à fouetter, mais ça marche pour ce soir."
+  ],
+  "culture": [
+    {
+      "title": "Register wechseln wie ein Muttersprachler",
+      "text": "Ein zentrales Merkmal von fortgeschrittenem Französisch ist der bewusste Wechsel zwischen Registern: Unter Freunden \"grave\", \"j'ai le seum\" oder \"laisse béton\", im Berufsleben oder in E-Mails dagegen \"je pense que\", \"pourriez-vous\" und \"je vous prie d'agréer...\" (siehe Unit 29). Muttersprachler wechseln diesen Ton oft mehrmals am Tag, je nach Gesprächspartner."
+    },
+    {
+      "title": "Verlan bleibt informell",
+      "text": "Wörter wie \"meuf\", \"relou\" oder \"chelou\" (Unit 21) stammen aus dem Verlan der Pariser Banlieues und sind heute weit verbreitete Umgangssprache, bleiben aber klar als informell markiert — unpassend in einer formellen E-Mail oder gegenüber Vorgesetzten."
+    },
+    {
+      "title": "Tiere und Ironie als roter Faden",
+      "text": "Viele der wiederholten Redewendungen (Unit 22) bauen auf Tierbildern auf — \"poser un lapin\", \"avoir d'autres chats à fouetter\" — während der \"second degré\" (Unit 23) zeigt, wie stark Ironie den französischen Gesprächston prägt. Wer beides beherrscht, versteht schon einen großen Teil der echten, gesprochenen Alltagssprache."
+    },
+    {
+      "title": "Warum diese Wiederholung wichtig ist",
+      "text": "Diese Unit fasst zentrale Redewendungen und Slang-Ausdrücke aus den vorherigen Themen zusammen (Verlan/Argot, Idiome, Humor, Feiertage, Tischsitten). Regelmäßiges Wiederholen solcher feststehenden Wendungen hilft, sie im echten Gespräch automatisch abzurufen, statt sie jedes Mal neu zusammenzusetzen."
+    }
+  ]
+}

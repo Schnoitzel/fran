@@ -1,0 +1,107 @@
+{
+  "id": "unit-18-passe-compose",
+  "title": "Vergangenheit erzählen im Alltag",
+  "level": "B1",
+  "cefrTopic": "B1 - Vergangenes erzählen (passé composé)",
+  "grammarNote": "Das passé composé beschreibt abgeschlossene Handlungen in der Vergangenheit und wird mit einem Hilfsverb (avoir oder être) im Präsens plus dem participe passé gebildet. Die meisten Verben nutzen 'avoir': j'ai mangé (ich habe gegessen), tu as fini (du hast beendet). Eine Gruppe von meist Bewegungs- und Zustandsverben (zusammengefasst im Merkwort 'DR & MRS VANDERTRAMP': devenir, revenir, monter, rester, sortir, venir, aller, naître, descendre, entrer, retourner, tomber, rentrer, arriver, mourir, partir) sowie alle reflexiven Verben nutzen 'être': je suis allé(e) (ich bin gegangen), tu es parti(e) (du bist abgereist). Bei 'être'-Verben stimmt das participe passé in Genus und Numerus mit dem Subjekt überein: elle est allée, ils sont partis. Beispiel: \"Hier, j'ai visité le musée, puis je suis rentré à la maison.\" (Gestern habe ich das Museum besucht, dann bin ich nach Hause zurückgekehrt.)",
+  "vocab": [
+    { "front": "hier", "back": "gestern" },
+    { "front": "avant-hier", "back": "vorgestern" },
+    { "front": "la semaine dernière", "back": "letzte Woche" },
+    { "front": "il y a deux jours", "back": "vor zwei Tagen" },
+    { "front": "finalement", "back": "schließlich / am Ende" },
+    { "front": "se passer", "back": "passieren / sich abspielen" },
+    { "front": "raconter", "back": "erzählen" },
+    { "front": "j'ai passé une super soirée", "back": "ich habe einen tollen Abend verbracht" },
+    { "front": "je suis tombé(e)", "back": "ich bin gestürzt" },
+    { "front": "j'ai eu peur", "back": "ich hatte Angst / ich bekam einen Schreck" },
+    { "front": "c'était nul", "back": "das war mies / schlecht", "register": "informal" },
+    { "front": "c'était trop bien", "back": "das war super", "register": "informal" },
+    { "front": "j'ai kiffé", "back": "ich fand's total geil", "register": "slang" },
+    { "front": "j'ai raté le bus", "back": "ich habe den Bus verpasst" },
+    { "front": "j'ai halluciné", "back": "ich konnte es nicht fassen", "register": "slang" },
+    { "front": "franchement", "back": "ehrlich gesagt" },
+    { "front": "du coup", "back": "deshalb / also", "register": "informal" },
+    { "front": "bref", "back": "kurz gesagt" },
+    { "front": "j'ai dû + infinitif", "back": "ich musste" },
+    { "front": "je me suis réveillé(e) en retard", "back": "ich bin zu spät aufgewacht" }
+  ],
+  "dialogue": [
+    { "speaker": "Sarah", "fr": "Alors, tu as passé un bon week-end ?", "de": "Na, hattest du ein schönes Wochenende?" },
+    { "speaker": "Yanis", "fr": "Franchement, c'était le chaos ! Je me suis réveillé en retard samedi.", "de": "Ehrlich gesagt, das war Chaos! Ich bin am Samstag zu spät aufgewacht." },
+    { "speaker": "Sarah", "fr": "Oh non, qu'est-ce qui s'est passé ?", "de": "Oh nein, was ist passiert?" },
+    { "speaker": "Yanis", "fr": "J'ai raté le bus, du coup j'ai dû prendre un taxi.", "de": "Ich habe den Bus verpasst, deshalb musste ich ein Taxi nehmen." },
+    { "speaker": "Sarah", "fr": "Et après, tu es allé où ?", "de": "Und danach, wo bist du hingegangen?" },
+    { "speaker": "Yanis", "fr": "Je suis allé au concert avec Marc, mais je suis tombé devant tout le monde !", "de": "Ich bin mit Marc zum Konzert gegangen, aber ich bin vor allen hingefallen!" },
+    { "speaker": "Sarah", "fr": "Non ! Tu n'as rien eu ?", "de": "Nein! Du hast dir nichts getan?" },
+    { "speaker": "Yanis", "fr": "Non, ça va, j'ai eu peur mais ce n'était pas grave. Bref, le concert était trop bien.", "de": "Nein, alles gut, ich hatte Angst, aber es war nicht schlimm. Kurz gesagt, das Konzert war super." },
+    { "speaker": "Sarah", "fr": "Et dimanche, qu'est-ce que tu as fait ?", "de": "Und am Sonntag, was hast du gemacht?" },
+    { "speaker": "Yanis", "fr": "J'ai dormi toute la matinée, puis j'ai visité l'expo avec ma sœur.", "de": "Ich habe den ganzen Vormittag geschlafen, dann habe ich die Ausstellung mit meiner Schwester besucht." },
+    { "speaker": "Sarah", "fr": "Vous avez kiffé ?", "de": "Habt ihr's total gemocht?" },
+    { "speaker": "Yanis", "fr": "Grave, c'était magnifique. Bon week-end pour toi aussi, non ?", "de": "Voll, es war wunderschön. Auch ein schönes Wochenende für dich, oder?" }
+  ],
+  "listeningQuizzes": [
+    {
+      "audioText": "Je me suis réveillé en retard samedi.",
+      "question": "Was ist der Person am Samstag passiert?",
+      "options": ["Sie ist zu spät aufgewacht", "Sie ist zu früh aufgewacht", "Sie hat gar nicht geschlafen"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "J'ai raté le bus, du coup j'ai dû prendre un taxi.",
+      "question": "Warum musste die Person ein Taxi nehmen?",
+      "options": ["Weil sie den Bus verpasst hat", "Weil es regnete", "Weil das Taxi billiger war"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Je suis tombé devant tout le monde.",
+      "question": "Was ist passiert?",
+      "options": ["Die Person ist vor allen hingefallen", "Die Person hat getanzt", "Die Person ist eingeschlafen"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "J'ai eu peur mais ce n'était pas grave.",
+      "question": "Wie hat sich die Person gefühlt?",
+      "options": ["Erschrocken, aber es war nicht schlimm", "Wütend", "Völlig gleichgültig"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "J'ai dormi toute la matinée, puis j'ai visité l'expo.",
+      "question": "Was hat die Person am Sonntagvormittag gemacht?",
+      "options": ["Geschlafen", "Eine Ausstellung besucht", "Gearbeitet"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Vous avez kiffé ? — Grave, c'était magnifique.",
+      "question": "Wie war die Reaktion auf die Frage?",
+      "options": ["Sehr begeistert bestätigend", "Ablehnend", "Gleichgültig"],
+      "correctIndex": 0
+    }
+  ],
+  "shadowingSentences": [
+    "Tu as passé un bon week-end ?",
+    "Je me suis réveillé en retard.",
+    "J'ai raté le bus.",
+    "J'ai dû prendre un taxi.",
+    "Je suis tombé devant tout le monde.",
+    "J'ai eu peur, mais ce n'était pas grave.",
+    "J'ai dormi toute la matinée.",
+    "J'ai visité l'expo avec ma sœur.",
+    "On a kiffé, c'était magnifique.",
+    "Qu'est-ce qui s'est passé ?"
+  ],
+  "culture": [
+    {
+      "title": "Erzählen im Alltag: passé composé statt passé simple",
+      "text": "Im gesprochenen Französisch wird für Erzählungen aus der Vergangenheit fast ausschließlich das passé composé verwendet. Das passé simple begegnet dir hauptsächlich in Literatur, Märchen und formellen Texten — im Alltag würde es sehr befremdlich klingen."
+    },
+    {
+      "title": "\"Du coup\" – der Lückenfüller",
+      "text": "\"Du coup\" (wörtlich: durch den Schlag/Stoß) wird im gesprochenen Französisch inflationär als Füllwort und Konnektor benutzt, ungefähr wie \"also\" oder \"deshalb\" im Deutschen. Es leitet oft eine Folge oder Konsequenz ein, manchmal ganz ohne echte Kausalität."
+    },
+    {
+      "title": "\"Grave\" als Verstärkung",
+      "text": "Unter Jugendlichen und in der Umgangssprache bedeutet \"grave\" nicht nur \"schwer/ernst\", sondern wird auch als Verstärkungswort für \"sehr/total\" benutzt, zum Beispiel als kurze, begeisterte Zustimmung: \"Grave !\" (Voll und ganz!)"
+    }
+  ]
+}

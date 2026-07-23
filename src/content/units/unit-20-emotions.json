@@ -1,0 +1,106 @@
+{
+  "id": "unit-20-emotions",
+  "title": "Gefühle & Meinungen ausdrücken",
+  "level": "B1",
+  "cefrTopic": "B1 - Gefühle & Meinungen ausdrücken",
+  "grammarNote": "Um eine Meinung auszudrücken, nutzt man häufig 'je trouve que' oder 'à mon avis' + Aussage im Indikativ: \"Je trouve que c'est chiant.\" (Ich finde, das ist nervig.) Nach 'avoir peur de' + Infinitiv (wenn das Subjekt gleich bleibt) steht einfach der Infinitiv: \"J'ai peur de rater.\" (Ich habe Angst zu versagen.)",
+  "vocab": [
+    { "front": "être content(e)", "back": "sich freuen / zufrieden sein" },
+    { "front": "être déçu(e)", "back": "enttäuscht sein" },
+    { "front": "être énervé(e)", "back": "genervt sein" },
+    { "front": "être stressé(e)", "back": "gestresst sein" },
+    { "front": "avoir peur de", "back": "Angst haben vor" },
+    { "front": "être fier / fière de", "back": "stolz sein auf" },
+    { "front": "être soulagé(e)", "back": "erleichtert sein" },
+    { "front": "en avoir marre de", "back": "die Nase voll haben von", "register": "informal" },
+    { "front": "ça me gonfle", "back": "das nervt mich total", "register": "slang" },
+    { "front": "je trouve que", "back": "ich finde, dass" },
+    { "front": "à mon avis", "back": "meiner Meinung nach" },
+    { "front": "franchement", "back": "ehrlich gesagt" },
+    { "front": "ça me fait plaisir", "back": "das freut mich" },
+    { "front": "je suis dégoûté(e)", "back": "ich bin angewidert / frustriert", "register": "informal" },
+    { "front": "c'est chiant", "back": "das ist nervig / lästig", "register": "slang" },
+    { "front": "être touché(e) par", "back": "berührt sein von" },
+    { "front": "je m'en fiche", "back": "das ist mir egal", "register": "informal" },
+    { "front": "avoir le moral", "back": "gute Laune / Stimmung haben" },
+    { "front": "être de bonne / mauvaise humeur", "back": "gute / schlechte Laune haben" },
+    { "front": "ça m'énerve", "back": "das nervt mich" }
+  ],
+  "dialogue": [
+    { "speaker": "Inès", "fr": "Tu as l'air stressé, ça va ?", "de": "Du wirkst gestresst, geht's dir gut?" },
+    { "speaker": "Karim", "fr": "Franchement, non. J'en ai marre de mon travail.", "de": "Ehrlich gesagt nein. Ich hab die Nase voll von meiner Arbeit." },
+    { "speaker": "Inès", "fr": "Qu'est-ce qui t'énerve exactement ?", "de": "Was nervt dich genau?" },
+    { "speaker": "Karim", "fr": "Mon chef ne m'écoute jamais, ça me gonfle.", "de": "Mein Chef hört mir nie zu, das nervt mich total." },
+    { "speaker": "Inès", "fr": "Je comprends, c'est vraiment chiant. À mon avis, tu devrais lui parler.", "de": "Ich verstehe, das ist wirklich nervig. Meiner Meinung nach solltest du mit ihm reden." },
+    { "speaker": "Karim", "fr": "Tu as raison, mais j'ai peur de sa réaction.", "de": "Du hast recht, aber ich habe Angst vor seiner Reaktion." },
+    { "speaker": "Inès", "fr": "Je trouve que tu es trop gentil avec lui. Sois honnête !", "de": "Ich finde, du bist zu nett zu ihm. Sei ehrlich!" },
+    { "speaker": "Karim", "fr": "D'accord, je vais essayer. Et toi, tu es de bonne humeur aujourd'hui ?", "de": "Okay, ich werde es versuchen. Und du, bist du heute gut gelaunt?" },
+    { "speaker": "Inès", "fr": "Oui, très ! Je suis fière de mon examen, j'ai eu une bonne note.", "de": "Ja, sehr! Ich bin stolz auf meine Prüfung, ich hatte eine gute Note." },
+    { "speaker": "Karim", "fr": "Ça me fait plaisir pour toi ! Tu es soulagée, non ?", "de": "Das freut mich für dich! Du bist erleichtert, oder?" },
+    { "speaker": "Inès", "fr": "Grave, j'avais tellement peur de rater. Bon, va parler à ton chef !", "de": "Voll, ich hatte solche Angst zu versagen. Gut, geh mit deinem Chef reden!" }
+  ],
+  "listeningQuizzes": [
+    {
+      "audioText": "J'en ai marre de mon travail.",
+      "question": "Wie fühlt sich die Person?",
+      "options": ["Genervt / frustriert von der Arbeit", "Sehr glücklich mit der Arbeit", "Gleichgültig"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Mon chef ne m'écoute jamais, ça me gonfle.",
+      "question": "Was bedeutet \"ça me gonfle\" hier?",
+      "options": ["Das nervt mich total", "Das freut mich sehr", "Das lässt mich kalt"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "À mon avis, tu devrais lui parler.",
+      "question": "Was drückt dieser Satz aus?",
+      "options": ["Eine Meinung / einen Ratschlag", "Eine Entschuldigung", "Eine Frage nach dem Weg"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "J'ai peur de sa réaction.",
+      "question": "Was fühlt die Person?",
+      "options": ["Angst", "Freude", "Langeweile"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Je suis fière de mon examen, j'ai eu une bonne note.",
+      "question": "Wie fühlt sich die Sprecherin?",
+      "options": ["Stolz", "Enttäuscht", "Wütend"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "J'avais tellement peur de rater.",
+      "question": "Wie war die Sprecherin vor der Prüfung?",
+      "options": ["Ängstlich, dass sie durchfällt", "Ganz entspannt", "Wütend auf ihren Lehrer"],
+      "correctIndex": 0
+    }
+  ],
+  "shadowingSentences": [
+    "Tu as l'air stressé, ça va ?",
+    "J'en ai marre de mon travail.",
+    "Ça me gonfle, franchement.",
+    "À mon avis, tu devrais lui parler.",
+    "J'ai peur de sa réaction.",
+    "Je trouve que tu es trop gentil.",
+    "Je suis fière de mon examen.",
+    "Ça me fait plaisir pour toi.",
+    "J'avais tellement peur de rater.",
+    "Va parler à ton chef !"
+  ],
+  "culture": [
+    {
+      "title": "Gefühle und Meinungen offen ausdrücken",
+      "text": "In Frankreich gilt es nicht als unhöflich, klar und direkt seine Meinung zu sagen — Ausdrücke wie \"à mon avis\" oder \"je trouve que\" gehören zum ganz normalen Gesprächsstil, auch bei Meinungsverschiedenheiten unter Freunden."
+    },
+    {
+      "title": "\"Chiant\", \"gonfler\" & Co.",
+      "text": "Ausdrücke wie \"c'est chiant\" oder \"ça me gonfle\" sind sehr umgangssprachlich und drücken Frustration oder Genervtsein aus. Sie gehören in den Freundeskreis, nicht in formelle Gespräche mit Fremden oder am Arbeitsplatz gegenüber Vorgesetzten."
+    },
+    {
+      "title": "Small Talk über Gefühle",
+      "text": "Anders als beim oberflächlichen \"Ça va ?\" zur Begrüßung wird unter guten Freunden durchaus nachgefragt und ausführlicher über Gefühle gesprochen, besonders wenn jemand gestresst oder traurig wirkt."
+    }
+  ]
+}

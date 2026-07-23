@@ -1,0 +1,104 @@
+{
+  "id": "unit-03-nombres-heure",
+  "title": "Zahlen, Uhrzeit & Termine",
+  "level": "A1",
+  "cefrTopic": "A1 - Zahlen & Uhrzeit",
+  "grammarNote": "Für die Uhrzeit sagt man \"il est ...\": \"Il est trois heures\" (Es ist drei Uhr). Für Minuten nach der Stunde einfach die Zahl anhängen: \"Il est trois heures dix\" (15:10 Uhr, informell auch für 03:10 nachmittags benutzt). Für \"halb\" sagt man \"et demie\": \"Il est trois heures et demie\".",
+  "vocab": [
+    { "front": "un, deux, trois", "back": "eins, zwei, drei" },
+    { "front": "quatre, cinq, six", "back": "vier, fünf, sechs" },
+    { "front": "sept, huit, neuf", "back": "sieben, acht, neun" },
+    { "front": "dix, onze, douze", "back": "zehn, elf, zwölf" },
+    { "front": "vingt", "back": "zwanzig" },
+    { "front": "trente", "back": "dreißig" },
+    { "front": "cinquante", "back": "fünfzig" },
+    { "front": "cent", "back": "hundert" },
+    { "front": "Quelle heure est-il ?", "back": "Wie spät ist es?" },
+    { "front": "Il est midi", "back": "Es ist zwölf Uhr mittags" },
+    { "front": "Il est minuit", "back": "Es ist Mitternacht" },
+    { "front": "et demie", "back": "und halb (halb nach der Stunde)" },
+    { "front": "et quart", "back": "und Viertel (Viertel nach)" },
+    { "front": "moins le quart", "back": "Viertel vor" },
+    { "front": "un rendez-vous", "back": "ein Termin / eine Verabredung" },
+    { "front": "T'as l'heure ?", "back": "Hast du die Uhrzeit? (informell)", "register": "informal" },
+    { "front": "Il est quelle heure, là ?", "back": "Wie spät haben wir gerade? (locker)", "register": "informal" },
+    { "front": "pile", "back": "genau / auf die Minute (z. B. \"à midi pile\")", "register": "informal" },
+    { "front": "un jour, une semaine, un mois", "back": "ein Tag, eine Woche, ein Monat" },
+    { "front": "aujourd'hui, demain, hier", "back": "heute, morgen, gestern" },
+    { "front": "être en retard", "back": "zu spät kommen / im Verzug sein" },
+    { "front": "être à l'heure", "back": "pünktlich sein" },
+    { "front": "grouille-toi !", "back": "beeil dich! (sehr salopp)", "register": "slang" },
+    { "front": "vers", "back": "gegen / ungefähr um (bei Zeitangaben)" }
+  ],
+  "dialogue": [
+    { "speaker": "Tom", "fr": "Salut Inès, t'as l'heure ?", "de": "Hi Inès, hast du die Uhrzeit?" },
+    { "speaker": "Inès", "fr": "Oui, il est trois heures et quart.", "de": "Ja, es ist Viertel nach drei." },
+    { "speaker": "Tom", "fr": "Merde, j'ai rendez-vous chez le dentiste à quatre heures !", "de": "Mist, ich hab um vier einen Termin beim Zahnarzt!" },
+    { "speaker": "Inès", "fr": "T'inquiète, c'est pas loin. Tu arrives à quelle heure d'habitude ?", "de": "Keine Sorge, es ist nicht weit. Wann kommst du normalerweise an?" },
+    { "speaker": "Tom", "fr": "En général, vers moins le quart, pour être à l'heure.", "de": "Normalerweise gegen Viertel vor, um pünktlich zu sein." },
+    { "speaker": "Inès", "fr": "Bon, grouille-toi un peu quand même !", "de": "Na gut, beeil dich trotzdem ein bisschen!" },
+    { "speaker": "Tom", "fr": "On se voit demain, même heure ?", "de": "Sehen wir uns morgen, zur gleichen Zeit?" },
+    { "speaker": "Inès", "fr": "Demain c'est compliqué, on se voit plutôt vendredi.", "de": "Morgen ist es kompliziert, treffen wir uns lieber Freitag." },
+    { "speaker": "Tom", "fr": "D'accord, à quelle heure ?", "de": "Okay, um wie viel Uhr?" },
+    { "speaker": "Inès", "fr": "À midi pile, ça te va ?", "de": "Genau um zwölf, passt dir das?" },
+    { "speaker": "Tom", "fr": "Parfait, à vendredi alors !", "de": "Perfekt, dann bis Freitag!" }
+  ],
+  "listeningQuizzes": [
+    {
+      "audioText": "Il est trois heures et quart.",
+      "question": "Wie spät ist es laut dem Satz?",
+      "options": ["15:15 Uhr", "15:45 Uhr", "15:30 Uhr"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "J'ai rendez-vous chez le dentiste à quatre heures.",
+      "question": "Worum geht es in diesem Satz?",
+      "options": ["Um einen Termin beim Zahnarzt", "Um einen Einkauf", "Um eine Zugfahrt"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "T'as l'heure ?",
+      "question": "Was wird hier gefragt?",
+      "options": ["Nach der Uhrzeit", "Nach dem Weg", "Nach dem Namen"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "On se voit vendredi, à midi pile.",
+      "question": "Wann treffen sich die beiden?",
+      "options": ["Freitag um 12 Uhr", "Freitag um 14 Uhr", "Montag um 12 Uhr"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Grouille-toi un peu, tu es en retard !",
+      "question": "Was bedeutet dieser Ausruf?",
+      "options": ["Beeil dich, weil du spät dran bist", "Sei ruhig, wir haben Zeit", "Bleib einfach sitzen"],
+      "correctIndex": 0
+    }
+  ],
+  "shadowingSentences": [
+    "Quelle heure est-il ?",
+    "Il est trois heures et quart.",
+    "T'as l'heure, s'il te plaît ?",
+    "J'ai rendez-vous à quatre heures.",
+    "Je suis en retard, désolé !",
+    "On se voit demain, même heure ?",
+    "À midi pile, ça te va ?",
+    "Grouille-toi, on va être en retard !",
+    "Il est midi et demie.",
+    "À vendredi, alors !"
+  ],
+  "culture": [
+    {
+      "title": "24-Stunden-Format im Alltag",
+      "text": "In offiziellen Kontexten (Fahrpläne, Öffnungszeiten, TV-Programm) nutzen Franzosen fast immer das 24-Stunden-Format (\"vingt heures\" für 20 Uhr). Im lockeren Gespräch sagt man aber oft einfach \"huit heures\" und lässt Kontext oder \"du soir\" (abends) klären, welche Tageszeit gemeint ist."
+    },
+    {
+      "title": "Pünktlichkeit ist Verhandlungssache",
+      "text": "Bei privaten Verabredungen wird eine Verspätung von 10–15 Minuten meist locker gesehen, man spricht scherzhaft vom \"quart d'heure de politesse\" (Höflichkeits-Viertelstunde). Bei geschäftlichen Terminen oder beim Arzt gilt das aber nicht — dort sollte man wirklich pünktlich sein."
+    },
+    {
+      "title": "\"Vers\" statt genauer Zeit",
+      "text": "Im Alltag wird oft \"vers\" (gegen/ungefähr) benutzt statt einer exakten Uhrzeit, z. B. \"On mange vers midi\" — das signalisiert eine gewisse Flexibilität, die in privaten Treffen ganz normal ist."
+    }
+  ]
+}

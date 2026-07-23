@@ -1,0 +1,115 @@
+{
+  "id": "unit-25-gastronomie-savoir-vivre",
+  "title": "Essen & Savoir-vivre",
+  "level": "A2",
+  "cefrTopic": "A2 - Über Mahlzeiten, Tischsitten und savoir-vivre sprechen",
+  "grammarNote": "\"Il faut\" + Infinitiv drückt eine allgemeine Regel oder Notwendigkeit aus: \"Il faut mettre le pain à côté de l'assiette\" (Man muss das Brot neben den Teller legen). Diese unpersönliche Konstruktion wird oft benutzt, um Höflichkeitsregeln und Traditionen zu beschreiben.",
+  "vocab": [
+    { "front": "le petit-déjeuner", "back": "das Frühstück" },
+    { "front": "le déjeuner", "back": "das Mittagessen" },
+    { "front": "le dîner", "back": "das Abendessen" },
+    { "front": "une entrée", "back": "eine Vorspeise" },
+    { "front": "le plat principal", "back": "der Hauptgang" },
+    { "front": "le dessert", "back": "der Nachtisch" },
+    { "front": "le fromage", "back": "der Käse" },
+    { "front": "la baguette", "back": "das Baguette" },
+    { "front": "le pain", "back": "das Brot" },
+    { "front": "bon appétit", "back": "guten Appetit" },
+    { "front": "l'apéritif / l'apéro", "back": "der Aperitif, der Umtrunk vor dem Essen", "register": "informal" },
+    { "front": "à table !", "back": "zu Tisch! Essen ist fertig!" },
+    { "front": "se mettre à table", "back": "sich an den Tisch setzen" },
+    { "front": "lever son verre", "back": "das Glas erheben, anstoßen" },
+    { "front": "santé ! / tchin-tchin !", "back": "Prost!", "register": "informal" },
+    { "front": "couper le pain", "back": "das Brot schneiden" },
+    { "front": "faire les courses", "back": "einkaufen (Lebensmittel)" },
+    { "front": "le marché", "back": "der Markt" },
+    { "front": "être poli(e)", "back": "höflich sein" },
+    { "front": "dire merci", "back": "danke sagen" }
+  ],
+  "dialogue": [
+    { "speaker": "Mathilde", "fr": "À table ! Le déjeuner est prêt !", "de": "Zu Tisch! Das Mittagessen ist fertig!" },
+    { "speaker": "Julien", "fr": "Super, j'ai trop faim. On fait d'abord l'apéro ?", "de": "Super, ich habe riesigen Hunger. Machen wir zuerst den Aperitif?" },
+    { "speaker": "Mathilde", "fr": "Oui, avec des olives et un peu de vin. Santé !", "de": "Ja, mit Oliven und etwas Wein. Prost!" },
+    { "speaker": "Julien", "fr": "Tchin-tchin ! Et après, qu'est-ce qu'on mange comme entrée ?", "de": "Prost! Und was essen wir danach als Vorspeise?" },
+    { "speaker": "Mathilde", "fr": "Une salade de tomates, puis le plat principal : du poulet avec des légumes.", "de": "Einen Tomatensalat, dann als Hauptgang: Hähnchen mit Gemüse." },
+    { "speaker": "Julien", "fr": "Et le fromage avant le dessert, comme toujours !", "de": "Und den Käse vor dem Nachtisch, wie immer!" },
+    { "speaker": "Mathilde", "fr": "Bien sûr, c'est la tradition en France. Bon appétit !", "de": "Natürlich, das ist Tradition in Frankreich. Guten Appetit!" },
+    { "speaker": "Julien", "fr": "Merci, à toi aussi. Tu peux couper le pain, s'il te plaît ?", "de": "Danke, dir auch. Kannst du das Brot schneiden, bitte?" },
+    { "speaker": "Mathilde", "fr": "Oui, bien sûr. Il faut toujours mettre le pain à côté de l'assiette, pas dessus.", "de": "Ja, klar. Man muss das Brot immer neben den Teller legen, nicht darauf." },
+    { "speaker": "Julien", "fr": "Ah, je ne savais pas ! Et il faut garder les mains sur la table aussi, non ?", "de": "Ah, das wusste ich nicht! Und man muss auch die Hände auf dem Tisch lassen, oder?" },
+    { "speaker": "Mathilde", "fr": "Exactement, c'est une règle de savoir-vivre en France.", "de": "Genau, das ist eine Regel des guten Benehmens in Frankreich." },
+    { "speaker": "Julien", "fr": "Bon, alors mangeons ! C'est délicieux.", "de": "Gut, dann lass uns essen! Es ist köstlich." }
+  ],
+  "listeningQuizzes": [
+    {
+      "audioText": "On fait d'abord l'apéro ?",
+      "question": "Was ist \"l'apéro\"?",
+      "options": ["Ein Umtrunk/Getränk vor dem Essen", "Der Nachtisch", "Das Frühstück"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Santé ! Tchin-tchin !",
+      "question": "Was sagt man hier?",
+      "options": ["Prost! (beim Anstoßen)", "Guten Appetit", "Auf Wiedersehen"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Le fromage avant le dessert, comme toujours.",
+      "question": "Was ist in Frankreich Tradition?",
+      "options": ["Käse wird vor dem Nachtisch gegessen", "Käse wird zum Frühstück gegessen", "Käse wird nie gegessen"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Il faut mettre le pain à côté de l'assiette.",
+      "question": "Was ist die Regel für das Brot bei Tisch?",
+      "options": ["Es liegt neben dem Teller, nicht darauf", "Es liegt auf dem Teller", "Es liegt unter der Serviette"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Il faut garder les mains sur la table.",
+      "question": "Was ist eine französische Tischsitte?",
+      "options": ["Die Hände bleiben sichtbar auf dem Tisch", "Die Hände bleiben auf dem Schoß", "Man isst mit den Händen"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Bon appétit !",
+      "question": "Wann sagt man das?",
+      "options": ["Bevor man mit dem Essen beginnt", "Nach dem Essen", "Beim Abschied"],
+      "correctIndex": 0
+    }
+  ],
+  "shadowingSentences": [
+    "À table ! Le déjeuner est prêt.",
+    "On fait d'abord l'apéro ?",
+    "Santé ! Tchin-tchin !",
+    "Qu'est-ce qu'on mange comme entrée ?",
+    "Le fromage avant le dessert, comme toujours.",
+    "Bon appétit !",
+    "Tu peux couper le pain, s'il te plaît ?",
+    "Il faut mettre le pain à côté de l'assiette.",
+    "Il faut garder les mains sur la table.",
+    "C'est une règle de savoir-vivre en France."
+  ],
+  "culture": [
+    {
+      "title": "Der klassische Menü-Aufbau",
+      "text": "Auch bei alltäglichen Familienessen, besonders am Wochenende, folgt eine französische Mahlzeit oft einem festen Ablauf: \"l'apéritif\" (Umtrunk vorab), \"l'entrée\" (Vorspeise), \"le plat principal\" (Hauptgang), \"le fromage\" (Käse), \"le dessert\" und zum Abschluss \"le café\". Das steht im Kontrast zu schnelleren, einteiligen Mahlzeiten, wie sie in vielen anderen Ländern üblich sind."
+    },
+    {
+      "title": "Käse vor dem Dessert",
+      "text": "In Frankreich wird der Käsegang traditionell vor dem Dessert serviert, nicht danach. Ein Grund dafür ist, dass der Käse noch mit dem übrig gebliebenen Rotwein genossen werden kann, bevor süße Speisen den Gaumen 'verändern'. Oft wird eine kleine Auswahl auf einem \"plateau de fromages\" angeboten, aus der man sich bedient."
+    },
+    {
+      "title": "Brot-Etikette bei Tisch",
+      "text": "Das Brot wird in Frankreich meist direkt auf die Tischdecke oder auf einen kleinen Teller neben den Hauptteller gelegt — niemals auf den Hauptteller selbst. Man benutzt es außerdem, um Essen mit der Gabel aufzuschieben (\"pousser avec le pain\"), und bricht es traditionell mit der Hand ab, statt es mit dem Messer zu schneiden."
+    },
+    {
+      "title": "L'apéritif — mehr als nur ein Getränk",
+      "text": "\"L'apéro\" ist ein fester sozialer Ritus vor dem eigentlichen Essen, kann aber auch ein eigenständiger, informeller Anlass sein (\"on fait un apéro\" — man trifft sich einfach zum Umtrunk). Typische Getränke sind Pastis, Kir oder Weißwein, dazu kleine Snacks wie Oliven, Chips oder Erdnüsse (\"cacahuètes\")."
+    },
+    {
+      "title": "Hände auf den Tisch, nicht auf den Schoß",
+      "text": "Eine klassische französische Tischregel — im Gegensatz zu manchen angelsächsischen Gepflogenheiten: Die Hände bzw. Handgelenke bleiben sichtbar auf der Tischkante liegen, statt im Schoß versteckt zu werden. Historisch wird das manchmal damit erklärt, dass man so zeigte, keine Waffe unter dem Tisch zu verbergen."
+    }
+  ]
+}

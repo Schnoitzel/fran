@@ -1,0 +1,103 @@
+{
+  "id": "unit-14-vetements",
+  "title": "Kleidung & Aussehen",
+  "level": "A2",
+  "cefrTopic": "A2 - Über Kleidung, Aussehen und Einkaufen sprechen",
+  "grammarNote": "Adjektive müssen im Französischen in Genus und Numerus mit dem Substantiv übereinstimmen (Adjektiv-Kongruenz): \"un pantalon noir\" (m.), \"une robe noire\" (f., + e), \"des chaussures noires\" (f. Plural, + es). Merke: Bei vielen Adjektiven ändert sich nur die Schreibung, nicht die Aussprache — aber bei manchen (wie \"blanc/blanche\") auch die Aussprache.",
+  "vocab": [
+    { "front": "Un vêtement", "back": "Ein Kleidungsstück" },
+    { "front": "Un pantalon", "back": "Eine Hose" },
+    { "front": "Une robe", "back": "Ein Kleid" },
+    { "front": "Une chemise", "back": "Ein Hemd" },
+    { "front": "Un tee-shirt", "back": "Ein T-Shirt" },
+    { "front": "Des chaussures", "back": "Schuhe" },
+    { "front": "Un manteau", "back": "Ein Mantel" },
+    { "front": "Une veste", "back": "Eine Jacke" },
+    { "front": "Porter", "back": "Tragen (Kleidung)" },
+    { "front": "S'habiller", "back": "Sich anziehen" },
+    { "front": "Se maquiller", "back": "Sich schminken" },
+    { "front": "Élégant(e)", "back": "Elegant" },
+    { "front": "À la mode", "back": "Modisch / in Mode" },
+    { "front": "Ringard(e)", "back": "Altmodisch / uncool (informell)", "register": "informal" },
+    { "front": "Stylé(e)", "back": "Stylish / schick (Slang)", "register": "slang" },
+    { "front": "C'est classe !", "back": "Das ist schick/edel! (informell)", "register": "informal" },
+    { "front": "Une fringue", "back": "Ein Klamottenstück (Slang)", "register": "slang" },
+    { "front": "Faire du shopping", "back": "Shoppen gehen" },
+    { "front": "Essayer", "back": "Anprobieren" },
+    { "front": "Ça te va bien !", "back": "Das steht dir gut!" },
+    { "front": "Une taille", "back": "Eine Größe (Kleidung)" },
+    { "front": "Être bien fringué(e)", "back": "Gut angezogen sein (Slang)", "register": "slang" }
+  ],
+  "dialogue": [
+    { "speaker": "Camille", "fr": "Regarde cette robe, elle est trop stylée !", "de": "Schau dir dieses Kleid an, das ist total stylish!" },
+    { "speaker": "Antoine", "fr": "Ouais, elle est classe. Tu veux l'essayer ?", "de": "Ja, das ist schick. Willst du es anprobieren?" },
+    { "speaker": "Camille", "fr": "Bonne idée, tu connais ma taille ?", "de": "Gute Idee, kennst du meine Größe?" },
+    { "speaker": "Antoine", "fr": "Non, mais demande à la vendeuse.", "de": "Nein, aber frag die Verkäuferin." },
+    { "speaker": "Camille", "fr": "Bon, je l'essaie... Alors, ça me va comment ?", "de": "Gut, ich probiere es an... Also, wie steht es mir?" },
+    { "speaker": "Antoine", "fr": "Ça te va super bien ! Vraiment à la mode.", "de": "Das steht dir super gut! Wirklich modisch." },
+    { "speaker": "Camille", "fr": "Merci ! Et ta veste, elle est nouvelle ?", "de": "Danke! Und deine Jacke, ist die neu?" },
+    { "speaker": "Antoine", "fr": "Oui, je l'ai achetée hier. Elle est pas un peu ringarde ?", "de": "Ja, die habe ich gestern gekauft. Ist die nicht ein bisschen altmodisch?" },
+    { "speaker": "Camille", "fr": "Non, pas du tout, elle est bien fringuée cette veste !", "de": "Nein, überhaupt nicht, die Jacke ist echt schick!" },
+    { "speaker": "Antoine", "fr": "Cool, je préfère porter des trucs simples de toute façon.", "de": "Cool, ich trage sowieso lieber einfache Sachen." },
+    { "speaker": "Camille", "fr": "Bon, on continue le shopping ou on rentre ?", "de": "Gut, machen wir mit dem Shoppen weiter oder gehen wir nach Hause?" },
+    { "speaker": "Antoine", "fr": "On continue, j'ai besoin d'un nouveau manteau.", "de": "Wir machen weiter, ich brauche einen neuen Mantel." }
+  ],
+  "listeningQuizzes": [
+    {
+      "audioText": "Regarde cette robe, elle est trop stylée !",
+      "question": "Wie findet die Person das Kleid?",
+      "options": ["Sehr stylish", "Sehr altmodisch", "Zu teuer"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Ça te va super bien ! Vraiment à la mode.",
+      "question": "Was sagt die Person über die Kleidung?",
+      "options": ["Sie steht gut und ist modisch", "Sie passt nicht", "Sie ist zu klein"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Elle est pas un peu ringarde, ma veste ?",
+      "question": "Was bedeutet \"ringarde\" in diesem Satz?",
+      "options": ["Altmodisch / uncool", "Sehr teuer", "Sehr bequem"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Elle est bien fringuée cette veste !",
+      "question": "Was drückt dieser Satz aus?",
+      "options": ["Lob für die Jacke (schick)", "Kritik an der Jacke", "Dass die Jacke fehlt"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "J'ai besoin d'un nouveau manteau.",
+      "question": "Was braucht die Person?",
+      "options": ["Einen neuen Mantel", "Neue Schuhe", "Eine neue Hose"],
+      "correctIndex": 0
+    }
+  ],
+  "shadowingSentences": [
+    "Regarde cette robe, elle est trop stylée !",
+    "Tu veux l'essayer ?",
+    "Tu connais ma taille ?",
+    "Ça te va comment ?",
+    "Ça te va super bien !",
+    "Elle est pas un peu ringarde, ma veste ?",
+    "Elle est bien fringuée cette veste !",
+    "Je préfère porter des trucs simples.",
+    "On continue le shopping ou on rentre ?",
+    "J'ai besoin d'un nouveau manteau."
+  ],
+  "culture": [
+    {
+      "title": "Der berühmte französische Stil",
+      "text": "Frankreich, besonders Paris, gilt weltweit als Symbol für Mode (\"la mode\"). Franzosen setzen im Alltag oft auf schlichte, gut sitzende Basics statt auffällige Outfits — das Konzept \"chic décontracté\" (leger-elegant) ist sehr verbreitet."
+    },
+    {
+      "title": "\"Les soldes\" — die großen Schlussverkäufe",
+      "text": "Zweimal im Jahr (Winter und Sommer) finden in Frankreich staatlich geregelte \"soldes\" statt — landesweite Rabattzeiträume, in denen Geschäfte ihre Preise stark senken. Diese Termine sind gesetzlich festgelegt und werden von Schnäppchenjägern sehnlich erwartet."
+    },
+    {
+      "title": "Umgangssprachlich über Kleidung reden",
+      "text": "\"Une fringue\" statt \"un vêtement\", \"être bien fringué\" statt \"être bien habillé\" — solche Slangausdrücke sind unter jungen Leuten beim Reden über Klamotten allgegenwärtig und klingen viel lockerer als die Standardformen."
+    }
+  ]
+}

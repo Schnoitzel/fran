@@ -1,0 +1,102 @@
+{
+  "id": "unit-07-directions",
+  "title": "Wegbeschreibung & Verkehrsmittel",
+  "level": "A2",
+  "cefrTopic": "A2 - Wegbeschreibung & Verkehrsmittel",
+  "grammarNote": "Für Wegbeschreibungen nutzt man oft den Imperativ in der \"tu\"-Form: \"tourne\" (biege ab), \"continue\" (geh weiter), \"prends\" (nimm). Bei -er-Verben fällt im Imperativ das -s der tu-Form weg: \"tu tournes\" → \"tourne !\". Bei prendre bleibt es: \"prends la deuxième rue à gauche.\"",
+  "vocab": [
+    { "front": "à gauche", "back": "links" },
+    { "front": "à droite", "back": "rechts" },
+    { "front": "tout droit", "back": "geradeaus" },
+    { "front": "tourner", "back": "abbiegen" },
+    { "front": "continuer", "back": "weitergehen" },
+    { "front": "traverser", "back": "überqueren" },
+    { "front": "le carrefour", "back": "die Kreuzung" },
+    { "front": "le feu (rouge)", "back": "die Ampel" },
+    { "front": "au coin de la rue", "back": "an der Straßenecke" },
+    { "front": "le métro", "back": "die U-Bahn" },
+    { "front": "le bus", "back": "der Bus" },
+    { "front": "le tram", "back": "die Straßenbahn" },
+    { "front": "prendre le métro", "back": "die U-Bahn nehmen" },
+    { "front": "descendre à la prochaine station", "back": "an der nächsten Station aussteigen" },
+    { "front": "un ticket / un billet", "back": "ein Fahrschein / eine Fahrkarte" },
+    { "front": "c'est loin / c'est près", "back": "das ist weit / das ist nah" },
+    { "front": "se perdre", "back": "sich verlaufen / sich verirren" },
+    { "front": "excusez-moi / excuse-moi", "back": "entschuldigen Sie / entschuldige" },
+    { "front": "bouchon", "back": "Stau (informell, wörtl. Korken/Stöpsel)", "register": "informal" },
+    { "front": "galérer", "back": "sich abmühen / Schwierigkeiten haben", "register": "slang" },
+    { "front": "à deux pas d'ici", "back": "ganz in der Nähe (wörtl. zwei Schritte von hier)", "register": "informal" },
+    { "front": "paumé(e)", "back": "verloren / total die Orientierung verloren (salopp)", "register": "slang" },
+    { "front": "un raccourci", "back": "eine Abkürzung" }
+  ],
+  "dialogue": [
+    { "speaker": "Camille", "fr": "Excuse-moi, tu sais comment aller à la gare ?", "de": "Entschuldige, weißt du, wie man zum Bahnhof kommt?" },
+    { "speaker": "Hugo", "fr": "Oui, c'est à deux pas d'ici. Tu continues tout droit.", "de": "Ja, das ist ganz in der Nähe. Du gehst geradeaus weiter." },
+    { "speaker": "Camille", "fr": "D'accord, et après ?", "de": "Okay, und dann?" },
+    { "speaker": "Hugo", "fr": "Après le feu, tu tournes à droite, puis tu traverses le carrefour.", "de": "Nach der Ampel biegst du rechts ab, dann überquerst du die Kreuzung." },
+    { "speaker": "Camille", "fr": "C'est loin à pied ?", "de": "Ist das zu Fuß weit?" },
+    { "speaker": "Hugo", "fr": "Non, dix minutes. Sinon tu peux prendre le bus, ligne douze.", "de": "Nein, zehn Minuten. Sonst kannst du auch den Bus nehmen, Linie zwölf." },
+    { "speaker": "Camille", "fr": "Je vais galérer avec toutes ces rues, je suis un peu paumée en général.", "de": "Ich werde mich mit all diesen Straßen abmühen, ich bin normalerweise etwas orientierungslos." },
+    { "speaker": "Hugo", "fr": "T'inquiète, je peux t'accompagner si tu veux.", "de": "Keine Sorge, ich kann dich begleiten, wenn du möchtest." },
+    { "speaker": "Camille", "fr": "Ah oui, ce serait super sympa, merci !", "de": "Ach ja, das wäre total nett, danke!" },
+    { "speaker": "Hugo", "fr": "Attention, il y a un gros bouchon là-bas, on prend le raccourci.", "de": "Vorsicht, da drüben ist ein großer Stau, wir nehmen die Abkürzung." }
+  ],
+  "listeningQuizzes": [
+    {
+      "audioText": "Tu continues tout droit, puis tu tournes à droite.",
+      "question": "Was soll man laut Anweisung tun?",
+      "options": ["Geradeaus gehen, dann rechts abbiegen", "Sofort links abbiegen", "Umkehren"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "C'est à deux pas d'ici.",
+      "question": "Was bedeutet dieser Ausdruck?",
+      "options": ["Es ist ganz in der Nähe", "Es ist sehr weit weg", "Man muss den Bus nehmen"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Je suis un peu paumée, tu peux m'aider ?",
+      "question": "Was drückt die Person aus?",
+      "options": ["Dass sie sich verirrt hat / orientierungslos ist", "Dass sie hungrig ist", "Dass sie müde ist"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Il y a un gros bouchon, on prend le raccourci.",
+      "question": "Warum nehmen sie die Abkürzung?",
+      "options": ["Wegen eines Staus", "Wegen des Wetters", "Wegen einer Baustelle"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Sinon tu peux prendre le bus, ligne douze.",
+      "question": "Welche Alternative wird vorgeschlagen?",
+      "options": ["Den Bus Linie 12 zu nehmen", "Ein Taxi zu rufen", "Mit dem Fahrrad zu fahren"],
+      "correctIndex": 0
+    }
+  ],
+  "shadowingSentences": [
+    "Excuse-moi, tu sais comment aller à la gare ?",
+    "Tu continues tout droit.",
+    "Après le feu, tu tournes à droite.",
+    "C'est loin à pied ?",
+    "Tu peux prendre le bus, ligne douze.",
+    "Je suis un peu paumé, désolé.",
+    "Il y a un gros bouchon là-bas.",
+    "On prend le raccourci ?",
+    "C'est à deux pas d'ici.",
+    "Merci beaucoup pour ton aide !"
+  ],
+  "culture": [
+    {
+      "title": "Metro, RER und Vélib'",
+      "text": "In Paris und anderen Großstädten ist das öffentliche Verkehrsnetz sehr dicht ausgebaut: Métro, RER (Schnellbahn) und Leihfahrräder wie \"Vélib'\" gehören zum Alltag. Ein Fahrschein (\"un ticket\") gilt oft für Metro und Bus gleichermaßen."
+    },
+    {
+      "title": "Nach dem Weg fragen",
+      "text": "Franzosen fragen im Zweifel eher spontan Passanten nach dem Weg statt sich ausschließlich auf das Handy zu verlassen — ein kurzes \"Excusez-moi\" gefolgt von der Frage ist völlig normal und wird meist freundlich beantwortet."
+    },
+    {
+      "title": "\"Galérer\" – ein Alltagswort",
+      "text": "Das Verb \"galérer\" (sich abmühen, Schwierigkeiten haben) wird in fast jedem Lebensbereich benutzt — beim Weg finden, bei der Arbeit oder mit Bürokratie. Es ist eines der meistgenutzten informellen Verben im französischen Alltag."
+    }
+  ]
+}

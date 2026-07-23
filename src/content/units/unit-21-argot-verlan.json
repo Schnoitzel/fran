@@ -1,0 +1,115 @@
+{
+  "id": "unit-21-argot-verlan",
+  "title": "Umgangssprache & Verlan",
+  "level": "B1",
+  "cefrTopic": "B1 - Jugendsprache, Argot und Verlan verstehen",
+  "grammarNote": "Verlan entsteht durch das Umkehren der Silben eines Wortes: \"femme\" [fam] wird zu \"meuf\", \"flic\" wird zu \"keuf\", \"mère\" wird zu \"reum\". Nicht jedes umgangssprachliche Wort ist Verlan (z. B. \"bosser\", \"bouffer\") — Verlan ist nur eine spezielle Form des Argot. Verwende diese Wörter nur im informellen Register, unter Freunden oder Gleichaltrigen.",
+  "vocab": [
+    { "front": "une meuf", "back": "eine Frau, meine Freundin (Verlan von \"femme\")", "register": "slang" },
+    { "front": "un keuf", "back": "ein Bulle, Polizist (Verlan von \"flic\")", "register": "slang" },
+    { "front": "un keum", "back": "ein Typ, Kerl (Verlan von \"mec\")", "register": "slang" },
+    { "front": "relou", "back": "nervig, anstrengend (Verlan von \"lourd\")", "register": "slang" },
+    { "front": "ouf", "back": "krass, verrückt, abgefahren (Verlan von \"fou\")", "register": "slang" },
+    { "front": "chelou", "back": "komisch, seltsam, verdächtig (Verlan von \"louche\")", "register": "slang" },
+    { "front": "une teuf", "back": "eine Party (Verlan von \"fête\")", "register": "slang" },
+    { "front": "vénère", "back": "sauer, wütend (Verlan von \"énervé\")", "register": "slang" },
+    { "front": "zarbi", "back": "komisch, merkwürdig (Verlan von \"bizarre\")", "register": "slang" },
+    { "front": "reum", "back": "Mutter (Verlan von \"mère\")", "register": "slang" },
+    { "front": "reup", "back": "Vater (Verlan von \"père\")", "register": "slang" },
+    { "front": "laisse béton", "back": "lass es gut sein, vergiss es (Verlan von \"laisse tomber\")", "register": "slang" },
+    { "front": "kiffer", "back": "total mögen, Bock haben auf etwas", "register": "slang" },
+    { "front": "flipper", "back": "Schiss haben, durchdrehen, ausrasten", "register": "slang" },
+    { "front": "c'est la galère", "back": "das ist Stress, das ist mühsam", "register": "informal" },
+    { "front": "bosser", "back": "schuften, arbeiten", "register": "informal" },
+    { "front": "bouffer", "back": "futtern, essen", "register": "informal" },
+    { "front": "une clope", "back": "eine Kippe (Zigarette)", "register": "slang" },
+    { "front": "ça craint", "back": "das ist mies, das ist peinlich", "register": "informal" },
+    { "front": "grave", "back": "total, sehr (Verstärkungswort, z. B. \"grave bien\")", "register": "slang" }
+  ],
+  "dialogue": [
+    { "speaker": "Léo", "fr": "Salut ! Ça va ou quoi ?", "de": "Hi! Alles klar oder was?" },
+    { "speaker": "Sami", "fr": "Ouais, ça va, un peu vénère parce que mon reup m'a interdit de sortir.", "de": "Ja, geht so, ein bisschen sauer, weil mein Vater mir verboten hat auszugehen." },
+    { "speaker": "Léo", "fr": "Sérieux ? C'est relou !", "de": "Ernsthaft? Das ist nervig!" },
+    { "speaker": "Sami", "fr": "Grave. Et toi, tu vas à la teuf de Nina ce soir ?", "de": "Total. Und du, gehst du heute Abend auf Ninas Party?" },
+    { "speaker": "Léo", "fr": "Ouais, je kiffe trop cette meuf, elle organise ça super bien.", "de": "Ja, ich mag die total, sie organisiert das super gut." },
+    { "speaker": "Sami", "fr": "Chelou, moi je la trouve un peu bizarre parfois.", "de": "Komisch, ich finde sie manchmal etwas seltsam." },
+    { "speaker": "Léo", "fr": "T'inquiète, elle est ouf mais sympa.", "de": "Keine Sorge, sie ist verrückt, aber nett." },
+    { "speaker": "Sami", "fr": "Bon, de toute façon, ma reum va jamais me laisser sortir non plus.", "de": "Na gut, sowieso wird meine Mutter mich auch nicht rausgehen lassen." },
+    { "speaker": "Léo", "fr": "Laisse béton, on ira une autre fois.", "de": "Vergiss es, wir gehen ein anderes Mal." },
+    { "speaker": "Sami", "fr": "Ouais, c'est la galère ce soir. Bon, je vais bosser un peu alors.", "de": "Ja, das ist heute Abend echt Stress. Gut, dann arbeite ich ein bisschen." },
+    { "speaker": "Léo", "fr": "Ok, et fais gaffe aux keufs si tu sors quand même, ils patrouillent dans le quartier.", "de": "Ok, und pass auf die Bullen auf, wenn du trotzdem rausgehst, die patrouillieren im Viertel." },
+    { "speaker": "Sami", "fr": "Ça craint, mais t'inquiète, je reste sage.", "de": "Das ist blöd, aber keine Sorge, ich bleibe brav." }
+  ],
+  "listeningQuizzes": [
+    {
+      "audioText": "C'est relou, cette situation.",
+      "question": "Was bedeutet \"relou\" hier?",
+      "options": ["Nervig, anstrengend", "Lustig", "Spannend"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Je kiffe trop ce film.",
+      "question": "Was bedeutet \"kiffer\"?",
+      "options": ["Etwas sehr mögen", "Etwas hassen", "Etwas vergessen"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Fais gaffe aux keufs !",
+      "question": "Wer sind die \"keufs\"?",
+      "options": ["Die Polizei", "Die Nachbarn", "Die Lehrer"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Laisse béton, on verra plus tard.",
+      "question": "Was bedeutet \"laisse béton\"?",
+      "options": ["Vergiss es, lass es gut sein", "Bau ein Haus", "Pass gut auf"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Elle est un peu ouf, mais sympa.",
+      "question": "Was bedeutet \"ouf\" in diesem Kontext?",
+      "options": ["Verrückt, crazy", "Traurig", "Müde"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "C'est la galère, ce matin.",
+      "question": "Was bedeutet \"la galère\" hier?",
+      "options": ["Stress, Mühsal", "Ein Boot", "Ein Fest"],
+      "correctIndex": 0
+    }
+  ],
+  "shadowingSentences": [
+    "Ça va ou quoi ?",
+    "C'est relou, cette histoire.",
+    "Je kiffe trop cette chanson.",
+    "Fais gaffe aux keufs.",
+    "Laisse béton, on verra plus tard.",
+    "Elle est un peu ouf, mais sympa.",
+    "C'est la galère, ce matin.",
+    "Il faut que je bosse ce soir.",
+    "Ma meuf est trop cool.",
+    "Grave, t'as raison."
+  ],
+  "culture": [
+    {
+      "title": "Was ist Verlan?",
+      "text": "Verlan ist eine Wortspiel-Technik, bei der die Silben eines Wortes vertauscht werden — der Name selbst kommt von \"l'envers\" (verkehrt herum), rückwärts ausgesprochen. Entstanden ist Verlan in den Pariser Vororten (\"banlieues\") in der zweiten Hälfte des 20. Jahrhunderts und wurde besonders durch Hip-Hop und Rap in den 1980er- und 90er-Jahren populär. Klassische Beispiele: \"femme\" → \"meuf\", \"flic\" → \"keuf\", \"mec\" → \"keum\", \"bizarre\" → \"zarbi\"."
+    },
+    {
+      "title": "Vom Vorort-Slang zum Alltagswort",
+      "text": "Wörter wie \"meuf\", \"relou\" oder \"ouf\" stammen ursprünglich aus dem Slang der Jugendlichen in den Banlieues, sind mittlerweile aber quer durch alle Gesellschaftsschichten Frankreichs im informellen Sprachgebrauch angekommen, auch dank Musik, Fernsehen und sozialer Medien. Trotzdem bleiben sie klar umgangssprachlich markiert: In einem Bewerbungsgespräch, gegenüber Lehrer:innen oder in offiziellen Texten benutzt man diese Wörter nicht."
+    },
+    {
+      "title": "Renaud und \"Laisse béton\"",
+      "text": "Der Ausdruck \"laisse béton\" (selbst Verlan von \"laisse tomber\", also \"lass es gut sein / vergiss es\") wurde 1977 durch den Chansonnier Renaud mit seinem gleichnamigen Song \"Laisse béton\" richtig bekannt. Der Song gilt als einer der ersten großen Verlan-Hits im französischen Mainstream und trug entscheidend dazu bei, Verlan-Wörter einem breiteren Publikum bekannt zu machen."
+    },
+    {
+      "title": "Wann benutzt man Argot?",
+      "text": "Argot und Verlan gehören klar zum informellen Register: passend unter Freund:innen, Geschwistern oder Gleichaltrigen, unpassend gegenüber Fremden, älteren Personen, Vorgesetzten oder in schriftlichen, formellen Texten. Ähnlich wie im Deutschen Jugendsprache stark generationenabhängig ist, ändert sich auch französischer Slang schnell — manche Wörter, die vor 20 Jahren angesagt waren, klingen heute schon wieder altmodisch."
+    },
+    {
+      "title": "Nicht nur Verlan: klassisches Argot",
+      "text": "Nicht jedes umgangssprachliche Wort ist Verlan. Ausdrücke wie \"bosser\" (schuften), \"bouffer\" (essen) oder \"une thune\" (Kohle, Geld) gehören zum klassischen französischen Argot, das schon seit dem 19. und frühen 20. Jahrhundert in Arbeitermilieus existiert — deutlich älter als die Verlan-Welle der Banlieues."
+    }
+  ]
+}

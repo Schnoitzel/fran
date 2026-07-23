@@ -1,0 +1,116 @@
+{
+  "id": "unit-28-reclamations",
+  "title": "Beschwerden & Probleme lösen",
+  "level": "B1",
+  "cefrTopic": "B1 - Sich beschweren und ein Problem lösen",
+  "grammarNote": "Bei Beschwerden wird oft der Konditional verwendet, um höflicher zu klingen: \"Je voudrais faire une réclamation\" (Ich möchte mich beschweren) statt \"Je veux\". Auch nützlich: \"depuis\" + Zeitdauer, um zu sagen, wie lange ein Problem schon besteht: \"Ça ne marche pas depuis trois jours\" (Es funktioniert seit drei Tagen nicht). Das Verb \"falloir\" (\"il faut que\") mit Subjonctif drückt aus, was getan werden muss: \"Il faut que vous me remboursiez\".",
+  "vocab": [
+    { "front": "une réclamation", "back": "eine Beschwerde/Reklamation" },
+    { "front": "faire une réclamation", "back": "sich beschweren / reklamieren" },
+    { "front": "un remboursement", "back": "eine Rückerstattung" },
+    { "front": "être remboursé(e)", "back": "sein Geld zurückbekommen" },
+    { "front": "ça ne marche pas", "back": "das funktioniert nicht" },
+    { "front": "c'est en panne", "back": "es ist kaputt/defekt" },
+    { "front": "c'est défectueux", "back": "es ist mangelhaft" },
+    { "front": "un défaut", "back": "ein Mangel/Fehler" },
+    { "front": "le service après-vente (SAV)", "back": "der Kundendienst" },
+    { "front": "un(e) client(e) mécontent(e)", "back": "ein(e) unzufriedene(r) Kunde/Kundin" },
+    { "front": "j'exige un remboursement", "back": "ich verlange eine Rückerstattung" },
+    { "front": "je suis très déçu(e)", "back": "ich bin sehr enttäuscht" },
+    { "front": "ça m'énerve", "back": "das nervt mich" },
+    { "front": "j'en ai marre", "back": "ich habe die Nase voll (umgangssprachlich)", "register": "informal" },
+    { "front": "c'est une arnaque", "back": "das ist Abzocke (umgangssprachlich)", "register": "informal" },
+    { "front": "se faire avoir", "back": "reingelegt werden / übers Ohr gehauen werden", "register": "informal" },
+    { "front": "c'est du foutage de gueule", "back": "das ist eine Frechheit/Verarschung (sehr umgangssprachlich)", "register": "slang" },
+    { "front": "trouver une solution", "back": "eine Lösung finden" },
+    { "front": "un dédommagement", "back": "eine Entschädigung" },
+    { "front": "porter plainte", "back": "Anzeige erstatten / Beschwerde einreichen" },
+    { "front": "je vous prie de bien vouloir...", "back": "ich bitte Sie höflich darum, zu... (formell)" }
+  ],
+  "dialogue": [
+    { "speaker": "Client", "fr": "Bonjour, je voudrais faire une réclamation. Mon four est en panne depuis une semaine.", "de": "Guten Tag, ich möchte mich beschweren. Mein Ofen ist seit einer Woche kaputt." },
+    { "speaker": "Vendeur", "fr": "Je suis désolé d'entendre ça. Vous avez la facture avec vous ?", "de": "Das tut mir leid zu hören. Haben Sie die Rechnung dabei?" },
+    { "speaker": "Client", "fr": "Oui, la voilà. C'est vraiment n'importe quoi, il est neuf de trois mois seulement.", "de": "Ja, hier ist sie. Das ist echt unmöglich, er ist erst drei Monate alt." },
+    { "speaker": "Vendeur", "fr": "Je comprends votre frustration. On peut soit le réparer, soit vous rembourser.", "de": "Ich verstehe Ihren Frust. Wir können ihn entweder reparieren oder Ihnen das Geld erstatten." },
+    { "speaker": "Client", "fr": "J'en ai marre d'attendre, j'exige un remboursement complet.", "de": "Ich habe die Nase voll vom Warten, ich verlange eine vollständige Rückerstattung." },
+    { "speaker": "Vendeur", "fr": "D'accord, je comprends. Il faut que vous remplissiez ce formulaire.", "de": "In Ordnung, ich verstehe. Sie müssen dieses Formular ausfüllen." },
+    { "speaker": "Client", "fr": "Très bien. Franchement, ça m'énerve, mais merci de trouver une solution rapidement.", "de": "Sehr gut. Ehrlich gesagt nervt mich das, aber danke, dass Sie schnell eine Lösung finden." },
+    { "speaker": "Vendeur", "fr": "Le remboursement sera fait sous cinq jours ouvrés.", "de": "Die Rückerstattung erfolgt innerhalb von fünf Werktagen." },
+    { "speaker": "Client", "fr": "Parfait. J'espère que ça n'arrivera plus, sinon je porterai plainte.", "de": "Perfekt. Ich hoffe, das passiert nicht wieder, sonst erstatte ich Anzeige." },
+    { "speaker": "Vendeur", "fr": "Je comprends, on va tout faire pour éviter ça. Merci de votre patience.", "de": "Ich verstehe, wir werden alles tun, um das zu vermeiden. Danke für Ihre Geduld." }
+  ],
+  "listeningQuizzes": [
+    {
+      "audioText": "Je voudrais faire une réclamation. Mon four est en panne depuis une semaine.",
+      "question": "Worüber beschwert sich die Person?",
+      "options": ["Ein defekter Ofen", "Ein verspäteter Zug", "Ein falsches Restaurant"], 
+      "correctIndex": 0
+    },
+    {
+      "audioText": "On peut soit le réparer, soit vous rembourser.",
+      "question": "Welche zwei Optionen werden hier angeboten?",
+      "options": [
+        "Reparatur oder Rückerstattung",
+        "Umtausch oder Storno",
+        "Wartezeit oder Rabatt"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "J'en ai marre d'attendre, j'exige un remboursement complet.",
+      "question": "Was bedeutet \"j'en ai marre\"?",
+      "options": [
+        "Die Geduld ist am Ende / genervt sein",
+        "Sehr zufrieden sein",
+        "Neugierig sein"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Il faut que vous remplissiez ce formulaire.",
+      "question": "Was muss der Kunde tun?",
+      "options": [
+        "Ein Formular ausfüllen",
+        "Einen Anruf tätigen",
+        "Ein neues Produkt kaufen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Le remboursement sera fait sous cinq jours ouvrés.",
+      "question": "Wann erfolgt die Rückerstattung?",
+      "options": [
+        "Innerhalb von fünf Werktagen",
+        "Sofort",
+        "Nach einem Monat"
+      ],
+      "correctIndex": 0
+    }
+  ],
+  "shadowingSentences": [
+    "Je voudrais faire une réclamation.",
+    "Mon four est en panne depuis une semaine.",
+    "C'est vraiment n'importe quoi.",
+    "On peut soit le réparer, soit vous rembourser.",
+    "J'en ai marre d'attendre.",
+    "J'exige un remboursement complet.",
+    "Il faut que vous remplissiez ce formulaire.",
+    "Le remboursement sera fait sous cinq jours ouvrés.",
+    "J'espère que ça n'arrivera plus.",
+    "Merci de votre patience."
+  ],
+  "culture": [
+    {
+      "title": "Der Service Client in Frankreich",
+      "text": "In Frankreich gibt es gesetzlich verankerte Rückgabefristen (\"délai de rétractation\", meist 14 Tage) beim Online-Kauf. Bei Beschwerden ist es üblich, zunächst schriftlich (oft per Einschreiben, \"lettre recommandée\") vorzugehen, wenn ein Gespräch am Telefon nicht ausreicht."
+    },
+    {
+      "title": "Höflich, aber bestimmt reklamieren",
+      "text": "Auch bei berechtigtem Ärger bleibt man in Frankreich in offiziellen Beschwerden meist formell höflich (\"Je vous prie de bien vouloir...\"), auch wenn man im informellen Gespräch mit Freunden Ausdrücke wie \"c'est une arnaque\" benutzt. Der Ton macht hier den Unterschied zwischen privatem Ärger und offizieller Reklamation."
+    },
+    {
+      "title": "\"60 millions de consommateurs\"",
+      "text": "Die bekannte Verbraucherschutz-Zeitschrift \"60 millions de consommateurs\" testet regelmäßig Produkte und informiert über Verbraucherrechte — ein Zeichen dafür, wie wichtig Konsumentenschutz in der französischen Gesellschaft ist."
+    }
+  ]
+}

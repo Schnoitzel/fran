@@ -1,0 +1,105 @@
+{
+  "id": "unit-16-voyage-preparation",
+  "title": "Reisen & Urlaub Teil 1: Planung & Flughafen",
+  "level": "A2",
+  "cefrTopic": "A2 - Reisen & Urlaub: Planung & Flughafen",
+  "grammarNote": "\"Il faut\" + Infinitiv drückt eine allgemeine Notwendigkeit aus, unabhängig von der Person: \"Il faut arriver tôt à l'aéroport.\" (Man muss früh am Flughafen ankommen.) Willst du eine bestimmte Person ansprechen, nutze \"devoir\" + Infinitiv: \"Tu dois arriver tôt.\" (Du musst früh ankommen.)",
+  "vocab": [
+    { "front": "réserver", "back": "buchen" },
+    { "front": "un billet d'avion", "back": "ein Flugticket" },
+    { "front": "un vol", "back": "ein Flug" },
+    { "front": "l'aéroport (m)", "back": "der Flughafen" },
+    { "front": "la valise", "back": "der Koffer" },
+    { "front": "faire sa valise", "back": "den Koffer packen" },
+    { "front": "le passeport", "back": "der Reisepass" },
+    { "front": "l'embarquement (m)", "back": "das Boarding" },
+    { "front": "la carte d'embarquement", "back": "die Bordkarte" },
+    { "front": "le vol est retardé", "back": "der Flug hat Verspätung" },
+    { "front": "atterrir", "back": "landen" },
+    { "front": "décoller", "back": "starten (Flugzeug)" },
+    { "front": "la douane", "back": "der Zoll" },
+    { "front": "les bagages (m pl)", "back": "das Gepäck" },
+    { "front": "la salle d'attente", "back": "der Wartebereich" },
+    { "front": "le hublot", "back": "das Bullauge / Flugzeugfenster" },
+    { "front": "galérer", "back": "sich abmühen / Stress haben", "register": "slang" },
+    { "front": "faire son check-in", "back": "einchecken", "register": "informal" },
+    { "front": "rater son vol", "back": "seinen Flug verpassen" },
+    { "front": "un sac à dos", "back": "ein Rucksack" }
+  ],
+  "dialogue": [
+    { "speaker": "Manon", "fr": "Tu as fait ta valise pour le voyage ?", "de": "Hast du deinen Koffer für die Reise gepackt?" },
+    { "speaker": "Théo", "fr": "Pas encore, je galère un peu avec les bagages.", "de": "Noch nicht, ich habe ein bisschen Stress mit dem Gepäck." },
+    { "speaker": "Manon", "fr": "N'oublie pas ton passeport et ta carte d'embarquement !", "de": "Vergiss nicht deinen Pass und deine Bordkarte!" },
+    { "speaker": "Théo", "fr": "T'inquiète, tout est dans mon sac à dos.", "de": "Keine Sorge, alles ist in meinem Rucksack." },
+    { "speaker": "Manon", "fr": "On doit être à l'aéroport deux heures avant le vol.", "de": "Wir müssen zwei Stunden vor dem Flug am Flughafen sein." },
+    { "speaker": "Théo", "fr": "D'accord, sinon on risque de rater notre vol.", "de": "Ok, sonst laufen wir Gefahr, unseren Flug zu verpassen." },
+    { "speaker": "Manon", "fr": "J'espère qu'il ne sera pas retardé.", "de": "Ich hoffe, er hat keine Verspätung." },
+    { "speaker": "Théo", "fr": "Regarde, l'embarquement commence dans trente minutes.", "de": "Schau, das Boarding beginnt in dreißig Minuten." },
+    { "speaker": "Manon", "fr": "On passe d'abord la douane, puis on va dans la salle d'attente.", "de": "Wir gehen erst durch den Zoll, dann in den Wartebereich." },
+    { "speaker": "Théo", "fr": "J'adore regarder par le hublot pendant le décollage.", "de": "Ich liebe es, beim Start aus dem Bullauge zu schauen." }
+  ],
+  "listeningQuizzes": [
+    {
+      "audioText": "Tu as fait ta valise pour le voyage ?",
+      "question": "Wonach wird gefragt?",
+      "options": ["Ob der Koffer gepackt ist", "Ob das Ticket gebucht ist", "Ob der Pass abgelaufen ist"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "On doit être à l'aéroport deux heures avant le vol.",
+      "question": "Wie viel Zeit sollte man vor dem Flug einplanen?",
+      "options": ["Zwei Stunden", "Eine halbe Stunde", "Einen ganzen Tag"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "J'espère qu'il ne sera pas retardé.",
+      "question": "Wovor hat die Person Sorge?",
+      "options": ["Vor Verspätung des Fluges", "Vor verlorenem Gepäck", "Vor einem verpassten Bus"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "L'embarquement commence dans trente minutes.",
+      "question": "Was beginnt in dreißig Minuten?",
+      "options": ["Das Boarding", "Die Landung", "Der Zoll"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Je galère un peu avec les bagages.",
+      "question": "Was bedeutet \"galérer\" hier?",
+      "options": ["Sich abmühen / Stress haben", "Sich freuen", "Sich ausruhen"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "On passe d'abord la douane.",
+      "question": "Was macht man zuerst?",
+      "options": ["Durch den Zoll gehen", "Einchecken", "Essen gehen"],
+      "correctIndex": 0
+    }
+  ],
+  "shadowingSentences": [
+    "Tu as fait ta valise ?",
+    "N'oublie pas ton passeport.",
+    "On doit être à l'aéroport deux heures avant le vol.",
+    "J'espère qu'il ne sera pas retardé.",
+    "L'embarquement commence dans trente minutes.",
+    "On passe la douane avant d'embarquer.",
+    "J'adore regarder par le hublot.",
+    "Ne rate pas ton vol !",
+    "Le vol atterrit à quelle heure ?",
+    "Mets ta carte d'embarquement dans ton sac."
+  ],
+  "culture": [
+    {
+      "title": "Flugzeug oder TGV?",
+      "text": "Für Strecken unter drei Stunden nehmen viele Franzosen lieber den TGV (Hochgeschwindigkeitszug) als das Flugzeug — er ist oft schneller von Stadtzentrum zu Stadtzentrum und umweltfreundlicher. Auf manchen Strecken (z. B. Paris–Lyon) sind Inlandsflüge inzwischen sogar gesetzlich eingeschränkt."
+    },
+    {
+      "title": "Sicherheitskontrolle am Flughafen",
+      "text": "Wie in den meisten EU-Ländern gilt auch in Frankreich die 100-ml-Regel für Flüssigkeiten im Handgepäck. Laptops und größere elektronische Geräte müssen meist separat durchleuchtet werden."
+    },
+    {
+      "title": "Pünktlichkeit am Gate",
+      "text": "Auch wenn der informelle Umgangston in Frankreich locker wirkt, wird beim Boarding auf Pünktlichkeit geachtet: Wer nicht rechtzeitig am Gate ist, riskiert, dass die Bordkarte storniert wird."
+    }
+  ]
+}

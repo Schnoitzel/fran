@@ -1,0 +1,102 @@
+{
+  "id": "unit-11-travail",
+  "title": "Arbeit & Beruf",
+  "level": "A2",
+  "cefrTopic": "A2 - Über Beruf, Arbeitsalltag und Kollegen sprechen",
+  "grammarNote": "Um über die Vergangenheit im Berufsalltag zu sprechen, braucht man das passé composé: \"J'ai travaillé\", \"Elle a fini\" (mit avoir) oder \"Je suis allé(e)\" (mit être bei Bewegungsverben). Merke: Partizip Perfekt + Hilfsverb im Präsens, z. B. \"j'ai fini mon rapport\" (ich habe meinen Bericht fertiggestellt).",
+  "vocab": [
+    { "front": "Le travail", "back": "Die Arbeit" },
+    { "front": "Un métier", "back": "Ein Beruf" },
+    { "front": "Un collègue / une collègue", "back": "Ein Kollege / eine Kollegin" },
+    { "front": "Le patron / la patronne", "back": "Der Chef / die Chefin" },
+    { "front": "Le bureau", "back": "Das Büro" },
+    { "front": "Une réunion", "back": "Ein Meeting / eine Besprechung" },
+    { "front": "Un salaire", "back": "Ein Gehalt" },
+    { "front": "Être au chômage", "back": "Arbeitslos sein" },
+    { "front": "Chercher du travail", "back": "Arbeit suchen" },
+    { "front": "Un entretien d'embauche", "back": "Ein Vorstellungsgespräch" },
+    { "front": "Démissionner", "back": "Kündigen (selbst)" },
+    { "front": "Être viré(e)", "back": "Gefeuert werden (informell)", "register": "informal" },
+    { "front": "Bosser", "back": "Arbeiten / schuften (informell)", "register": "informal" },
+    { "front": "Un boulot", "back": "Ein Job (informell)", "register": "informal" },
+    { "front": "Une galère", "back": "Eine Plackerei / ein Ärgernis (Slang)", "register": "slang" },
+    { "front": "Être crevé(e)", "back": "Total erschöpft sein (informell)", "register": "informal" },
+    { "front": "Faire des heures sup", "back": "Überstunden machen (informell)", "register": "informal" },
+    { "front": "Prendre un congé", "back": "Urlaub nehmen" },
+    { "front": "Le télétravail", "back": "Die Heimarbeit / das Homeoffice" },
+    { "front": "Une pause déjeuner", "back": "Eine Mittagspause" },
+    { "front": "Signer un contrat", "back": "Einen Vertrag unterschreiben" }
+  ],
+  "dialogue": [
+    { "speaker": "Julie", "fr": "Salut ! Comment s'est passée ta journée au bureau ?", "de": "Hi! Wie war dein Tag im Büro?" },
+    { "speaker": "Karim", "fr": "Une vraie galère, j'ai eu trois réunions d'affilée.", "de": "Eine echte Plackerei, ich hatte drei Meetings hintereinander." },
+    { "speaker": "Julie", "fr": "Oh non, tu dois être crevé.", "de": "Oh nein, du musst total erschöpft sein." },
+    { "speaker": "Karim", "fr": "Grave, et en plus j'ai fait des heures sup hier soir.", "de": "Total, und außerdem habe ich gestern Abend Überstunden gemacht." },
+    { "speaker": "Julie", "fr": "Et ton patron, il te laisse faire du télétravail ?", "de": "Und dein Chef, lässt er dich Homeoffice machen?" },
+    { "speaker": "Karim", "fr": "Oui, deux jours par semaine, ça m'aide beaucoup.", "de": "Ja, zwei Tage pro Woche, das hilft mir sehr." },
+    { "speaker": "Julie", "fr": "Moi, j'ai un entretien d'embauche demain, je suis stressée.", "de": "Ich habe morgen ein Vorstellungsgespräch, ich bin gestresst." },
+    { "speaker": "Karim", "fr": "Ça va bien se passer ! C'est pour quel poste ?", "de": "Das wird schon gut laufen! Für welche Stelle ist das?" },
+    { "speaker": "Julie", "fr": "Un boulot de comptable, avec un bon salaire.", "de": "Ein Job als Buchhalterin, mit einem guten Gehalt." },
+    { "speaker": "Karim", "fr": "Tu as déjà démissionné de ton ancien poste ?", "de": "Hast du schon bei deiner alten Stelle gekündigt?" },
+    { "speaker": "Julie", "fr": "Pas encore, j'attends de signer le nouveau contrat.", "de": "Noch nicht, ich warte darauf, den neuen Vertrag zu unterschreiben." },
+    { "speaker": "Karim", "fr": "Bonne chance alors, on se retrouve pour fêter ça après.", "de": "Dann viel Glück, wir treffen uns danach, um das zu feiern." }
+  ],
+  "listeningQuizzes": [
+    {
+      "audioText": "Une vraie galère, j'ai eu trois réunions d'affilée.",
+      "question": "Was bedeutet \"une galère\" in diesem Kontext?",
+      "options": ["Eine anstrengende, ärgerliche Sache", "Eine tolle Überraschung", "Ein Feiertag"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "J'ai fait des heures sup hier soir.",
+      "question": "Was hat die Person gemacht?",
+      "options": ["Überstunden gemacht", "Urlaub genommen", "Gekündigt"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Il te laisse faire du télétravail ?",
+      "question": "Wonach wird hier gefragt?",
+      "options": ["Ob Homeoffice erlaubt ist", "Ob der Chef nett ist", "Ob das Gehalt gut ist"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "J'ai un entretien d'embauche demain.",
+      "question": "Was steht der Person morgen bevor?",
+      "options": ["Ein Vorstellungsgespräch", "Ein Urlaubstag", "Eine Kündigung"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "J'attends de signer le nouveau contrat.",
+      "question": "Worauf wartet die Person?",
+      "options": ["Auf die Unterschrift des neuen Vertrags", "Auf das Gehalt", "Auf die Mittagspause"],
+      "correctIndex": 0
+    }
+  ],
+  "shadowingSentences": [
+    "Comment s'est passée ta journée au bureau ?",
+    "J'ai eu trois réunions d'affilée.",
+    "Je suis crevé après le travail.",
+    "J'ai fait des heures sup hier soir.",
+    "Il me laisse faire du télétravail.",
+    "J'ai un entretien d'embauche demain.",
+    "C'est un boulot avec un bon salaire.",
+    "J'ai démissionné de mon ancien poste.",
+    "J'attends de signer le contrat.",
+    "On se retrouve pour fêter ça !"
+  ],
+  "culture": [
+    {
+      "title": "Die 35-Stunden-Woche",
+      "text": "Frankreich ist bekannt für die gesetzliche 35-Stunden-Arbeitswoche (\"les 35 heures\"), die seit den frühen 2000er-Jahren gilt. Überstunden (\"heures supplémentaires\") werden zusätzlich vergütet oder durch Freizeit ausgeglichen (\"RTT\")."
+    },
+    {
+      "title": "Die Mittagspause ist heilig",
+      "text": "Die Mittagspause (\"la pause déjeuner\") wird in Frankreich oft ausgiebig genommen, häufig mit Kollegen zusammen und nicht am Schreibtisch. Ein schnelles Sandwich am Arbeitsplatz gilt in vielen Betrieben als eher unüblich."
+    },
+    {
+      "title": "\"Bosser\" statt \"travailler\"", 
+      "text": "Im informellen Gespräch sagt man fast immer \"bosser\" statt \"travailler\", und \"un boulot\" statt \"un travail\". Diese Wörter sind so verbreitet, dass sie in fast jedem Berufsgespräch unter Kollegen oder Freunden auftauchen."
+    }
+  ]
+}

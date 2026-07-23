@@ -1,0 +1,116 @@
+{
+  "id": "unit-24-fetes-traditions",
+  "title": "Feiertage & Traditionen",
+  "level": "A2",
+  "cefrTopic": "A2 - Über Feiertage und französische Traditionen sprechen",
+  "grammarNote": "Bei Feiertagen benutzt man oft \"le\" + Datum ohne Präposition für \"an\": \"le 14 juillet\" (am 14. Juli). Wiederkehrende Feste stehen meist mit bestimmtem Artikel: \"la Chandeleur\", \"le Nouvel An\", \"les Rois\".",
+  "vocab": [
+    { "front": "un jour férié", "back": "ein Feiertag" },
+    { "front": "Noël", "back": "Weihnachten" },
+    { "front": "le réveillon (de Noël)", "back": "das Festessen am Heiligabend" },
+    { "front": "le sapin de Noël", "back": "der Weihnachtsbaum" },
+    { "front": "le Père Noël", "back": "der Weihnachtsmann" },
+    { "front": "les cadeaux", "back": "die Geschenke" },
+    { "front": "la bûche de Noël", "back": "die Weihnachts-Baumstammtorte" },
+    { "front": "le Nouvel An", "back": "das neue Jahr / Silvester" },
+    { "front": "les vœux", "back": "die Neujahrswünsche" },
+    { "front": "la Chandeleur", "back": "Mariä Lichtmess, der Crêpe-Tag (2. Februar)" },
+    { "front": "une crêpe", "back": "ein Pfannkuchen (Crêpe)" },
+    { "front": "le Carnaval", "back": "der Karneval" },
+    { "front": "Pâques", "back": "Ostern" },
+    { "front": "les œufs en chocolat", "back": "die Schokoladeneier" },
+    { "front": "le poisson d'avril", "back": "der Aprilscherz (wörtl.: der Aprilfisch)" },
+    { "front": "la fête du Travail", "back": "der Tag der Arbeit (1. Mai)" },
+    { "front": "le muguet", "back": "das Maiglöckchen" },
+    { "front": "la fête nationale / le 14 juillet", "back": "der Nationalfeiertag / der 14. Juli" },
+    { "front": "un feu d'artifice", "back": "ein Feuerwerk" },
+    { "front": "la galette des Rois", "back": "der Dreikönigskuchen" },
+    { "front": "la fève", "back": "die kleine Figur/Bohne im Königskuchen" }
+  ],
+  "dialogue": [
+    { "speaker": "Claire", "fr": "Tu sais ce qu'on fait pour Noël cette année ?", "de": "Weißt du, was wir dieses Jahr zu Weihnachten machen?" },
+    { "speaker": "Tom", "fr": "On fait le réveillon chez mamie, comme d'habitude.", "de": "Wir machen das Weihnachtsessen bei Oma, wie immer." },
+    { "speaker": "Claire", "fr": "Super ! Et il y aura une bûche de Noël ?", "de": "Super! Und gibt es eine Bûche de Noël?" },
+    { "speaker": "Tom", "fr": "Bien sûr, mamie en fait toujours une au chocolat.", "de": "Klar, Oma macht immer eine mit Schokolade." },
+    { "speaker": "Claire", "fr": "Et pour le Nouvel An, tu fais quoi ?", "de": "Und was machst du an Silvester?" },
+    { "speaker": "Tom", "fr": "On regarde le feu d'artifice et on se souhaite nos vœux à minuit.", "de": "Wir schauen das Feuerwerk an und wünschen uns um Mitternacht ein gutes neues Jahr." },
+    { "speaker": "Claire", "fr": "Et n'oublie pas, début janvier, on doit manger la galette des Rois !", "de": "Und vergiss nicht, Anfang Januar müssen wir den Dreikönigskuchen essen!" },
+    { "speaker": "Tom", "fr": "Ah oui ! J'espère avoir la fève cette fois.", "de": "Ah ja! Ich hoffe, dieses Mal die Bohne zu bekommen." },
+    { "speaker": "Claire", "fr": "Et en février, on fera des crêpes pour la Chandeleur.", "de": "Und im Februar machen wir Crêpes für die Chandeleur." },
+    { "speaker": "Tom", "fr": "J'adore cette tradition, surtout avec du sucre et du citron.", "de": "Ich liebe diese Tradition, besonders mit Zucker und Zitrone." },
+    { "speaker": "Claire", "fr": "Et n'oublie pas le poisson d'avril le premier avril !", "de": "Und vergiss den Aprilscherz am ersten April nicht!" },
+    { "speaker": "Tom", "fr": "Ah, il faut que je fasse attention cette année !", "de": "Ah, ich muss dieses Jahr aufpassen!" }
+  ],
+  "listeningQuizzes": [
+    {
+      "audioText": "On fait le réveillon chez mamie.",
+      "question": "Was ist \"le réveillon\"?",
+      "options": ["Das festliche Essen an Heiligabend/Silvester", "Ein Feiertag im Sommer", "Ein normales Frühstück"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Mamie fait une bûche de Noël au chocolat.",
+      "question": "Was ist eine \"bûche de Noël\"?",
+      "options": ["Eine traditionelle Weihnachtstorte in Baumstammform", "Ein Weihnachtsbaum", "Ein Feuerwerk"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "J'espère avoir la fève dans la galette.",
+      "question": "Was ist \"la fève\"?",
+      "options": ["Eine kleine Figur, die im Königskuchen versteckt ist", "Eine Süßigkeit zu Ostern", "Ein Geschenk zu Weihnachten"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "On fait des crêpes pour la Chandeleur.",
+      "question": "Wann ist \"la Chandeleur\"?",
+      "options": ["Am 2. Februar", "Am 14. Juli", "Am 1. April"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Attention au poisson d'avril !",
+      "question": "Was ist \"le poisson d'avril\"?",
+      "options": ["Ein Aprilscherz am 1. April", "Ein traditionelles Fischgericht", "Ein Feiertag im Mai"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Le 14 juillet, il y a un grand feu d'artifice.",
+      "question": "Was feiert man am 14. Juli in Frankreich?",
+      "options": ["Den Nationalfeiertag (Sturm auf die Bastille)", "Weihnachten", "Den Tag der Arbeit"],
+      "correctIndex": 0
+    }
+  ],
+  "shadowingSentences": [
+    "On fait le réveillon chez mamie.",
+    "Il y aura une bûche de Noël au chocolat.",
+    "On se souhaite nos vœux à minuit.",
+    "N'oublie pas la galette des Rois !",
+    "J'espère avoir la fève cette fois.",
+    "On fera des crêpes pour la Chandeleur.",
+    "Attention au poisson d'avril !",
+    "Le 14 juillet, il y a un feu d'artifice.",
+    "Le muguet porte bonheur le premier mai.",
+    "Joyeuses fêtes et bonne année !"
+  ],
+  "culture": [
+    {
+      "title": "Weihnachten: Réveillon und Bûche de Noël",
+      "text": "\"Le réveillon de Noël\" ist das festliche Essen in der Nacht des 24. Dezembers, oft mit mehreren Gängen bis nach Mitternacht. Je nach Familie werden die Geschenke am Abend des 24. oder am Morgen des 25. Dezembers ausgepackt. Als Dessert gibt es traditionell die \"bûche de Noël\", eine Rouladen-Torte in Form eines Baumstamms — ein Brauch, der ursprünglich auf das Verbrennen eines echten Holzscheits am Kamin zurückgeht."
+    },
+    {
+      "title": "La galette des Rois — ein süßer Wettbewerb",
+      "text": "Anfang Januar, rund um das Fest der Heiligen Drei Könige (\"l'Épiphanie\"), isst man in Frankreich \"la galette des Rois\", einen Blätterteigkuchen mit Mandelcreme-Füllung. Darin versteckt ist \"la fève\", eine kleine Porzellanfigur. Wer sie in seinem Stück findet, wird zum \"roi\" oder zur \"reine\" des Tages und bekommt eine Pappkrone aufgesetzt."
+    },
+    {
+      "title": "La Chandeleur — der Crêpe-Tag",
+      "text": "Am 2. Februar feiert man \"la Chandeleur\", ursprünglich ein katholisches Fest (Mariä Lichtmess), das heute vor allem mit dem Essen von Crêpes verbunden ist. Ein bekannter Brauch: Man hält beim Wenden der Crêpe in der Pfanne eine Münze in der anderen Hand — das soll Glück und Wohlstand für das restliche Jahr bringen."
+    },
+    {
+      "title": "Le poisson d'avril",
+      "text": "Am 1. April kleben Kinder in Frankreich heimlich kleine Papierfische auf den Rücken von Mitschüler:innen, Lehrer:innen oder Familienmitgliedern, ohne dass diese es merken — ähnlich wie der deutsche Aprilscherz. Der genaue Ursprung ist umstritten, wird aber oft mit der Kalenderreform des 16. Jahrhunderts in Verbindung gebracht, als der Jahresbeginn von Ende März/April auf den 1. Januar verlegt wurde."
+    },
+    {
+      "title": "Der 14. Juli — Fête nationale",
+      "text": "Der französische Nationalfeiertag am 14. Juli erinnert an den Sturm auf die Bastille im Jahr 1789. In Paris findet morgens eine große Militärparade auf den Champs-Élysées statt, abends gibt es in praktisch jeder Stadt und jedem Dorf Feuerwerke und traditionelle Tanzbälle, oft organisiert von der örtlichen Feuerwehr (\"les bals des pompiers\")."
+    }
+  ]
+}
