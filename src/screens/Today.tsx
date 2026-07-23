@@ -1,21 +1,16 @@
 import type { SessionBlockId } from '../planner/dailyPlan'
-
-const BLOCK_LABELS: Record<SessionBlockId, string> = {
-  'vocab-review': '🔁 Vokabel-Wiederholung',
-  'lesson-input': '📖 Neuer Input',
-  'listening-quiz': '🎧 Hörverständnis',
-  shadowing: '🗣️ Shadowing',
-}
+import { BLOCK_LABELS } from '../planner/blockLabels'
 
 interface TodayProps {
   blocks: SessionBlockId[]
   streak: number
   dueCount: number
   unitTitle: string | null
+  resuming: boolean
   onStart: () => void
 }
 
-export function Today({ blocks, streak, dueCount, unitTitle, onStart }: TodayProps) {
+export function Today({ blocks, streak, dueCount, unitTitle, resuming, onStart }: TodayProps) {
   if (blocks.length === 0) {
     return (
       <div className="screen">
@@ -40,7 +35,7 @@ export function Today({ blocks, streak, dueCount, unitTitle, onStart }: TodayPro
         ))}
       </ul>
       <button className="primary" onClick={onStart}>
-        Los geht's
+        {resuming ? 'Weiter' : "Los geht's"}
       </button>
     </div>
   )

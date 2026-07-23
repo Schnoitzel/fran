@@ -92,4 +92,24 @@ describe('useTodaySession', () => {
     })
     expect(result.current.streak).toBe(1)
   })
+
+  it('goToBlock springt frei zu einem beliebigen Block-Index (geclamped auf gueltigen Bereich)', async () => {
+    const { result } = renderHook(() => useTodaySession(db, units))
+    await waitFor(() => expect(result.current.loading).toBe(false))
+
+    act(() => {
+      result.current.goToBlock(2)
+    })
+    expect(result.current.blockIndex).toBe(2)
+
+    act(() => {
+      result.current.goToBlock(-5)
+    })
+    expect(result.current.blockIndex).toBe(0)
+
+    act(() => {
+      result.current.goToBlock(999)
+    })
+    expect(result.current.blockIndex).toBe((result.current.plan?.blocks.length ?? 1) - 1)
+  })
 })

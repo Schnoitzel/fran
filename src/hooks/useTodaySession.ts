@@ -19,6 +19,7 @@ export interface UseTodaySessionResult {
   rate: (cardId: number, rating: Rating) => Promise<void>
   startCurrentUnit: () => Promise<void>
   nextBlock: () => void
+  goToBlock: (index: number) => void
   completeSession: () => Promise<void>
   reload: () => Promise<void>
 }
@@ -79,6 +80,14 @@ export function useTodaySession(db: FranDatabase, units: Unit[]): UseTodaySessio
     setBlockIndex((i) => i + 1)
   }, [])
 
+  const goToBlock = useCallback(
+    (index: number) => {
+      const lastIndex = Math.max(0, (plan?.blocks.length ?? 1) - 1)
+      setBlockIndex(Math.min(Math.max(0, index), lastIndex))
+    },
+    [plan],
+  )
+
   const completeSession = useCallback(async () => {
     const completedBlocks = plan?.blocks ?? []
     const log = await recordSessionCompletion(db, todayDateString(), completedBlocks)
@@ -96,6 +105,7 @@ export function useTodaySession(db: FranDatabase, units: Unit[]): UseTodaySessio
     rate,
     startCurrentUnit,
     nextBlock,
+    goToBlock,
     completeSession,
     reload: loadToday,
   }

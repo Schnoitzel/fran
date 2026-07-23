@@ -8,6 +8,7 @@ import { LessonInput } from './screens/LessonInput'
 import { ListeningQuiz } from './screens/ListeningQuiz'
 import { Shadowing } from './screens/Shadowing'
 import { Progress } from './screens/Progress'
+import { SessionNav } from './screens/SessionNav'
 import './App.css'
 
 type View = 'today' | 'session' | 'complete' | 'progress'
@@ -57,6 +58,7 @@ export default function App() {
           streak={session.streak}
           dueCount={session.dueCards.length}
           unitTitle={session.currentUnit?.title ?? null}
+          resuming={session.blockIndex > 0}
           onStart={() => setView('session')}
         />
         <nav className="bottom-nav">
@@ -79,23 +81,50 @@ export default function App() {
     }
   }
 
+  const nav = session.plan && session.plan.blocks.length > 0 && (
+    <SessionNav
+      blocks={session.plan.blocks}
+      currentIndex={session.blockIndex}
+      onJump={session.goToBlock}
+      onBackToOverview={() => setView('today')}
+    />
+  )
+
   if (blockId === 'vocab-review') {
-    return <VocabReview cards={session.dueCards} onRate={session.rate} onDone={handleBlockDone} />
+    return (
+      <>
+        {nav}
+        <VocabReview cards={session.dueCards} onRate={session.rate} onDone={handleBlockDone} />
+      </>
+    )
   }
   if (blockId === 'lesson-input' && session.currentUnit) {
     return (
-      <LessonInput
-        unit={session.currentUnit}
-        onStart={session.startCurrentUnit}
-        onDone={handleBlockDone}
-      />
+      <>
+        {nav}
+        <LessonInput
+          unit={session.currentUnit}
+          onStart={session.startCurrentUnit}
+          onDone={handleBlockDone}
+        />
+      </>
     )
   }
   if (blockId === 'listening-quiz' && session.currentUnit) {
-    return <ListeningQuiz quiz={session.currentUnit.listeningQuiz} onDone={handleBlockDone} />
+    return (
+      <>
+        {nav}
+        <ListeningQuiz quiz={session.currentUnit.listeningQuiz} onDone={handleBlockDone} />
+      </>
+    )
   }
   if (blockId === 'shadowing' && session.currentUnit) {
-    return <Shadowing sentences={session.currentUnit.shadowingSentences} onDone={handleBlockDone} />
+    return (
+      <>
+        {nav}
+        <Shadowing sentences={session.currentUnit.shadowingSentences} onDone={handleBlockDone} />
+      </>
+    )
   }
 
   return (
