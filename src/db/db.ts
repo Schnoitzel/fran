@@ -28,6 +28,7 @@ export interface SessionLogRecord {
   date: string // YYYY-MM-DD
   completedBlocks: string[]
   streakCount: number
+  unitId?: string | null
 }
 
 export class FranDatabase extends Dexie {
@@ -39,6 +40,15 @@ export class FranDatabase extends Dexie {
   constructor(name = 'fran-db') {
     super(name)
     this.version(1).stores({
+      cards: '++id, unitId, dueDate',
+      reviewLog: '++id, cardId, timestamp',
+      unitProgress: 'unitId',
+      sessionLog: 'date',
+    })
+    // v2: sessionLog bekommt optional unitId (fuer Kalender-Sprung zurueck in die
+    // an diesem Tag bearbeitete Lektion). Keine Indexaenderung noetig, daher kein
+    // gesonderter upgrade()-Handler noetig -- fehlende Werte sind einfach undefined.
+    this.version(2).stores({
       cards: '++id, unitId, dueDate',
       reviewLog: '++id, cardId, timestamp',
       unitProgress: 'unitId',

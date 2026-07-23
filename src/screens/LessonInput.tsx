@@ -6,14 +6,23 @@ interface LessonInputProps {
   unit: Unit
   onStart: () => Promise<void>
   onDone: () => void
+  readOnly?: boolean
+  doneLabel?: string
 }
 
-export function LessonInput({ unit, onStart, onDone }: LessonInputProps) {
+export function LessonInput({
+  unit,
+  onStart,
+  onDone,
+  readOnly = false,
+  doneLabel = 'Weiter',
+}: LessonInputProps) {
   useEffect(() => {
+    if (readOnly) return
     onStart()
     // onStart ist idempotent (ensureUnitStarted) - bewusst nur beim Mount pro Unit ausfuehren
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [unit.id])
+  }, [unit.id, readOnly])
 
   return (
     <div className="screen">
@@ -35,8 +44,19 @@ export function LessonInput({ unit, onStart, onDone }: LessonInputProps) {
           </div>
         ))}
       </div>
+      {unit.culture && unit.culture.length > 0 && (
+        <div className="culture-notes">
+          <h3>🎭 Kultur, Redewendungen &amp; Humor</h3>
+          {unit.culture.map((note, i) => (
+            <div key={i} className="culture-note">
+              <strong>{note.title}</strong>
+              <p>{note.text}</p>
+            </div>
+          ))}
+        </div>
+      )}
       <button className="primary" onClick={onDone}>
-        Weiter
+        {doneLabel}
       </button>
     </div>
   )

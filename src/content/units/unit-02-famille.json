@@ -1,6 +1,7 @@
 {
   "id": "unit-02-famille",
   "title": "Familie & Smalltalk mit der Großmutter",
+  "level": "A1",
   "cefrTopic": "A1 - Familie & nach dem Befinden fragen",
   "grammarNote": "Besitz bei Familienmitgliedern: \"ma grand-mère\" (meine Großmutter), \"mon grand-père\" (mein Großvater) — \"mon\" vor männlichen, \"ma\" vor weiblichen Wörtern. Außerdem: \"avoir faim\" (Hunger haben) nutzt das Verb \"avoir\" (haben), nicht \"sein\" wie im Deutschen.",
   "vocab": [
@@ -10,32 +11,89 @@
     { "front": "les parents", "back": "die Eltern" },
     { "front": "la mère / maman", "back": "die Mutter / Mama" },
     { "front": "le père / papa", "back": "der Vater / Papa" },
+    { "front": "le frère", "back": "der Bruder" },
+    { "front": "la sœur", "back": "die Schwester" },
+    { "front": "le/la gamin(e)", "back": "der/die Kleine, das Kind (umgangssprachlich)", "register": "slang" },
+    { "front": "mon mec / ma meuf", "back": "mein Freund / meine Freundin (Partner, sehr umgangssprachlich)", "register": "slang" },
     { "front": "Comment tu vas ?", "back": "Wie geht es dir?" },
     { "front": "Je vais bien", "back": "Mir geht's gut" },
     { "front": "Tu as faim ?", "back": "Hast du Hunger?" },
     { "front": "J'ai faim", "back": "Ich habe Hunger" },
+    { "front": "J'ai la dalle", "back": "Ich habe einen Bärenhunger (sehr umgangssprachlich)", "register": "slang" },
     { "front": "C'est délicieux", "back": "Das ist köstlich" },
-    { "front": "Viens manger !", "back": "Komm essen!" }
+    { "front": "C'est trop bon", "back": "Das ist mega lecker (umgangssprachlich)", "register": "informal" },
+    { "front": "Viens manger !", "back": "Komm essen!" },
+    { "front": "Ça te dit de... ?", "back": "Hast du Lust auf... ? (informell)", "register": "informal" },
+    { "front": "un(e) gosse", "back": "ein Kind (familiär/umgangssprachlich)", "register": "slang" }
   ],
   "dialogue": [
     { "speaker": "Mamie", "fr": "Bonjour ! Comment tu vas ?", "de": "Hallo! Wie geht es dir?" },
     { "speaker": "Toi", "fr": "Je vais bien, mamie, merci ! Et toi, comment tu vas ?", "de": "Mir geht's gut, Oma, danke! Und dir, wie geht's dir?" },
     { "speaker": "Mamie", "fr": "Ça va bien aussi. Tu as faim ?", "de": "Mir geht's auch gut. Hast du Hunger?" },
-    { "speaker": "Toi", "fr": "Oui, j'ai faim !", "de": "Ja, ich habe Hunger!" },
-    { "speaker": "Mamie", "fr": "Viens manger !", "de": "Komm essen!" },
-    { "speaker": "Toi", "fr": "Merci mamie, c'est délicieux !", "de": "Danke Oma, das ist köstlich!" }
+    { "speaker": "Toi", "fr": "Oui, j'ai la dalle !", "de": "Ja, ich habe einen Bärenhunger!" },
+    { "speaker": "Mamie", "fr": "Viens manger, alors !", "de": "Dann komm essen!" },
+    { "speaker": "Toi", "fr": "Merci mamie, c'est trop bon !", "de": "Danke Oma, das ist mega lecker!" },
+    { "speaker": "Mamie", "fr": "Et ta sœur, elle va bien ?", "de": "Und deiner Schwester, geht es ihr gut?" },
+    { "speaker": "Toi", "fr": "Oui, elle va bien. Elle habite avec ses parents.", "de": "Ja, es geht ihr gut. Sie wohnt bei ihren Eltern." },
+    { "speaker": "Mamie", "fr": "Et ton frère, il vient dimanche ?", "de": "Und dein Bruder, kommt er am Sonntag?" },
+    { "speaker": "Toi", "fr": "Oui, avec sa meuf. Ça te dit de faire un gâteau ?", "de": "Ja, mit seiner Freundin. Hast du Lust, einen Kuchen zu backen?" }
   ],
-  "listeningQuiz": {
-    "audioText": "Comment tu vas ?",
-    "question": "Was bedeutet dieser Satz?",
-    "options": ["Wie geht es dir?", "Wie heißt du?", "Wo bist du?"],
-    "correctIndex": 0
-  },
+  "listeningQuizzes": [
+    {
+      "audioText": "Comment tu vas ?",
+      "question": "Was bedeutet dieser Satz?",
+      "options": ["Wie geht es dir?", "Wie heißt du?", "Wo bist du?"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "J'ai la dalle !",
+      "question": "Was bedeutet dieser umgangssprachliche Ausdruck?",
+      "options": ["Ich habe großen Hunger", "Ich bin müde", "Ich habe Angst"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Elle habite avec ses parents.",
+      "question": "Was wird hier über die Schwester gesagt?",
+      "options": [
+        "Sie wohnt bei ihren Eltern",
+        "Sie arbeitet bei ihren Eltern",
+        "Sie besucht ihre Eltern selten"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Ça te dit de faire un gâteau ?",
+      "question": "Was wird hier vorgeschlagen?",
+      "options": [
+        "Gemeinsam einen Kuchen backen",
+        "Einen Kuchen kaufen",
+        "Ins Restaurant gehen"
+      ],
+      "correctIndex": 0
+    }
+  ],
   "shadowingSentences": [
     "Comment tu vas, mamie ?",
     "Je vais bien, merci !",
     "Tu as faim ?",
-    "Oui, j'ai faim !",
-    "C'est délicieux !"
+    "J'ai la dalle !",
+    "C'est trop bon !",
+    "Et ta sœur, elle va bien ?",
+    "Elle habite avec ses parents.",
+    "Ça te dit de faire un gâteau ?"
+  ],
+  "culture": [
+    {
+      "title": "Der Sonntags-Familienessen",
+      "text": "Das gemeinsame Mittagessen am Sonntag (\"le déjeuner dominical\") ist in vielen französischen Familien eine feste Institution — oft mehrgängig und mehrere Stunden lang, mit mehreren Generationen am Tisch."
+    },
+    {
+      "title": "\"Mec\" und \"meuf\"",
+      "text": "\"Mec\" (Typ/Freund) und \"meuf\" (Frau/Freundin, ein Verlan-Wort — dazu mehr in einer späteren Unit) sind extrem gebräuchliche umgangssprachliche Wörter unter jüngeren Sprecher:innen, aber unpassend in formellem Kontext oder gegenüber älteren Verwandten."
+    },
+    {
+      "title": "\"Gosse\" — regional unterschiedlich",
+      "text": "In den meisten Regionen Frankreichs ist \"gosse\" ein liebevolles, informelles Wort für \"Kind\". In Québec dagegen gilt dasselbe Wort als vulgär — ein gutes Beispiel dafür, dass Umgangssprache stark vom Ort abhängt."
+    }
   ]
 }

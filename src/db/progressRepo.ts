@@ -33,6 +33,7 @@ export async function recordSessionCompletion(
   db: FranDatabase,
   date: string,
   completedBlocks: string[],
+  unitId: string | null = null,
 ): Promise<SessionLogRecord> {
   const allLogs = await db.sessionLog.toArray()
   const previousDate = new Date(parseDateOnly(date) - DAY_MS).toISOString().slice(0, 10)
@@ -40,7 +41,16 @@ export async function recordSessionCompletion(
 
   const streakCount = previousLog ? previousLog.streakCount + 1 : 1
 
-  const record: SessionLogRecord = { date, completedBlocks, streakCount }
+  const record: SessionLogRecord = { date, completedBlocks, streakCount, unitId }
   await db.sessionLog.put(record)
   return record
+}
+
+/**
+ * Markiert eine Unit als abgeschlossen, sobald an ihr in einer Session
+ * gearbeitet wurde (Lesson-Input + Listening + Shadowing durchlaufen).
+ * Ermoeglicht dem Tagesplan, automatisch zur naechsten Unit weiterzugehen.
+ */
+export async function completeUnit(db: FranDatabase, unitId: string): Promise<void> {
+  await setUnitStatus(db, unitId, 'done')
 }

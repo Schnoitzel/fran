@@ -1,21 +1,30 @@
 {
   "id": "unit-01-greeting",
   "title": "Begrüßung & Vorstellung",
+  "level": "A1",
   "cefrTopic": "A1 - Begrüßung & sich vorstellen",
-  "grammarNote": "\"s'appeler\" (sich nennen) ist reflexiv: je m'appelle, tu t'appelles. Wörtlich: \"ich nenne mich\". Wir nutzen hier durchgehend die \"tu\"-Form (informell), da das dein Alltags-Register ist.",
+  "grammarNote": "\"s'appeler\" (sich nennen) ist reflexiv: je m'appelle, tu t'appelles. Wörtlich: \"ich nenne mich\". Wir nutzen hier durchgehend die \"tu\"-Form (informell), da das dein Alltags-Register ist. Formell (\"vous\") lernst du in einer späteren Unit dazu.",
   "vocab": [
     { "front": "Bonjour", "back": "Hallo / Guten Tag" },
-    { "front": "Salut", "back": "Hi (informell)" },
+    { "front": "Salut", "back": "Hi / Tschüss (informell)", "register": "informal" },
+    { "front": "Coucou", "back": "Hallöchen (sehr informell, unter Freunden)", "register": "slang" },
     { "front": "Au revoir", "back": "Auf Wiedersehen" },
     { "front": "À bientôt", "back": "Bis bald" },
+    { "front": "À plus / À plus tard", "back": "Bis später (informell)", "register": "informal" },
     { "front": "Merci", "back": "Danke" },
+    { "front": "Merci beaucoup", "back": "Vielen Dank" },
+    { "front": "De rien", "back": "Gern geschehen / Keine Ursache" },
     { "front": "S'il te plaît", "back": "Bitte (informell, an eine Person)" },
     { "front": "Comment tu t'appelles ?", "back": "Wie heißt du?" },
     { "front": "Je m'appelle...", "back": "Ich heiße..." },
     { "front": "Comment ça va ?", "back": "Wie geht's?" },
     { "front": "Ça va bien, merci", "back": "Es geht mir gut, danke" },
+    { "front": "Ça va !", "back": "Alles klar! / Es geht (kurze Standardantwort)", "register": "informal" },
+    { "front": "Bof", "back": "Naja, geht so (Achselzucken-Antwort)", "register": "slang" },
     { "front": "Enchanté(e)", "back": "Freut mich (bei einer Vorstellung)" },
-    { "front": "Et toi ?", "back": "Und du?" }
+    { "front": "Et toi ?", "back": "Und du?" },
+    { "front": "Tu viens d'où ?", "back": "Woher kommst du?" },
+    { "front": "Je viens d'Allemagne", "back": "Ich komme aus Deutschland" }
   ],
   "dialogue": [
     { "speaker": "Marc", "fr": "Salut ! Comment ça va ?", "de": "Hi! Wie geht's?" },
@@ -23,19 +32,75 @@
     { "speaker": "Marc", "fr": "Ça va bien aussi. Comment tu t'appelles ?", "de": "Mir geht's auch gut. Wie heißt du?" },
     { "speaker": "Léa", "fr": "Je m'appelle Léa. Et toi ?", "de": "Ich heiße Léa. Und du?" },
     { "speaker": "Marc", "fr": "Je m'appelle Marc. Enchanté !", "de": "Ich heiße Marc. Freut mich!" },
-    { "speaker": "Léa", "fr": "Enchantée !", "de": "Freut mich!" }
+    { "speaker": "Léa", "fr": "Enchantée ! Tu viens d'où ?", "de": "Freut mich! Woher kommst du?" },
+    { "speaker": "Marc", "fr": "Je viens d'Allemagne, et toi ?", "de": "Ich komme aus Deutschland, und du?" },
+    { "speaker": "Léa", "fr": "Moi, je viens de Paris. Bon, à plus !", "de": "Ich komme aus Paris. Gut, bis später!" },
+    { "speaker": "Marc", "fr": "À bientôt, Léa !", "de": "Bis bald, Léa!" }
   ],
-  "listeningQuiz": {
-    "audioText": "Salut ! Comment tu t'appelles ?",
-    "question": "Wonach wird in diesem Satz gefragt?",
-    "options": ["Nach dem Namen", "Nach dem Wohnort", "Nach dem Alter"],
-    "correctIndex": 0
-  },
+  "listeningQuizzes": [
+    {
+      "audioText": "Salut ! Comment tu t'appelles ?",
+      "question": "Wonach wird in diesem Satz gefragt?",
+      "options": ["Nach dem Namen", "Nach dem Wohnort", "Nach dem Alter"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Ça va bien, merci. Et toi ?",
+      "question": "Was drückt dieser Satz aus?",
+      "options": [
+        "Dass es der Person gut geht, und eine Rückfrage",
+        "Eine Verabschiedung",
+        "Eine Entschuldigung"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Je viens d'Allemagne.",
+      "question": "Was sagt diese Person über sich?",
+      "options": ["Ihre Herkunft", "Ihren Namen", "Ihr Alter"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "Bof, ça va.",
+      "question": "Wie klingt diese Antwort auf \"Comment ça va ?\"",
+      "options": ["Eher gleichgültig / mittelmäßig", "Sehr begeistert", "Sehr traurig"],
+      "correctIndex": 0
+    },
+    {
+      "audioText": "À plus tard !",
+      "question": "Wann benutzt man diesen Ausdruck?",
+      "options": [
+        "Beim informellen Verabschieden",
+        "Beim ersten Kennenlernen",
+        "Beim Bedanken"
+      ],
+      "correctIndex": 0
+    }
+  ],
   "shadowingSentences": [
     "Salut, comment ça va ?",
     "Ça va bien, merci.",
     "Je m'appelle Léa.",
     "Enchanté !",
-    "Et toi ?"
+    "Et toi ?",
+    "Tu viens d'où ?",
+    "Je viens d'Allemagne.",
+    "Bon, à plus !",
+    "À bientôt !",
+    "Merci beaucoup, de rien."
+  ],
+  "culture": [
+    {
+      "title": "Bises oder Handschlag?",
+      "text": "Unter Freunden und Bekannten begrüßt man sich in Frankreich oft mit \"la bise\" (ein bis vier Wangenküsschen, je nach Region). Bei formelleren Anlässen oder beim ersten geschäftlichen Treffen gibt man sich die Hand. Im Zweifel: abwarten, was die andere Person macht."
+    },
+    {
+      "title": "\"Ça va\" ist überall",
+      "text": "\"Ça va ?\" wird nicht nur als echte Frage benutzt, sondern oft auch als reine Begrüßungsfloskel — man antwortet einfach mit \"Ça va !\" zurück, ohne wirklich lang über sein Befinden zu sprechen. Ähnlich wie das deutsche \"Wie geht's?\", auf das man selten eine lange Antwort erwartet."
+    },
+    {
+      "title": "\"Coucou\" – nur unter Freunden",
+      "text": "\"Coucou\" ist eine sehr informelle, verspielte Begrüßung, die man z. B. per SMS an gute Freunde oder Familie schickt. Bei Fremden oder in formellem Kontext wirkt es unpassend — dort bleibt man bei \"Bonjour\"."
+    }
   ]
 }

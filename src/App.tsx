@@ -118,7 +118,7 @@ export default function App() {
     return (
       <>
         {nav}
-        <ListeningQuiz quiz={session.currentUnit.listeningQuiz} onDone={handleBlockDone} />
+        <ListeningQuiz quizzes={session.currentUnit.listeningQuizzes} onDone={handleBlockDone} />
       </>
     )
   }

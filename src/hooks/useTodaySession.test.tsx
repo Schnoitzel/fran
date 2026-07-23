@@ -11,7 +11,7 @@ function fakeUnit(id: string): Unit {
     cefrTopic: 'A1',
     vocab: [{ front: 'bonjour', back: 'hallo' }],
     dialogue: [{ speaker: 'A', fr: 'a', de: 'b' }],
-    listeningQuiz: { audioText: 'a', question: 'q', options: ['x', 'y'], correctIndex: 0 },
+    listeningQuizzes: [{ audioText: 'a', question: 'q', options: ['x', 'y'], correctIndex: 0 }],
     shadowingSentences: ['a'],
   }
 }
@@ -91,6 +91,12 @@ describe('useTodaySession', () => {
       await result.current.completeSession()
     })
     expect(result.current.streak).toBe(1)
+
+    const progress = await db.unitProgress.get('unit-1')
+    expect(progress?.status).toBe('done')
+
+    const sessionLogs = await db.sessionLog.toArray()
+    expect(sessionLogs[0].unitId).toBe('unit-1')
   })
 
   it('goToBlock springt frei zu einem beliebigen Block-Index (geclamped auf gueltigen Bereich)', async () => {

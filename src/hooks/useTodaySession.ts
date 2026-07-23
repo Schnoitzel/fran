@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from 'react'
 import type { Rating } from '../srs/sm2'
 import { getDueCards, reviewCard } from '../db/cardsRepo'
-import { recordSessionCompletion } from '../db/progressRepo'
+import { completeUnit, recordSessionCompletion } from '../db/progressRepo'
 import { ensureUnitStarted } from '../db/unitCardsService'
 import type { CardRecord, FranDatabase, UnitStatus } from '../db/db'
 import { buildTodayPlan, type SessionPlan } from '../planner/dailyPlan'
@@ -90,7 +90,11 @@ export function useTodaySession(db: FranDatabase, units: Unit[]): UseTodaySessio
 
   const completeSession = useCallback(async () => {
     const completedBlocks = plan?.blocks ?? []
-    const log = await recordSessionCompletion(db, todayDateString(), completedBlocks)
+    const workedUnitId = plan?.currentUnitId ?? null
+    if (workedUnitId) {
+      await completeUnit(db, workedUnitId)
+    }
+    const log = await recordSessionCompletion(db, todayDateString(), completedBlocks, workedUnitId)
     setStreak(log.streakCount)
   }, [db, plan])
 

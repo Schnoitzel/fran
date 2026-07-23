@@ -14,7 +14,7 @@ const unit: Unit = {
     { front: 'merci', back: 'danke' },
   ],
   dialogue: [{ speaker: 'A', fr: 'a', de: 'b' }],
-  listeningQuiz: { audioText: 'a', question: 'q', options: ['x', 'y'], correctIndex: 0 },
+  listeningQuizzes: [{ audioText: 'a', question: 'q', options: ['x', 'y'], correctIndex: 0 }],
   shadowingSentences: ['a'],
 }
 

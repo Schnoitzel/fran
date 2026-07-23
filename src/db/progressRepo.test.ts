@@ -1,6 +1,7 @@
 import { afterEach, beforeEach, describe, expect, it } from 'vitest'
 import { FranDatabase } from './db'
 import {
+  completeUnit,
   getUnitProgress,
   recordSessionCompletion,
   setUnitStatus,
@@ -49,5 +50,23 @@ describe('recordSessionCompletion', () => {
     await recordSessionCompletion(db, '2026-01-01', ['vocab'])
     const log = await recordSessionCompletion(db, '2026-01-05', ['vocab'])
     expect(log.streakCount).toBe(1)
+  })
+
+  it('speichert die bearbeitete unitId, falls angegeben', async () => {
+    const log = await recordSessionCompletion(db, '2026-01-01', ['vocab'], 'unit-01-greeting')
+    expect(log.unitId).toBe('unit-01-greeting')
+  })
+
+  it('speichert unitId als null, wenn keine angegeben wird', async () => {
+    const log = await recordSessionCompletion(db, '2026-01-01', ['vocab'])
+    expect(log.unitId).toBeNull()
+  })
+})
+
+describe('completeUnit', () => {
+  it('setzt den Status einer Unit auf done', async () => {
+    await completeUnit(db, 'unit-1')
+    const progress = await getUnitProgress(db, 'unit-1')
+    expect(progress.status).toBe('done')
   })
 })

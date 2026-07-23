@@ -9,7 +9,7 @@ function fakeUnit(id: string): Unit {
     cefrTopic: 'A1',
     vocab: [{ front: 'a', back: 'b' }],
     dialogue: [{ speaker: 'A', fr: 'a', de: 'b' }],
-    listeningQuiz: { audioText: 'a', question: 'q', options: ['x', 'y'], correctIndex: 0 },
+    listeningQuizzes: [{ audioText: 'a', question: 'q', options: ['x', 'y'], correctIndex: 0 }],
     shadowingSentences: ['a'],
   }
 }

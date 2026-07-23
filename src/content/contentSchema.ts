@@ -4,6 +4,7 @@ const vocabCardSchema = z.object({
   front: z.string().min(1),
   back: z.string().min(1),
   ipaHint: z.string().optional(),
+  register: z.enum(['standard', 'informal', 'slang']).optional(),
 })
 
 const dialogueLineSchema = z.object({
@@ -24,15 +25,24 @@ const listeningQuizSchema = z
     path: ['correctIndex'],
   })
 
+const cultureNoteSchema = z.object({
+  title: z.string().min(1),
+  text: z.string().min(1),
+})
+
 export const unitSchema = z.object({
   id: z.string().min(1),
   title: z.string().min(1),
+  level: z.enum(['A1', 'A2', 'B1']).optional(),
   cefrTopic: z.string().min(1),
   grammarNote: z.string().optional(),
   vocab: z.array(vocabCardSchema).min(1, 'Unit braucht mindestens 1 vocab-Eintrag'),
   dialogue: z.array(dialogueLineSchema).min(1, 'Unit braucht mindestens 1 dialogue-Zeile'),
-  listeningQuiz: listeningQuizSchema,
+  listeningQuizzes: z
+    .array(listeningQuizSchema)
+    .min(1, 'Unit braucht mindestens 1 listeningQuiz-Eintrag'),
   shadowingSentences: z.array(z.string().min(1)).min(1, 'Unit braucht mindestens 1 shadowingSentence'),
+  culture: z.array(cultureNoteSchema).optional(),
 })
 
 export type Unit = z.infer<typeof unitSchema>
