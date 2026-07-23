@@ -1,0 +1,41 @@
+{
+  "id": "unit-02-famille",
+  "title": "Familie & Smalltalk mit der Großmutter",
+  "cefrTopic": "A1 - Familie & nach dem Befinden fragen",
+  "grammarNote": "Besitz bei Familienmitgliedern: \"ma grand-mère\" (meine Großmutter), \"mon grand-père\" (mein Großvater) — \"mon\" vor männlichen, \"ma\" vor weiblichen Wörtern. Außerdem: \"avoir faim\" (Hunger haben) nutzt das Verb \"avoir\" (haben), nicht \"sein\" wie im Deutschen.",
+  "vocab": [
+    { "front": "la famille", "back": "die Familie" },
+    { "front": "la grand-mère / mamie", "back": "die Großmutter / Oma" },
+    { "front": "le grand-père / papi", "back": "der Großvater / Opa" },
+    { "front": "les parents", "back": "die Eltern" },
+    { "front": "la mère / maman", "back": "die Mutter / Mama" },
+    { "front": "le père / papa", "back": "der Vater / Papa" },
+    { "front": "Comment tu vas ?", "back": "Wie geht es dir?" },
+    { "front": "Je vais bien", "back": "Mir geht's gut" },
+    { "front": "Tu as faim ?", "back": "Hast du Hunger?" },
+    { "front": "J'ai faim", "back": "Ich habe Hunger" },
+    { "front": "C'est délicieux", "back": "Das ist köstlich" },
+    { "front": "Viens manger !", "back": "Komm essen!" }
+  ],
+  "dialogue": [
+    { "speaker": "Mamie", "fr": "Bonjour ! Comment tu vas ?", "de": "Hallo! Wie geht es dir?" },
+    { "speaker": "Toi", "fr": "Je vais bien, mamie, merci ! Et toi, comment tu vas ?", "de": "Mir geht's gut, Oma, danke! Und dir, wie geht's dir?" },
+    { "speaker": "Mamie", "fr": "Ça va bien aussi. Tu as faim ?", "de": "Mir geht's auch gut. Hast du Hunger?" },
+    { "speaker": "Toi", "fr": "Oui, j'ai faim !", "de": "Ja, ich habe Hunger!" },
+    { "speaker": "Mamie", "fr": "Viens manger !", "de": "Komm essen!" },
+    { "speaker": "Toi", "fr": "Merci mamie, c'est délicieux !", "de": "Danke Oma, das ist köstlich!" }
+  ],
+  "listeningQuiz": {
+    "audioText": "Comment tu vas ?",
+    "question": "Was bedeutet dieser Satz?",
+    "options": ["Wie geht es dir?", "Wie heißt du?", "Wo bist du?"],
+    "correctIndex": 0
+  },
+  "shadowingSentences": [
+    "Comment tu vas, mamie ?",
+    "Je vais bien, merci !",
+    "Tu as faim ?",
+    "Oui, j'ai faim !",
+    "C'est délicieux !"
+  ]
+}

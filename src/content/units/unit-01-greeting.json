@@ -1,0 +1,41 @@
+{
+  "id": "unit-01-greeting",
+  "title": "Begrüßung & Vorstellung",
+  "cefrTopic": "A1 - Begrüßung & sich vorstellen",
+  "grammarNote": "\"s'appeler\" (sich nennen) ist reflexiv: je m'appelle, tu t'appelles. Wörtlich: \"ich nenne mich\". Wir nutzen hier durchgehend die \"tu\"-Form (informell), da das dein Alltags-Register ist.",
+  "vocab": [
+    { "front": "Bonjour", "back": "Hallo / Guten Tag" },
+    { "front": "Salut", "back": "Hi (informell)" },
+    { "front": "Au revoir", "back": "Auf Wiedersehen" },
+    { "front": "À bientôt", "back": "Bis bald" },
+    { "front": "Merci", "back": "Danke" },
+    { "front": "S'il te plaît", "back": "Bitte (informell, an eine Person)" },
+    { "front": "Comment tu t'appelles ?", "back": "Wie heißt du?" },
+    { "front": "Je m'appelle...", "back": "Ich heiße..." },
+    { "front": "Comment ça va ?", "back": "Wie geht's?" },
+    { "front": "Ça va bien, merci", "back": "Es geht mir gut, danke" },
+    { "front": "Enchanté(e)", "back": "Freut mich (bei einer Vorstellung)" },
+    { "front": "Et toi ?", "back": "Und du?" }
+  ],
+  "dialogue": [
+    { "speaker": "Marc", "fr": "Salut ! Comment ça va ?", "de": "Hi! Wie geht's?" },
+    { "speaker": "Léa", "fr": "Ça va bien, merci. Et toi ?", "de": "Mir geht's gut, danke. Und dir?" },
+    { "speaker": "Marc", "fr": "Ça va bien aussi. Comment tu t'appelles ?", "de": "Mir geht's auch gut. Wie heißt du?" },
+    { "speaker": "Léa", "fr": "Je m'appelle Léa. Et toi ?", "de": "Ich heiße Léa. Und du?" },
+    { "speaker": "Marc", "fr": "Je m'appelle Marc. Enchanté !", "de": "Ich heiße Marc. Freut mich!" },
+    { "speaker": "Léa", "fr": "Enchantée !", "de": "Freut mich!" }
+  ],
+  "listeningQuiz": {
+    "audioText": "Salut ! Comment tu t'appelles ?",
+    "question": "Wonach wird in diesem Satz gefragt?",
+    "options": ["Nach dem Namen", "Nach dem Wohnort", "Nach dem Alter"],
+    "correctIndex": 0
+  },
+  "shadowingSentences": [
+    "Salut, comment ça va ?",
+    "Ça va bien, merci.",
+    "Je m'appelle Léa.",
+    "Enchanté !",
+    "Et toi ?"
+  ]
+}
