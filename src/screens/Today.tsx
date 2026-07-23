@@ -8,9 +8,18 @@ interface TodayProps {
   unitTitle: string | null
   resuming: boolean
   onStart: () => void
+  onSelectBlock: (index: number) => void
 }
 
-export function Today({ blocks, streak, dueCount, unitTitle, resuming, onStart }: TodayProps) {
+export function Today({
+  blocks,
+  streak,
+  dueCount,
+  unitTitle,
+  resuming,
+  onStart,
+  onSelectBlock,
+}: TodayProps) {
   if (blocks.length === 0) {
     return (
       <div className="screen">
@@ -27,10 +36,12 @@ export function Today({ blocks, streak, dueCount, unitTitle, resuming, onStart }
       <p className="streak">🔥 {streak} Tage Streak</p>
       {unitTitle && <p className="unit-title">Heute: {unitTitle}</p>}
       <ul className="block-list">
-        {blocks.map((block) => (
+        {blocks.map((block, index) => (
           <li key={block}>
-            {BLOCK_LABELS[block]}
-            {block === 'vocab-review' && ` (${dueCount})`}
+            <button className="block-list-item" onClick={() => onSelectBlock(index)}>
+              {BLOCK_LABELS[block]}
+              {block === 'vocab-review' && ` (${dueCount})`}
+            </button>
           </li>
         ))}
       </ul>

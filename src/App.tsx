@@ -60,6 +60,10 @@ export default function App() {
           unitTitle={session.currentUnit?.title ?? null}
           resuming={session.blockIndex > 0}
           onStart={() => setView('session')}
+          onSelectBlock={(index) => {
+            session.goToBlock(index)
+            setView('session')
+          }}
         />
         <nav className="bottom-nav">
           <button onClick={() => setView('progress')}>📊 Fortschritt</button>
